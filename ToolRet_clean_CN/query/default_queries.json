@@ -1,1 +1,82 @@
-{"$ref": "database/ToolRet_clean/query/default_queries.json"}
+[
+  {
+    "query": "我想了解正在中国上映的电影《火山挚恋》、《奥本海默》和《驯龙高手》的详细信息。您能提供它们的上映日期、片名、类别、地区以及想看人数吗？如果还能附上每部电影的简要介绍就更好了。",
+    "query_en": "I would like to know the details of the films '火山挚恋', '奥本海默', and '驯龙高手' which are playing in China. Could you provide me with their release date, title, category, region, and the number of people interested in watching them? I would also appreciate a brief description of each film."
+  },
+  {
+    "query": "前几天我看到一只颜色独特的蝾螈，但想不起它叫什么名字了。你能帮我找找不同颜色的蝾螈图片吗？特别是那些比较罕见的品种。我想确认一下我看到的是哪一种。",
+    "query_en": "I saw an axolotl with a unique color the other day, but I can't remember what it was called. Can you find images of axolotls with different colors, especially the more unusual ones? I'd like to figure out which one I saw."
+  },
+  {
+    "query": "您能查看Alice Chen在2023年6月15日与王医生的预约登记吗？",
+    "query_en": "Can you check the registration for Alice Chen on June 15, 2023 with Dr. Wang?"
+  },
+  {
+    "query": "你能获取宝洁公司（PG）和联合利华公司（UN）的期权基础信息吗？",
+    "query_en": "Could you get the option fundamentals for Procter & Gamble Co. (PG) and Unilever NV (UN)?"
+  },
+  {
+    "query": "我目前正在加拿大安大略省繁华的多伦多市寻找一家信誉卓著、实力雄厚的数字代理机构。至关重要的是，该机构必须在移动应用开发领域拥有独特的专长，展现出为iOS和Android等多种平台打造创新且用户友好型应用程序的专业能力。",
+    "query_en": "I'm currently searching for a well-established and reputable digital agency within the bustling city of Toronto, Ontario, Canada. It is of utmost importance that this agency possesses a distinct specialization in the field of mobile app development, showcasing expertise in creating innovative and user-friendly applications for various platforms, such as iOS and Android."
+  },
+  {
+    "query": "我是一名影评人，需要分析电影。请根据电影《盗梦空间》的类型和关键词，提供一份类似电影的列表。然后，获取这些类似电影的详细信息，包括它们的类型、上映日期、片长、片名、剧情简介、评分和受欢迎程度。此外，获取这些电影的用户评论，包括用户姓名、评分和评论内容。",
+    "query_en": "I'm a film critic and I need to analyze movies. Please provide a list of movies similar to the movie titled 'Inception', based on their genres and keywords. Then, get the details of these similar movies, including their genres, release date, runtime, title, overview, vote average, and popularity. Additionally, get the user reviews for these movies, including the user's name, rating, and review."
+  },
+  {
+    "query": "目前最受欢迎的电视剧是由哪家公司制作的，其总部位于何处？",
+    "query_en": "Where is the headquarter of the company that produced currently the most popular TV show?"
+  },
+  {
+    "query": "我计划下个月去日本旅行。你能通过货币API获取2021年10月1日至2021年11月30日期间美元兑日元的汇率数据吗？我想比较一下汇率，估算一下我的开销。",
+    "query_en": "I'm planning a trip to Japan next month. Can you retrieve the exchange rate data for USD to JPY from October 1, 2021, to November 30, 2021, using the currency API? I want to compare the rates and estimate my expenses."
+  },
+  {
+    "query": "你能为我搜索单词 \"plethora\" 的定义吗？",
+    "query_en": "Can you search the definition of the word \"plethora\" for me?"
+  },
+  {
+    "query": "你能提供苹果公司在2023年1月1日的股票历史数据，以及特斯拉公司在同一日期的数据吗？",
+    "query_en": "Can you provide the stock history for Apple Inc. on January 1, 2023, and also for Tesla Inc. on the same date?"
+  },
+  {
+    "query": "我是一名旅行博主，正在撰写关于纽约机场的文章。你能为我提供约翰·F·肯尼迪国际机场（ICAO代码：KJFK）和拉瓜迪亚机场（ICAO代码：KLGA）的机场信息吗？",
+    "query_en": "I'm a travel blogger and I'm writing about the airports in New York. Can you provide me with the airport information for John F. Kennedy International Airport (ICAO: KJFK) and LaGuardia Airport (ICAO: KLGA)?"
+  },
+  {
+    "query": "你能帮我记录我的血压和心率吗？",
+    "query_en": "Can you help me record my blood pressure and heart rate?"
+  },
+  {
+    "query": "指示系统提供关于3月5日上午6:40从拉斯维加斯开往阿纳海姆的巴士信息，并为此次行程购买两张车票。",
+    "query_en": "Instruct the system to provide information about a bus leaving Las Vegas for Anaheim on March 5th at 6:40 am, and purchase 2 tickets for this journey."
+  },
+  {
+    "query": "我最近完成了MBA学业，并有意在金融行业内寻找管理职位，最好是在英国。",
+    "query_en": "I have recently completed my MBA and am interested in finding management roles within the finance industry, preferably within the UK."
+  },
+  {
+    "query": "我想查询我的银行账户余额以及过去一周的详细账单，我的账户ID是123456，密码是password789。",
+    "query_en": "I would like to inquire about my bank account balance and the detailed statement of the past week, my account ID is 123456, and the password is password789.\n"
+  },
+  {
+    "query": "在arxiv.org上查找最新的“量子计算”相关文章，并将前三篇文章的标题和摘要通过电子邮件发送给我的同事John Doe，邮箱地址为john.doe@example.com。完成后，让我查看收件箱中的邮件。",
+    "query_en": "Find the latest 'quantum computing' articles on arxiv.org and email the title and summary of the first three articles to my colleague John Doe at john.doe@example.com. After that, let me see the emails in my inbox."
+  },
+  {
+    "query": "我需要一辆一站式巴士，于3月2日星期六从萨克拉门托出发前往拉斯维加斯，并且我想购买3张早上7:40的巴士车票，每张票价65美元。",
+    "query_en": "I need a one-stop bus leaving from Sacramento on Saturday, March 2nd, going to Las Vegas, and I want to purchase 3 tickets for the 7:40 am bus with a ticket price of $65 each."
+  },
+  {
+    "query": "验证电子邮件 'test@example.com' 是否可送达，同时检查 'info@company.com'。",
+    "query_en": "Verify if the email 'test@example.com' is deliverable and also check 'info@company.com'."
+  },
+  {
+    "query": "我有5000欧元想要兑换成英镑。你能告诉我兑换后我能得到多少英镑吗？另外，如果欧元对英镑的汇率超过0.9，请为我设置一个提醒。",
+    "query_en": "I have 5000 EUR that I want to convert to GBP. Can you tell me how much I would get in GBP after the conversion? Also, please set an alert for me if the EUR/GBP exchange rate goes above 0.9."
+  },
+  {
+    "query": "请找出五种包含苹果、面粉和糖作为配料的食谱。在这些食谱中，哪一款的卡路里含量最低？这款食谱尝起来味道如何，制作它需要什么设备？",
+    "query_en": "Please find five recipes that include apples, flour, and sugar as ingredients. Among these recipes, which one has the lowest calorie content? What does this recipe taste like, and what equipment is needed to make it?"
+  }
+]
