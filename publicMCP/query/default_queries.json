@@ -1,0 +1,82 @@
+[
+  {
+    "query": "做完代码重构，提个PR写好改动摘要，再在工程频道通知大家",
+    "query_en": "I just finished a big refactor on our team's repo and want to open a pull request with a summary of changes, but I also need to notify the engineering channel so people can start reviewing it before our standup tomorrow morning."
+  },
+  {
+    "query": "上次部署后线上一堆未捕获的Promise异常，拉一下错误报告看看怎么回事",
+    "query_en": "Our production app started throwing a bunch of unhandled promise rejections after the last deploy. I need to pull up the error reports to see what's going on, and then roll back the deployment if it looks bad."
+  },
+  {
+    "query": "把零散的项目笔记整理到看板上，分好待办、进行中、已完成",
+    "query_en": "I've been procrastinating on organizing my side project tasks. I want to dump all my scattered notes into a proper project board with columns for backlog, in-progress, and done, and also set up individual task cards with due dates."
+  },
+  {
+    "query": "API每天下午3点延迟飙高，查一下监控面板，再直接查数据库看有没有慢查询",
+    "query_en": "We're seeing weird latency spikes on our API every day around 3pm and I'm not sure if it's a database issue or something in our application layer. I need to check our monitoring dashboards and also run some queries directly against the database to see if there are slow queries locking things up."
+  },
+  {
+    "query": "数据管道悄悄挂了两天没人发现，查查哪些任务失败了，设置告警防止下次",
+    "query_en": "Our data pipeline has been silently failing for the past two days and nobody noticed because the Airflow DAG didn't send alerts. I need to check which tasks failed and rerun them, and then set up an Outlook notification rule through our Microsoft 365 account so the on-call engineer gets pinged immediately if it happens again."
+  },
+  {
+    "query": "搬新家了，把智能家居设备都设置好，顺便列个待办事项清单",
+    "query_en": "I just moved into a new apartment and I'm finally getting around to setting up all the smart home stuff I bought impulsively during Prime Day. I've got Home Assistant running on a Raspberry Pi in the closet, and I want to create some automations — like turning off every light at midnight because I always forget, and having the thermostat drop to 18 degrees when I leave for work. Oh also I need to add all the remaining setup tasks to my TickTick list so I don't keep forgetting about things like calibrating the motion sensors and programming the smart blinds schedule."
+  },
+  {
+    "query": "VP让我周四前做季度业务回顾，从数据仓库拉数据，结合产品分析看转化漏斗",
+    "query_en": "My VP just asked me to put together a quarterly business review deck by Thursday and I need hard numbers. I want to run a few queries in Snowflake to get the revenue breakdown by region and product line for Q4, and then cross-reference that with our Mixpanel funnels to understand where users are dropping off in the upgrade flow — we've been seeing a dip in paid conversions and nobody has a clear answer on why. The board is going to ask about it so I need to go in with actual data, not guesses."
+  },
+  {
+    "query": "把三个微服务容器化，构建镜像推到仓库，然后更新集群部署配置",
+    "query_en": "We're containerizing our microservices and I need to build the Docker images for three services, push them to our registry, and then update the deployment configs in our cluster to use the new image tags. Preferably without any downtime."
+  },
+  {
+    "query": "下个月东京团建，找涩谷附近8人住宿，顺便把日期锁到日历上",
+    "query_en": "I'm planning a team offsite next month in Tokyo — I need to find a nice place to stay for 8 people near Shibuya, and also block off those dates on my work calendar so nobody schedules meetings over it."
+  },
+  {
+    "query": "女儿做火星主题的科学展览项目，找火星探测器的照片和Jezero陨石坑的地质资料",
+    "query_en": "My daughter's doing a school science fair project about Mars and she's absolutely obsessed with the rovers — she even named her hamster Perseverance. I want to pull up some recent photos from the Mars rovers that she can print out for her poster board, and also look up some background information about the geology of Jezero Crater and the history of Mars exploration so we can write accurate captions together. She's in 6th grade so nothing too technical but it needs to be factually correct."
+  },
+  {
+    "query": "同事上周在共享网盘放了一堆设计素材，帮我找到那个文件夹，然后发消息告诉她",
+    "query_en": "My coworker shared a bunch of design assets in our shared drive last week but I can't remember the exact folder. I need to dig through our Google Drive to find the files, and then send a quick text to her phone letting her know I grabbed them since she's out of office and probably not checking email."
+  },
+  {
+    "query": "新功能需要全文搜索产品目录，在搜索引擎中建好索引和映射",
+    "query_en": "We're building a new feature that needs full-text search across our product catalog and I want to set up the search index in Elasticsearch with the right field mappings and analyzers so search results are actually relevant."
+  },
+  {
+    "query": "和大学室友录了第50期历史播客，要发布到各平台并更新社交媒体",
+    "query_en": "I've been running a small history podcast as a side project with my college roommate and we just recorded our 50th episode, which honestly feels like a huge milestone. I want to publish the episode to all our podcast platforms and also update our social media to celebrate."
+  },
+  {
+    "query": "2021年入了加密货币的坑，现在想看看持仓情况和当前价格",
+    "query_en": "I got into crypto back in 2021 during the hype and honestly I haven't really looked at my portfolio since the market crashed. I mainly hold ETH and a few smaller altcoins and I want to check the current prices and see where things stand."
+  },
+  {
+    "query": "写论文在做文献综述，找一些关于时间序列预测的transformer论文",
+    "query_en": "I'm deep in my thesis literature review right now and I keep finding references to papers on transformer architectures for time series forecasting that I haven't read yet. I want to search for the most cited papers on this topic and save them to my reference manager."
+  },
+  {
+    "query": "营销团队准备下月产品发布，需要新的视觉素材，用AI生成一些",
+    "query_en": "Our marketing team is prepping for the product launch next month and we desperately need fresh visuals for the campaign — the current ones look super dated and generic. I want to generate some custom product mockups and lifestyle images using AI."
+  },
+  {
+    "query": "客户说订阅被重复扣款了，查付款记录，退掉多扣的，再发确认邮件",
+    "query_en": "A customer just emailed me saying they were double-charged for their subscription. I need to look up their payment history and issue a refund for the duplicate transaction, and then send them a confirmation email from our support address."
+  },
+  {
+    "query": "写科技趋势周刊，这期写AI生成艺术在商业设计中的应用，用AI生成配图",
+    "query_en": "I write a weekly newsletter on my Ghost blog about emerging tech trends and this week I want to cover the rise of AI-generated art in commercial design workflows. The problem is I never have good header images — I usually just grab something generic from the internet which looks lazy. This time I want to generate a few custom illustrations using an AI image model, something abstract and colorful that captures the theme of human-AI creative collaboration, and then publish the post on Ghost with the best one as the featured image."
+  },
+  {
+    "query": "组织12人团队午餐，在旧金山市中心找有户外座位的餐厅，选好后在频道发投票",
+    "query_en": "I'm organizing a team lunch for about 12 people and need to find some good restaurant options near our office in downtown SF — preferably something with outdoor seating and a decent vegetarian menu. Once I pick a place I want to send out a quick poll in our Teams channel so people can vote on the time."
+  },
+  {
+    "query": "最近想认真研究投资，看看几只科技股上个季度表现怎么样",
+    "query_en": "I've been wanting to get more serious about investing and I'd like to check how a few tech stocks have been performing over the last quarter — especially NVIDIA, Apple, and Microsoft. I want to see price trends, recent news, and maybe some analyst recommendations."
+  }
+]

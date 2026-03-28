@@ -1,0 +1,5803 @@
+{
+  "version": "2.0-hierarchical",
+  "root": "root",
+  "categories": {
+    "root": {
+      "children": [
+        "cat_sub1",
+        "cat_sub10",
+        "cat_sub11",
+        "cat_sub12",
+        "cat_sub14",
+        "cat_sub15",
+        "cat_sub16",
+        "cat_sub17",
+        "cat_sub18",
+        "cat_sub2",
+        "cat_sub22",
+        "cat_sub28",
+        "cat_sub3",
+        "cat_sub4",
+        "cat_sub41",
+        "cat_sub42",
+        "cat_sub43",
+        "cat_sub5",
+        "cat_sub6",
+        "cat_sub7",
+        "cat_sub8",
+        "cat_sub9"
+      ],
+      "services": [
+        "toolACE_tool_7682",
+        "toolACE_tool_9777",
+        "toolbench_tool_1046",
+        "toolbench_tool_3289",
+        "toolbench_tool_8779",
+        "toolbench_tool_8933",
+        "ultraTool_tool_1019"
+      ]
+    },
+    "cat_sub1": {
+      "children": [
+        "cat_fin_1",
+        "cat_fin_10",
+        "cat_fin_11",
+        "cat_fin_12",
+        "cat_fin_13",
+        "cat_fin_14",
+        "cat_fin_15",
+        "cat_fin_16",
+        "cat_fin_2",
+        "cat_fin_21",
+        "cat_fin_22",
+        "cat_fin_23",
+        "cat_fin_3",
+        "cat_fin_4",
+        "cat_fin_5",
+        "cat_fin_6",
+        "cat_fin_8",
+        "cat_fin_9"
+      ],
+      "services": [
+        "toolbench_tool_10199",
+        "toolbench_tool_2392",
+        "toolbench_tool_3667"
+      ]
+    },
+    "cat_sub10": {
+      "children": [
+        "cat_sub10_sub1",
+        "cat_sub10_sub10",
+        "cat_sub10_sub11",
+        "cat_sub10_sub12",
+        "cat_sub10_sub13",
+        "cat_sub10_sub2",
+        "cat_sub10_sub3",
+        "cat_sub10_sub4",
+        "cat_sub10_sub5",
+        "cat_sub10_sub7",
+        "cat_sub10_sub8",
+        "cat_sub10_sub9"
+      ],
+      "services": [
+        "apigen_tool_2467"
+      ]
+    },
+    "cat_sub11": {
+      "children": [
+        "cat_sub11_sub1",
+        "cat_sub11_sub10",
+        "cat_sub11_sub11",
+        "cat_sub11_sub12",
+        "cat_sub11_sub2",
+        "cat_sub11_sub3",
+        "cat_sub11_sub4",
+        "cat_sub11_sub6",
+        "cat_sub11_sub7",
+        "cat_sub11_sub8",
+        "cat_sub11_sub9"
+      ],
+      "services": [
+        "toolACE_tool_2666"
+      ]
+    },
+    "cat_sub12": {
+      "children": [
+        "cat_sub12_sub1",
+        "cat_sub12_sub12",
+        "cat_sub12_sub14",
+        "cat_sub12_sub16",
+        "cat_sub12_sub2",
+        "cat_sub12_sub4",
+        "cat_sub12_sub5",
+        "cat_sub12_sub6",
+        "cat_sub12_sub7",
+        "cat_sub12_sub9"
+      ],
+      "services": [
+        "apigen_tool_1414",
+        "apigen_tool_2886",
+        "toolACE_tool_1809",
+        "toolACE_tool_5033",
+        "toolACE_tool_5882",
+        "toolLens_tool_140"
+      ]
+    },
+    "cat_sub14": {
+      "children": [
+        "cat_sub14_sub1",
+        "cat_sub14_sub10",
+        "cat_sub14_sub11",
+        "cat_sub14_sub12",
+        "cat_sub14_sub13",
+        "cat_sub14_sub14",
+        "cat_sub14_sub2",
+        "cat_sub14_sub3",
+        "cat_sub14_sub4",
+        "cat_sub14_sub5",
+        "cat_sub14_sub6",
+        "cat_sub14_sub7",
+        "cat_sub14_sub8",
+        "cat_sub14_sub9"
+      ],
+      "services": []
+    },
+    "cat_sub15": {
+      "children": [
+        "cat_sub15_sub1",
+        "cat_sub15_sub10",
+        "cat_sub15_sub12",
+        "cat_sub15_sub14",
+        "cat_sub15_sub15",
+        "cat_sub15_sub16",
+        "cat_sub15_sub2",
+        "cat_sub15_sub3",
+        "cat_sub15_sub6",
+        "cat_sub15_sub7",
+        "cat_sub15_sub9"
+      ],
+      "services": [
+        "apigen_tool_1277",
+        "apigen_tool_2864",
+        "taskbench_daily_tool_33",
+        "toolACE_tool_1496",
+        "toolACE_tool_15039",
+        "toolACE_tool_2059",
+        "toolACE_tool_2503",
+        "toolbench_tool_5239",
+        "toolbench_tool_5774",
+        "webtools_spotify_tool_13"
+      ]
+    },
+    "cat_sub16": {
+      "children": [
+        "cat_sub16_sub1",
+        "cat_sub16_sub10",
+        "cat_sub16_sub11",
+        "cat_sub16_sub12",
+        "cat_sub16_sub13",
+        "cat_sub16_sub14",
+        "cat_sub16_sub15",
+        "cat_sub16_sub16",
+        "cat_sub16_sub17",
+        "cat_sub16_sub2",
+        "cat_sub16_sub3",
+        "cat_sub16_sub4",
+        "cat_sub16_sub5",
+        "cat_sub16_sub6",
+        "cat_sub16_sub7",
+        "cat_sub16_sub8",
+        "cat_sub16_sub9"
+      ],
+      "services": []
+    },
+    "cat_sub17": {
+      "children": [
+        "cat_sub17_sub1",
+        "cat_sub17_sub11",
+        "cat_sub17_sub2",
+        "cat_sub17_sub3",
+        "cat_sub17_sub4",
+        "cat_sub17_sub5",
+        "cat_sub17_sub7",
+        "cat_sub17_sub8",
+        "cat_sub17_sub9"
+      ],
+      "services": [
+        "toolACE_tool_7690",
+        "toolbench_tool_7538"
+      ]
+    },
+    "cat_sub18": {
+      "children": [],
+      "services": [
+        "apigen_tool_1360",
+        "apigen_tool_2151",
+        "reversechain_tool_384",
+        "reversechain_tool_98",
+        "t_eval_dialog_tool_18",
+        "t_eval_step_tool_0",
+        "t_eval_step_tool_2",
+        "toolACE_tool_10980",
+        "toolACE_tool_12676",
+        "toolACE_tool_13170",
+        "toolACE_tool_2412",
+        "toolACE_tool_355",
+        "toolACE_tool_4118",
+        "toolACE_tool_5936",
+        "toolACE_tool_7690",
+        "toolACE_tool_9709",
+        "toolbench_tool_11372",
+        "toolbench_tool_1736",
+        "toolbench_tool_6434",
+        "toolbench_tool_7762",
+        "toolbench_tool_7765",
+        "toolbench_tool_8392",
+        "ultraTool_tool_552"
+      ]
+    },
+    "cat_sub2": {
+      "children": [
+        "cat_sub2_sub1",
+        "cat_sub2_sub10",
+        "cat_sub2_sub12",
+        "cat_sub2_sub13",
+        "cat_sub2_sub14",
+        "cat_sub2_sub15",
+        "cat_sub2_sub2",
+        "cat_sub2_sub3",
+        "cat_sub2_sub4",
+        "cat_sub2_sub5",
+        "cat_sub2_sub6",
+        "cat_sub2_sub7",
+        "cat_sub2_sub8",
+        "cat_sub2_sub9"
+      ],
+      "services": [
+        "apigen_tool_666",
+        "toolACE_tool_7721",
+        "toolACE_tool_9881"
+      ]
+    },
+    "cat_sub22": {
+      "children": [],
+      "services": [
+        "apigen_tool_1814",
+        "apigen_tool_2009",
+        "apigen_tool_888",
+        "metatool_which_tool_132",
+        "metatool_which_tool_171",
+        "toolACE_tool_10005",
+        "toolACE_tool_10006",
+        "toolACE_tool_10333",
+        "toolACE_tool_10769",
+        "toolACE_tool_1980",
+        "toolACE_tool_2695",
+        "toolACE_tool_2824",
+        "toolACE_tool_2825",
+        "toolACE_tool_371",
+        "toolACE_tool_4000",
+        "toolACE_tool_6290",
+        "toolACE_tool_6291",
+        "toolACE_tool_7420",
+        "toolACE_tool_747",
+        "toolACE_tool_757",
+        "toolACE_tool_759",
+        "toolACE_tool_8824",
+        "toolACE_tool_9759",
+        "toolalpaca_tool_52",
+        "toolbench_tool_1699",
+        "toolbench_tool_2271",
+        "toolbench_tool_3748",
+        "toolbench_tool_7418",
+        "toolbench_tool_7813",
+        "toolbench_tool_7814",
+        "toolbench_tool_7822",
+        "toolbench_tool_8967",
+        "toolbench_tool_9475",
+        "toolbench_tool_9904",
+        "ultraTool_tool_1016",
+        "ultraTool_tool_742"
+      ]
+    },
+    "cat_sub28": {
+      "children": [
+        "cat_sub28_sub1",
+        "cat_sub28_sub10",
+        "cat_sub28_sub11",
+        "cat_sub28_sub12",
+        "cat_sub28_sub13",
+        "cat_sub28_sub14",
+        "cat_sub28_sub15",
+        "cat_sub28_sub16",
+        "cat_sub28_sub17",
+        "cat_sub28_sub18",
+        "cat_sub28_sub19",
+        "cat_sub28_sub3",
+        "cat_sub28_sub5",
+        "cat_sub28_sub7",
+        "cat_sub28_sub9"
+      ],
+      "services": []
+    },
+    "cat_sub3": {
+      "children": [
+        "cat_sub3_sub1",
+        "cat_sub3_sub10",
+        "cat_sub3_sub11",
+        "cat_sub3_sub13",
+        "cat_sub3_sub14",
+        "cat_sub3_sub2",
+        "cat_sub3_sub3",
+        "cat_sub3_sub4",
+        "cat_sub3_sub5",
+        "cat_sub3_sub6",
+        "cat_sub3_sub7",
+        "cat_sub3_sub9"
+      ],
+      "services": [
+        "reversechain_tool_729",
+        "toolACE_tool_8469",
+        "ultraTool_tool_416"
+      ]
+    },
+    "cat_sub4": {
+      "children": [
+        "cat_sub4_sub1",
+        "cat_sub4_sub10",
+        "cat_sub4_sub11",
+        "cat_sub4_sub12",
+        "cat_sub4_sub13",
+        "cat_sub4_sub15",
+        "cat_sub4_sub2",
+        "cat_sub4_sub3",
+        "cat_sub4_sub4",
+        "cat_sub4_sub5",
+        "cat_sub4_sub6",
+        "cat_sub4_sub7",
+        "cat_sub4_sub9"
+      ],
+      "services": [
+        "toolACE_tool_4118",
+        "toolACE_tool_9644"
+      ]
+    },
+    "cat_sub41": {
+      "children": [
+        "cat_sub41_sub1",
+        "cat_sub41_sub10",
+        "cat_sub41_sub11",
+        "cat_sub41_sub13",
+        "cat_sub41_sub2",
+        "cat_sub41_sub3",
+        "cat_sub41_sub4",
+        "cat_sub41_sub5",
+        "cat_sub41_sub6",
+        "cat_sub41_sub7",
+        "cat_sub41_sub8",
+        "cat_sub41_sub9"
+      ],
+      "services": [
+        "toolACE_tool_13847"
+      ]
+    },
+    "cat_sub42": {
+      "children": [
+        "cat_sub42_sub1",
+        "cat_sub42_sub10",
+        "cat_sub42_sub11",
+        "cat_sub42_sub12",
+        "cat_sub42_sub13",
+        "cat_sub42_sub14",
+        "cat_sub42_sub15",
+        "cat_sub42_sub16",
+        "cat_sub42_sub2",
+        "cat_sub42_sub3",
+        "cat_sub42_sub4",
+        "cat_sub42_sub5",
+        "cat_sub42_sub6",
+        "cat_sub42_sub7",
+        "cat_sub42_sub8",
+        "cat_sub42_sub9"
+      ],
+      "services": []
+    },
+    "cat_sub43": {
+      "children": [
+        "cat_sub43_sub1",
+        "cat_sub43_sub2",
+        "cat_sub43_sub3",
+        "cat_sub43_sub4",
+        "cat_sub43_sub8",
+        "cat_sub43_sub9"
+      ],
+      "services": [
+        "reversechain_tool_42",
+        "reversechain_tool_424",
+        "toolACE_tool_12330",
+        "toolACE_tool_9715",
+        "toolbench_tool_6384",
+        "ultraTool_tool_554",
+        "webtools_spotify_tool_34",
+        "webtools_spotify_tool_9"
+      ]
+    },
+    "cat_sub5": {
+      "children": [
+        "cat_sub5_sub1",
+        "cat_sub5_sub10",
+        "cat_sub5_sub11",
+        "cat_sub5_sub12",
+        "cat_sub5_sub13",
+        "cat_sub5_sub14",
+        "cat_sub5_sub15",
+        "cat_sub5_sub16",
+        "cat_sub5_sub18",
+        "cat_sub5_sub19",
+        "cat_sub5_sub2",
+        "cat_sub5_sub3",
+        "cat_sub5_sub4",
+        "cat_sub5_sub5",
+        "cat_sub5_sub6",
+        "cat_sub5_sub7",
+        "cat_sub5_sub8",
+        "cat_sub5_sub9"
+      ],
+      "services": [
+        "toolLens_tool_12",
+        "toolLens_tool_264"
+      ]
+    },
+    "cat_sub6": {
+      "children": [
+        "cat_sub6_sub1",
+        "cat_sub6_sub10",
+        "cat_sub6_sub2",
+        "cat_sub6_sub3",
+        "cat_sub6_sub4",
+        "cat_sub6_sub5",
+        "cat_sub6_sub6",
+        "cat_sub6_sub7",
+        "cat_sub6_sub8",
+        "cat_sub6_sub9"
+      ],
+      "services": [
+        "toolbench_tool_12882",
+        "toolbench_tool_783"
+      ]
+    },
+    "cat_sub7": {
+      "children": [
+        "cat_sub7_sub1",
+        "cat_sub7_sub10",
+        "cat_sub7_sub11",
+        "cat_sub7_sub12",
+        "cat_sub7_sub15",
+        "cat_sub7_sub16",
+        "cat_sub7_sub17",
+        "cat_sub7_sub19",
+        "cat_sub7_sub2",
+        "cat_sub7_sub3",
+        "cat_sub7_sub4",
+        "cat_sub7_sub5",
+        "cat_sub7_sub6",
+        "cat_sub7_sub7",
+        "cat_sub7_sub8",
+        "cat_sub7_sub9"
+      ],
+      "services": [
+        "reversechain_tool_368",
+        "toolACE_tool_15799",
+        "webtools_food_tool_9"
+      ]
+    },
+    "cat_sub8": {
+      "children": [
+        "cat_sub8_sub1",
+        "cat_sub8_sub10",
+        "cat_sub8_sub11",
+        "cat_sub8_sub14",
+        "cat_sub8_sub15",
+        "cat_sub8_sub16",
+        "cat_sub8_sub17",
+        "cat_sub8_sub2",
+        "cat_sub8_sub3",
+        "cat_sub8_sub4",
+        "cat_sub8_sub5",
+        "cat_sub8_sub6",
+        "cat_sub8_sub8",
+        "cat_sub8_sub9"
+      ],
+      "services": [
+        "metatool_which_tool_28",
+        "toolACE_tool_1952",
+        "toolACE_tool_8780"
+      ]
+    },
+    "cat_sub9": {
+      "children": [
+        "cat_sub9_sub1",
+        "cat_sub9_sub10",
+        "cat_sub9_sub11",
+        "cat_sub9_sub12",
+        "cat_sub9_sub14",
+        "cat_sub9_sub15",
+        "cat_sub9_sub16",
+        "cat_sub9_sub17",
+        "cat_sub9_sub2",
+        "cat_sub9_sub3",
+        "cat_sub9_sub4",
+        "cat_sub9_sub5",
+        "cat_sub9_sub6",
+        "cat_sub9_sub8",
+        "cat_sub9_sub9"
+      ],
+      "services": [
+        "apigen_tool_1324",
+        "apigen_tool_2535",
+        "metatool_which_tool_106",
+        "toolACE_tool_5829",
+        "toolACE_tool_8470"
+      ]
+    },
+    "cat_fin_1": {
+      "children": [
+        "cat_fin_1_sub1",
+        "cat_fin_1_sub10",
+        "cat_fin_1_sub11",
+        "cat_fin_1_sub12",
+        "cat_fin_1_sub13",
+        "cat_fin_1_sub2",
+        "cat_fin_1_sub3",
+        "cat_fin_1_sub4",
+        "cat_fin_1_sub5",
+        "cat_fin_1_sub6",
+        "cat_fin_1_sub7",
+        "cat_fin_1_sub8",
+        "cat_fin_1_sub9"
+      ],
+      "services": []
+    },
+    "cat_fin_10": {
+      "children": [],
+      "services": [
+        "apigen_tool_1029",
+        "apigen_tool_1030",
+        "apigen_tool_1041",
+        "apigen_tool_1776",
+        "apigen_tool_52",
+        "apigen_tool_839",
+        "reversechain_tool_291",
+        "reversechain_tool_292",
+        "reversechain_tool_578",
+        "toolACE_tool_10288",
+        "toolACE_tool_13224",
+        "toolACE_tool_14386",
+        "toolACE_tool_1599",
+        "toolACE_tool_1747",
+        "toolACE_tool_2370",
+        "toolACE_tool_2875",
+        "toolACE_tool_6788",
+        "toolACE_tool_7419",
+        "toolACE_tool_7423",
+        "toolACE_tool_7790",
+        "toolACE_tool_791",
+        "toolACE_tool_7945",
+        "toolACE_tool_808",
+        "toolACE_tool_8559",
+        "toolACE_tool_8699",
+        "toolbench_tool_7533",
+        "toolbench_tool_904",
+        "tooleyes_tool_60",
+        "tooleyes_tool_63"
+      ]
+    },
+    "cat_fin_11": {
+      "children": [],
+      "services": [
+        "apigen_tool_888",
+        "toolACE_tool_9734",
+        "ultraTool_tool_74"
+      ]
+    },
+    "cat_fin_12": {
+      "children": [],
+      "services": [
+        "metatool_which_tool_193",
+        "reversechain_tool_300",
+        "toolACE_tool_10700",
+        "toolACE_tool_13722",
+        "toolACE_tool_14386",
+        "toolACE_tool_14822",
+        "toolACE_tool_2412",
+        "toolACE_tool_278",
+        "toolACE_tool_4940",
+        "toolACE_tool_6655",
+        "toolACE_tool_9269",
+        "toolbench_tool_1868",
+        "toolbench_tool_1870",
+        "toolbench_tool_7539",
+        "ultraTool_tool_317"
+      ]
+    },
+    "cat_fin_13": {
+      "children": [],
+      "services": [
+        "apibank_tool_25",
+        "apigen_tool_2690",
+        "apigen_tool_2779",
+        "reversechain_tool_298",
+        "toolACE_tool_10150",
+        "toolACE_tool_10333",
+        "toolACE_tool_2420",
+        "toolACE_tool_6833",
+        "toolACE_tool_7421",
+        "toolACE_tool_9715",
+        "toolbench_tool_7210",
+        "toolbench_tool_8547",
+        "toolbench_tool_8646",
+        "toolbench_tool_8967",
+        "ultraTool_tool_122",
+        "ultraTool_tool_131",
+        "ultraTool_tool_136",
+        "ultraTool_tool_195",
+        "ultraTool_tool_209",
+        "ultraTool_tool_264"
+      ]
+    },
+    "cat_fin_14": {
+      "children": [],
+      "services": [
+        "apigen_tool_237",
+        "apigen_tool_2779",
+        "metatool_which_tool_1",
+        "toolACE_tool_10150",
+        "toolACE_tool_10333",
+        "toolACE_tool_201",
+        "toolACE_tool_2710",
+        "toolLens_tool_274",
+        "toolalpaca_tool_39",
+        "toolbench_tool_10078",
+        "toolbench_tool_10079",
+        "ultraTool_tool_152",
+        "ultraTool_tool_197",
+        "ultraTool_tool_252",
+        "ultraTool_tool_416",
+        "ultraTool_tool_554",
+        "ultraTool_tool_627"
+      ]
+    },
+    "cat_fin_15": {
+      "children": [],
+      "services": [
+        "apigen_tool_1397",
+        "apigen_tool_1815",
+        "reversechain_tool_97",
+        "reversechain_tool_98",
+        "toolACE_tool_10595",
+        "toolACE_tool_10769",
+        "toolACE_tool_13465",
+        "toolACE_tool_15334",
+        "toolACE_tool_2604",
+        "toolACE_tool_5492",
+        "toolACE_tool_5863",
+        "toolACE_tool_7420",
+        "toolbench_tool_1868",
+        "ultraTool_tool_737"
+      ]
+    },
+    "cat_fin_16": {
+      "children": [],
+      "services": [
+        "apigen_tool_37",
+        "apigen_tool_388",
+        "apigen_tool_558",
+        "apigen_tool_67",
+        "metatool_which_tool_153",
+        "reversechain_tool_299",
+        "reversechain_tool_300",
+        "reversechain_tool_98",
+        "toolACE_tool_10595",
+        "toolACE_tool_13130",
+        "toolACE_tool_13465",
+        "toolACE_tool_13563",
+        "toolACE_tool_14305",
+        "toolACE_tool_1885",
+        "toolACE_tool_2131",
+        "toolACE_tool_2696",
+        "toolACE_tool_3532",
+        "toolACE_tool_4627",
+        "toolACE_tool_7246",
+        "toolACE_tool_9709",
+        "toolbench_tool_9023",
+        "toolbench_tool_907",
+        "ultraTool_tool_143"
+      ]
+    },
+    "cat_fin_2": {
+      "children": [],
+      "services": [
+        "apigen_tool_1377",
+        "apigen_tool_1793",
+        "apigen_tool_2199",
+        "apigen_tool_237",
+        "apigen_tool_2896",
+        "apigen_tool_3357",
+        "apigen_tool_556",
+        "toolACE_tool_1761",
+        "toolACE_tool_187",
+        "toolACE_tool_201",
+        "toolACE_tool_2696",
+        "toolACE_tool_2773",
+        "toolACE_tool_6156",
+        "toolACE_tool_808",
+        "toolACE_tool_8901",
+        "toolACE_tool_9712",
+        "toolLens_tool_243",
+        "toolalpaca_tool_35",
+        "toolalpaca_tool_36",
+        "toolalpaca_tool_37",
+        "toolalpaca_tool_72",
+        "toolalpaca_tool_73",
+        "toolalpaca_tool_74",
+        "toolbench_tool_2057",
+        "toolbench_tool_2261",
+        "toolbench_tool_2262",
+        "toolbench_tool_943",
+        "tooleyes_tool_60",
+        "ultraTool_tool_141",
+        "ultraTool_tool_152",
+        "ultraTool_tool_91"
+      ]
+    },
+    "cat_fin_21": {
+      "children": [],
+      "services": [
+        "apigen_tool_1985",
+        "apigen_tool_2003",
+        "apigen_tool_497",
+        "apigen_tool_961",
+        "toolACE_tool_4532",
+        "tooleyes_tool_75"
+      ]
+    },
+    "cat_fin_22": {
+      "children": [],
+      "services": [
+        "apigen_tool_1574",
+        "apigen_tool_246",
+        "apigen_tool_2793",
+        "apigen_tool_2832",
+        "apigen_tool_344",
+        "apigen_tool_3506",
+        "metatool_which_tool_131",
+        "t_eval_step_tool_46",
+        "toolACE_tool_1107",
+        "toolACE_tool_1119",
+        "toolACE_tool_12582",
+        "toolACE_tool_12595",
+        "toolACE_tool_13168",
+        "toolACE_tool_187",
+        "toolACE_tool_2950",
+        "toolACE_tool_3167",
+        "toolACE_tool_480",
+        "toolACE_tool_5357",
+        "toolACE_tool_6142",
+        "toolACE_tool_7485",
+        "toolACE_tool_7859",
+        "toolACE_tool_786",
+        "toolACE_tool_8874",
+        "toolACE_tool_898",
+        "toolACE_tool_927",
+        "toolACE_tool_9270",
+        "toolACE_tool_9462",
+        "toolACE_tool_967",
+        "toolLens_tool_225",
+        "toolLens_tool_270",
+        "toolbench_tool_1867",
+        "toolbench_tool_2251",
+        "toolbench_tool_944"
+      ]
+    },
+    "cat_fin_23": {
+      "children": [],
+      "services": [
+        "apigen_tool_1362",
+        "apigen_tool_1776",
+        "apigen_tool_254",
+        "metatool_which_tool_0",
+        "toolACE_tool_11799",
+        "toolACE_tool_4485",
+        "toolACE_tool_5373",
+        "toolACE_tool_679",
+        "toolACE_tool_8874",
+        "toolLens_tool_3",
+        "toolLens_tool_70",
+        "toolalpaca_tool_76",
+        "ultraTool_tool_320"
+      ]
+    },
+    "cat_fin_3": {
+      "children": [],
+      "services": [
+        "apigen_tool_1121",
+        "apigen_tool_1975",
+        "apigen_tool_245",
+        "apigen_tool_2818",
+        "apigen_tool_3357",
+        "toolACE_tool_13238",
+        "toolACE_tool_14926",
+        "toolACE_tool_217",
+        "toolACE_tool_2604",
+        "toolACE_tool_413",
+        "toolACE_tool_6994",
+        "toolACE_tool_78",
+        "toolACE_tool_9712",
+        "toolLens_tool_75",
+        "toolalpaca_tool_76",
+        "toolbench_tool_2068",
+        "toolbench_tool_2158",
+        "toolbench_tool_2598",
+        "toolbench_tool_939"
+      ]
+    },
+    "cat_fin_4": {
+      "children": [],
+      "services": [
+        "apigen_tool_1668",
+        "apigen_tool_2016",
+        "apigen_tool_430",
+        "apigen_tool_447",
+        "toolACE_tool_1763",
+        "toolACE_tool_2732"
+      ]
+    },
+    "cat_fin_5": {
+      "children": [],
+      "services": [
+        "apigen_tool_1955",
+        "toolACE_tool_12107",
+        "toolACE_tool_13168",
+        "toolACE_tool_2666",
+        "toolACE_tool_9269",
+        "toolACE_tool_9654",
+        "toolalpaca_tool_76",
+        "tooleyes_tool_57"
+      ]
+    },
+    "cat_fin_6": {
+      "children": [],
+      "services": [
+        "apigen_tool_2832",
+        "toolACE_tool_10700",
+        "toolACE_tool_1375",
+        "toolACE_tool_278",
+        "toolACE_tool_5750",
+        "toolACE_tool_6229",
+        "toolACE_tool_7565",
+        "toolbench_tool_1867",
+        "tooleyes_tool_55"
+      ]
+    },
+    "cat_fin_8": {
+      "children": [
+        "cat_fin_8_sub1",
+        "cat_fin_8_sub2",
+        "cat_fin_8_sub3",
+        "cat_fin_8_sub4",
+        "cat_fin_8_sub5",
+        "cat_fin_8_sub7",
+        "cat_fin_8_sub8"
+      ],
+      "services": []
+    },
+    "cat_fin_9": {
+      "children": [],
+      "services": [
+        "apigen_tool_1252",
+        "apigen_tool_1575",
+        "apigen_tool_2819",
+        "apigen_tool_325",
+        "apigen_tool_52",
+        "apigen_tool_542",
+        "metatool_which_tool_0",
+        "reversechain_tool_578",
+        "toolACE_tool_1",
+        "toolACE_tool_10701",
+        "toolACE_tool_14822",
+        "toolACE_tool_14825",
+        "toolACE_tool_3167",
+        "toolACE_tool_53",
+        "toolACE_tool_624",
+        "toolACE_tool_6936",
+        "toolACE_tool_808",
+        "toolbench_tool_9199",
+        "tooleyes_tool_62",
+        "tooleyes_tool_67"
+      ]
+    },
+    "cat_sub10_sub1": {
+      "children": [],
+      "services": [
+        "apigen_tool_1252",
+        "apigen_tool_1575",
+        "apigen_tool_325",
+        "apigen_tool_52",
+        "apigen_tool_542",
+        "reversechain_tool_578",
+        "toolACE_tool_1",
+        "toolACE_tool_14822",
+        "toolACE_tool_3167",
+        "toolACE_tool_53",
+        "toolACE_tool_7422",
+        "toolACE_tool_808",
+        "toolbench_tool_2788",
+        "toolbench_tool_9031",
+        "tooleyes_tool_67"
+      ]
+    },
+    "cat_sub10_sub10": {
+      "children": [],
+      "services": [
+        "reversechain_tool_578",
+        "toolACE_tool_15377",
+        "toolACE_tool_1551",
+        "toolACE_tool_1952",
+        "toolACE_tool_5260",
+        "toolbench_tool_3350",
+        "toolbench_tool_5389",
+        "tooleyes_tool_67"
+      ]
+    },
+    "cat_sub10_sub11": {
+      "children": [],
+      "services": [
+        "apigen_tool_195",
+        "apigen_tool_499",
+        "toolACE_tool_1",
+        "toolLens_tool_6",
+        "toolbench_tool_3279",
+        "toolbench_tool_3288",
+        "toolbench_tool_3292",
+        "toolbench_tool_3293",
+        "toolbench_tool_3302",
+        "toolbench_tool_3303",
+        "toolbench_tool_3315",
+        "toolbench_tool_668",
+        "toolbench_tool_993"
+      ]
+    },
+    "cat_sub10_sub12": {
+      "children": [],
+      "services": [
+        "apigen_tool_102",
+        "apigen_tool_1780",
+        "apigen_tool_499",
+        "toolACE_tool_14398",
+        "toolACE_tool_322",
+        "toolACE_tool_4155",
+        "toolbench_tool_1068",
+        "toolbench_tool_3303",
+        "toolbench_tool_6591"
+      ]
+    },
+    "cat_sub10_sub13": {
+      "children": [],
+      "services": [
+        "apigen_tool_2081",
+        "apigen_tool_72",
+        "apigen_tool_765",
+        "metatool_which_tool_28",
+        "toolLens_tool_52",
+        "toolbench_tool_4914",
+        "webtools_tmdb_tool_1"
+      ]
+    },
+    "cat_sub10_sub2": {
+      "children": [],
+      "services": [
+        "apigen_tool_52",
+        "reversechain_tool_577",
+        "toolACE_tool_10701",
+        "toolACE_tool_1132",
+        "toolACE_tool_4032",
+        "toolbench_tool_1069",
+        "tooleyes_tool_67"
+      ]
+    },
+    "cat_sub10_sub3": {
+      "children": [],
+      "services": [
+        "apigen_tool_1780",
+        "apigen_tool_342",
+        "toolbench_tool_5265",
+        "toolbench_tool_5266",
+        "toolbench_tool_6588",
+        "toolbench_tool_6589",
+        "toolbench_tool_9367"
+      ]
+    },
+    "cat_sub10_sub4": {
+      "children": [],
+      "services": [
+        "metatool_which_tool_13",
+        "toolACE_tool_14258",
+        "toolACE_tool_15401",
+        "toolACE_tool_5033",
+        "toolbench_tool_3242",
+        "toolbench_tool_3292",
+        "toolbench_tool_3293",
+        "toolbench_tool_668"
+      ]
+    },
+    "cat_sub10_sub5": {
+      "children": [],
+      "services": [
+        "apigen_tool_1105",
+        "apigen_tool_24",
+        "apigen_tool_2692",
+        "apigen_tool_498",
+        "apigen_tool_655",
+        "apigen_tool_961",
+        "metatool_which_tool_172",
+        "metatool_which_tool_28",
+        "toolACE_tool_10534",
+        "toolACE_tool_1642",
+        "toolACE_tool_226",
+        "toolACE_tool_266",
+        "toolACE_tool_358",
+        "toolACE_tool_599",
+        "toolACE_tool_7000",
+        "toolACE_tool_9766",
+        "toolLens_tool_23",
+        "toolLens_tool_37",
+        "toolbench_tool_10479",
+        "toolbench_tool_1287",
+        "toolbench_tool_12887",
+        "toolbench_tool_1449",
+        "toolbench_tool_1452",
+        "toolbench_tool_1515",
+        "toolbench_tool_1531",
+        "toolbench_tool_1669",
+        "toolbench_tool_3205",
+        "toolbench_tool_3206",
+        "toolbench_tool_3350",
+        "toolbench_tool_3352",
+        "toolbench_tool_7140",
+        "webtools_tmdb_tool_1",
+        "webtools_tmdb_tool_22",
+        "webtools_tmdb_tool_39",
+        "webtools_tmdb_tool_46"
+      ]
+    },
+    "cat_sub10_sub7": {
+      "children": [],
+      "services": [
+        "apigen_tool_1948",
+        "apigen_tool_622",
+        "metatool_which_tool_13",
+        "metatool_which_tool_2",
+        "metatool_which_tool_28",
+        "toolACE_tool_1074",
+        "toolACE_tool_14258",
+        "toolACE_tool_4005",
+        "toolLens_tool_59",
+        "toolbench_tool_2787",
+        "toolbench_tool_5265",
+        "toolbench_tool_5266",
+        "toolbench_tool_6589"
+      ]
+    },
+    "cat_sub10_sub8": {
+      "children": [],
+      "services": [
+        "apigen_tool_1209",
+        "apigen_tool_1300",
+        "apigen_tool_1780",
+        "apigen_tool_195",
+        "apigen_tool_2092",
+        "apigen_tool_342",
+        "apigen_tool_411",
+        "apigen_tool_506",
+        "apigen_tool_508",
+        "apigen_tool_72",
+        "toolACE_tool_1",
+        "toolACE_tool_1074",
+        "toolACE_tool_11091",
+        "toolACE_tool_1132",
+        "toolACE_tool_14258",
+        "toolACE_tool_14398",
+        "toolACE_tool_14611",
+        "toolACE_tool_14822",
+        "toolACE_tool_200",
+        "toolACE_tool_3167",
+        "toolACE_tool_322",
+        "toolACE_tool_380",
+        "toolACE_tool_7000",
+        "toolACE_tool_830",
+        "toolLens_tool_284",
+        "toolLens_tool_290",
+        "toolLens_tool_35",
+        "toolLens_tool_6",
+        "toolbench_tool_3279",
+        "toolbench_tool_3280",
+        "toolbench_tool_3350",
+        "toolbench_tool_4146",
+        "toolbench_tool_5265",
+        "toolbench_tool_6588",
+        "toolbench_tool_6615",
+        "toolbench_tool_784",
+        "toolbench_tool_993",
+        "tooleyes_tool_67"
+      ]
+    },
+    "cat_sub10_sub9": {
+      "children": [],
+      "services": [
+        "apigen_tool_52",
+        "toolACE_tool_13784",
+        "toolACE_tool_1551",
+        "toolACE_tool_380",
+        "toolACE_tool_434",
+        "toolACE_tool_53",
+        "toolACE_tool_6053",
+        "toolLens_tool_52",
+        "toolbench_tool_1069",
+        "toolbench_tool_11902",
+        "toolbench_tool_2788",
+        "toolbench_tool_2893",
+        "toolbench_tool_3352",
+        "toolbench_tool_4146",
+        "toolbench_tool_8075",
+        "toolbench_tool_9881",
+        "webtools_tmdb_tool_1"
+      ]
+    },
+    "cat_sub11_sub1": {
+      "children": [],
+      "services": [
+        "apigen_tool_1121",
+        "apigen_tool_2158",
+        "apigen_tool_245",
+        "apigen_tool_254",
+        "apigen_tool_326",
+        "apigen_tool_3357",
+        "apigen_tool_827",
+        "apigen_tool_914",
+        "toolACE_tool_1610",
+        "toolACE_tool_3072",
+        "toolACE_tool_3523",
+        "toolACE_tool_4386",
+        "toolACE_tool_525",
+        "toolACE_tool_6071",
+        "toolACE_tool_78",
+        "toolACE_tool_9712",
+        "toolalpaca_tool_76",
+        "toolbench_tool_2068",
+        "toolbench_tool_2070",
+        "toolbench_tool_939"
+      ]
+    },
+    "cat_sub11_sub10": {
+      "children": [],
+      "services": [
+        "apigen_tool_542",
+        "metatool_which_tool_0",
+        "toolACE_tool_6936",
+        "toolACE_tool_7422",
+        "toolbench_tool_2323",
+        "toolbench_tool_2787",
+        "toolbench_tool_2788",
+        "toolbench_tool_9031",
+        "tooleyes_tool_67"
+      ]
+    },
+    "cat_sub11_sub11": {
+      "children": [],
+      "services": [
+        "apigen_tool_1045",
+        "apigen_tool_1121",
+        "apigen_tool_1975",
+        "toolACE_tool_12582",
+        "toolACE_tool_14263",
+        "toolACE_tool_3480",
+        "toolLens_tool_227",
+        "toolbench_tool_2788",
+        "toolbench_tool_8473"
+      ]
+    },
+    "cat_sub11_sub12": {
+      "children": [],
+      "services": [
+        "apigen_tool_3357",
+        "apigen_tool_542",
+        "metatool_which_tool_0",
+        "toolLens_tool_3",
+        "toolalpaca_tool_76",
+        "tooleyes_tool_67"
+      ]
+    },
+    "cat_sub11_sub2": {
+      "children": [],
+      "services": [
+        "toolACE_tool_13224",
+        "toolACE_tool_13238",
+        "toolACE_tool_14926",
+        "toolACE_tool_1599",
+        "toolACE_tool_8699",
+        "ultraTool_tool_320",
+        "ultraTool_tool_74"
+      ]
+    },
+    "cat_sub11_sub3": {
+      "children": [],
+      "services": [
+        "apigen_tool_1251",
+        "apigen_tool_2042",
+        "apigen_tool_2818",
+        "apigen_tool_345",
+        "toolACE_tool_3070",
+        "toolACE_tool_6617",
+        "toolbench_tool_2778",
+        "toolbench_tool_6225",
+        "toolbench_tool_6227"
+      ]
+    },
+    "cat_sub11_sub4": {
+      "children": [],
+      "services": [
+        "apigen_tool_1358",
+        "apigen_tool_2283",
+        "toolACE_tool_2604",
+        "toolACE_tool_413",
+        "toolACE_tool_78",
+        "toolbench_tool_2158"
+      ]
+    },
+    "cat_sub11_sub6": {
+      "children": [],
+      "services": [
+        "apigen_tool_1815",
+        "apigen_tool_2413",
+        "apigen_tool_952",
+        "toolACE_tool_217",
+        "toolLens_tool_75",
+        "toolbench_tool_8473"
+      ]
+    },
+    "cat_sub11_sub7": {
+      "children": [],
+      "services": [
+        "apigen_tool_2486",
+        "toolACE_tool_5515",
+        "toolACE_tool_5933",
+        "toolbench_tool_2598"
+      ]
+    },
+    "cat_sub11_sub8": {
+      "children": [],
+      "services": [
+        "apigen_tool_2313",
+        "toolACE_tool_2604",
+        "toolACE_tool_2709",
+        "toolACE_tool_621",
+        "toolbench_tool_10079",
+        "toolbench_tool_2599"
+      ]
+    },
+    "cat_sub11_sub9": {
+      "children": [],
+      "services": [
+        "toolACE_tool_2184",
+        "toolACE_tool_525",
+        "toolACE_tool_6071",
+        "toolACE_tool_6936",
+        "toolACE_tool_6994"
+      ]
+    },
+    "cat_sub12_sub1": {
+      "children": [],
+      "services": [
+        "apigen_tool_1328",
+        "apigen_tool_1349",
+        "apigen_tool_1351",
+        "apigen_tool_1414",
+        "apigen_tool_1910",
+        "apigen_tool_2441",
+        "metatool_which_tool_32",
+        "reversechain_tool_103",
+        "reversechain_tool_110",
+        "reversechain_tool_177",
+        "reversechain_tool_257",
+        "reversechain_tool_41",
+        "reversechain_tool_606",
+        "taskbench_daily_tool_0",
+        "toolACE_tool_810",
+        "toolbench_tool_3137",
+        "toolbench_tool_3151",
+        "toolbench_tool_6581"
+      ]
+    },
+    "cat_sub12_sub12": {
+      "children": [],
+      "services": [
+        "apigen_tool_1955",
+        "reversechain_tool_606",
+        "toolACE_tool_13168",
+        "toolACE_tool_13170",
+        "toolACE_tool_13171",
+        "toolACE_tool_6140",
+        "toolbench_tool_3303",
+        "toolbench_tool_4843",
+        "toolbench_tool_8392"
+      ]
+    },
+    "cat_sub12_sub14": {
+      "children": [],
+      "services": [
+        "apigen_tool_717",
+        "toolACE_tool_279",
+        "toolACE_tool_283",
+        "toolACE_tool_7081",
+        "toolACE_tool_810",
+        "toolLens_tool_25",
+        "toolbench_tool_3151",
+        "toolbench_tool_8393"
+      ]
+    },
+    "cat_sub12_sub16": {
+      "children": [],
+      "services": [
+        "apigen_tool_851",
+        "apigen_tool_853",
+        "reversechain_tool_148",
+        "reversechain_tool_15",
+        "reversechain_tool_40",
+        "toolLens_tool_158"
+      ]
+    },
+    "cat_sub12_sub2": {
+      "children": [],
+      "services": [
+        "apigen_tool_2100",
+        "apigen_tool_3000",
+        "apigen_tool_3008",
+        "apigen_tool_335",
+        "apigen_tool_717",
+        "reversechain_tool_223",
+        "reversechain_tool_302",
+        "reversechain_tool_606",
+        "reversechain_tool_635",
+        "t_eval_dialog_tool_27",
+        "taskbench_daily_tool_0",
+        "toolACE_tool_12351",
+        "toolACE_tool_7004",
+        "toolACE_tool_7081",
+        "toolACE_tool_9992",
+        "toolLens_tool_25",
+        "toolLens_tool_46",
+        "toolbench_tool_3148",
+        "toolbench_tool_3150",
+        "toolbench_tool_7845",
+        "ultraTool_tool_388",
+        "ultraTool_tool_47",
+        "ultraTool_tool_630",
+        "webtools_weather_tool_6",
+        "webtools_weather_tool_8"
+      ]
+    },
+    "cat_sub12_sub4": {
+      "children": [],
+      "services": [
+        "apigen_tool_3049",
+        "toolACE_tool_7004",
+        "toolbench_tool_3148",
+        "webtools_weather_tool_1",
+        "webtools_weather_tool_2"
+      ]
+    },
+    "cat_sub12_sub5": {
+      "children": [],
+      "services": [
+        "metatool_which_tool_48",
+        "reversechain_tool_105",
+        "reversechain_tool_302",
+        "reversechain_tool_348",
+        "reversechain_tool_41",
+        "reversechain_tool_589",
+        "reversechain_tool_591",
+        "reversechain_tool_606",
+        "reversechain_tool_617",
+        "reversechain_tool_635",
+        "reversechain_tool_649",
+        "reversechain_tool_715",
+        "toolACE_tool_9405"
+      ]
+    },
+    "cat_sub12_sub6": {
+      "children": [],
+      "services": [
+        "apigen_tool_1972",
+        "apigen_tool_717",
+        "metatool_which_tool_120",
+        "toolACE_tool_7081",
+        "toolACE_tool_810",
+        "toolLens_tool_140",
+        "toolLens_tool_25",
+        "toolbench_tool_3150",
+        "toolbench_tool_3151"
+      ]
+    },
+    "cat_sub12_sub7": {
+      "children": [],
+      "services": [
+        "metatool_which_tool_120",
+        "toolACE_tool_2423",
+        "toolbench_tool_3116",
+        "toolbench_tool_3170"
+      ]
+    },
+    "cat_sub12_sub9": {
+      "children": [],
+      "services": [
+        "apigen_tool_1955",
+        "apigen_tool_2292",
+        "toolACE_tool_14479",
+        "toolACE_tool_279",
+        "toolACE_tool_283",
+        "toolACE_tool_6336",
+        "toolLens_tool_46",
+        "toolbench_tool_2392",
+        "toolbench_tool_3172",
+        "toolbench_tool_3242",
+        "toolbench_tool_8394",
+        "ultraTool_tool_1120",
+        "webtools_weather_tool_10"
+      ]
+    },
+    "cat_sub14_sub1": {
+      "children": [],
+      "services": [
+        "apibank_tool_37",
+        "apigen_tool_1763",
+        "apigen_tool_2015",
+        "apigen_tool_2456",
+        "apigen_tool_3158",
+        "apigen_tool_660",
+        "apigen_tool_662",
+        "apigen_tool_835",
+        "metatool_which_tool_197",
+        "metatool_which_tool_6",
+        "metatool_which_tool_64",
+        "reversechain_tool_509",
+        "toolACE_tool_4570",
+        "toolACE_tool_5315",
+        "toolACE_tool_7566",
+        "toolACE_tool_7567",
+        "toolACE_tool_7568",
+        "toolLens_tool_171",
+        "toolLens_tool_26",
+        "toolalpaca_tool_80"
+      ]
+    },
+    "cat_sub14_sub10": {
+      "children": [],
+      "services": [
+        "apigen_tool_1549",
+        "apigen_tool_1685",
+        "toolACE_tool_12770",
+        "toolACE_tool_13474",
+        "toolACE_tool_2503",
+        "toolACE_tool_5829",
+        "toolLens_tool_140",
+        "ultraTool_tool_1021"
+      ]
+    },
+    "cat_sub14_sub11": {
+      "children": [],
+      "services": [
+        "apigen_tool_562",
+        "metatool_which_tool_168",
+        "metatool_which_tool_182",
+        "metatool_which_tool_27",
+        "metatool_which_tool_6",
+        "metatool_which_tool_64",
+        "toolACE_tool_2040",
+        "toolACE_tool_3476",
+        "toolACE_tool_3997",
+        "toolACE_tool_4547",
+        "toolACE_tool_8999",
+        "toolbench_tool_2719"
+      ]
+    },
+    "cat_sub14_sub12": {
+      "children": [],
+      "services": [
+        "toolACE_tool_2503",
+        "toolACE_tool_4319",
+        "toolACE_tool_4547",
+        "toolACE_tool_9118",
+        "toolbench_tool_2545",
+        "toolbench_tool_3667"
+      ]
+    },
+    "cat_sub14_sub13": {
+      "children": [],
+      "services": [
+        "apibank_tool_35",
+        "apigen_tool_1115",
+        "apigen_tool_1117",
+        "apigen_tool_1664",
+        "apigen_tool_1763",
+        "apigen_tool_1780",
+        "apigen_tool_1840",
+        "apigen_tool_402",
+        "apigen_tool_562",
+        "apigen_tool_642",
+        "apigen_tool_662",
+        "apigen_tool_711",
+        "toolACE_tool_10980",
+        "toolACE_tool_5315",
+        "toolbench_tool_3347"
+      ]
+    },
+    "cat_sub14_sub14": {
+      "children": [],
+      "services": [
+        "apigen_tool_154",
+        "apigen_tool_161",
+        "apigen_tool_1664",
+        "apigen_tool_1780",
+        "apigen_tool_642",
+        "apigen_tool_711",
+        "toolACE_tool_11696"
+      ]
+    },
+    "cat_sub14_sub2": {
+      "children": [],
+      "services": [
+        "apigen_tool_1115",
+        "apigen_tool_2077",
+        "apigen_tool_2248",
+        "toolACE_tool_12129",
+        "toolACE_tool_1711",
+        "toolACE_tool_4748",
+        "toolACE_tool_594",
+        "toolACE_tool_8224",
+        "toolACE_tool_8895",
+        "toolACE_tool_9118",
+        "toolalpaca_tool_77",
+        "toolalpaca_tool_78",
+        "toolalpaca_tool_80",
+        "toolbench_tool_2841",
+        "toolbench_tool_5239",
+        "toolbench_tool_5240"
+      ]
+    },
+    "cat_sub14_sub3": {
+      "children": [],
+      "services": [
+        "apigen_tool_1117",
+        "apigen_tool_2882",
+        "apigen_tool_435",
+        "apigen_tool_635",
+        "apigen_tool_679",
+        "metatool_which_tool_27",
+        "reversechain_tool_269",
+        "reversechain_tool_270",
+        "reversechain_tool_315",
+        "reversechain_tool_352",
+        "reversechain_tool_426",
+        "reversechain_tool_508",
+        "reversechain_tool_509",
+        "reversechain_tool_610",
+        "reversechain_tool_611",
+        "reversechain_tool_651",
+        "reversechain_tool_71",
+        "reversechain_tool_79",
+        "reversechain_tool_80",
+        "taskbench_daily_tool_31",
+        "toolACE_tool_15248",
+        "toolACE_tool_7177",
+        "toolbench_tool_3347",
+        "toolbench_tool_799"
+      ]
+    },
+    "cat_sub14_sub4": {
+      "children": [],
+      "services": [
+        "apigen_tool_154",
+        "apigen_tool_1664",
+        "reversechain_tool_651",
+        "t_eval_step_tool_35",
+        "taskbench_daily_tool_31",
+        "toolACE_tool_14773",
+        "toolACE_tool_1960",
+        "toolACE_tool_5022",
+        "toolACE_tool_5492",
+        "toolLens_tool_88",
+        "toolbench_tool_10308",
+        "toolbench_tool_2719",
+        "toolbench_tool_4669",
+        "toolbench_tool_4875",
+        "toolbench_tool_6434"
+      ]
+    },
+    "cat_sub14_sub5": {
+      "children": [],
+      "services": [
+        "apibank_tool_35",
+        "apigen_tool_1840",
+        "apigen_tool_402",
+        "apigen_tool_835",
+        "toolACE_tool_10980",
+        "toolACE_tool_12770",
+        "toolACE_tool_7448",
+        "toolACE_tool_9018",
+        "toolalpaca_tool_78",
+        "toolbench_tool_6468",
+        "toolbench_tool_7140",
+        "toolbench_tool_8372",
+        "ultraTool_tool_994",
+        "webtools_music_tool_2"
+      ]
+    },
+    "cat_sub14_sub6": {
+      "children": [],
+      "services": [
+        "metatool_which_tool_168",
+        "metatool_which_tool_6",
+        "toolACE_tool_11696",
+        "toolACE_tool_14748",
+        "toolACE_tool_2503",
+        "toolACE_tool_4570",
+        "toolACE_tool_5829",
+        "toolACE_tool_8999",
+        "toolbench_tool_9367"
+      ]
+    },
+    "cat_sub14_sub7": {
+      "children": [],
+      "services": [
+        "metatool_which_tool_6",
+        "reversechain_tool_51",
+        "toolACE_tool_13531",
+        "toolACE_tool_14312",
+        "toolACE_tool_15039",
+        "toolACE_tool_1960",
+        "toolACE_tool_4547"
+      ]
+    },
+    "cat_sub14_sub8": {
+      "children": [],
+      "services": [
+        "toolACE_tool_11696",
+        "toolACE_tool_12770",
+        "toolACE_tool_13474",
+        "toolACE_tool_2061",
+        "toolACE_tool_4319",
+        "toolACE_tool_5829",
+        "toolACE_tool_8999",
+        "toolbench_tool_10080"
+      ]
+    },
+    "cat_sub14_sub9": {
+      "children": [],
+      "services": [
+        "toolACE_tool_14748",
+        "toolLens_tool_140",
+        "toolalpaca_tool_41",
+        "toolalpaca_tool_42",
+        "toolbench_tool_8985",
+        "toolbench_tool_9367"
+      ]
+    },
+    "cat_sub15_sub1": {
+      "children": [],
+      "services": [
+        "apigen_tool_1118",
+        "apigen_tool_112",
+        "apigen_tool_1250",
+        "apigen_tool_1423",
+        "apigen_tool_1853",
+        "apigen_tool_1931",
+        "apigen_tool_2208",
+        "apigen_tool_301",
+        "apigen_tool_72",
+        "apigen_tool_858",
+        "toolACE_tool_1010",
+        "toolACE_tool_11419",
+        "toolACE_tool_13784",
+        "toolACE_tool_14651",
+        "toolACE_tool_1551",
+        "toolACE_tool_1819",
+        "toolACE_tool_2740",
+        "toolACE_tool_3617",
+        "toolACE_tool_410",
+        "toolACE_tool_4825",
+        "toolACE_tool_6611",
+        "toolACE_tool_8696",
+        "toolbench_tool_4912",
+        "toolbench_tool_5766",
+        "webtools_spotify_tool_4"
+      ]
+    },
+    "cat_sub15_sub10": {
+      "children": [],
+      "services": [
+        "metatool_which_tool_117",
+        "metatool_which_tool_152",
+        "reversechain_tool_496",
+        "reversechain_tool_497",
+        "toolACE_tool_6358",
+        "toolACE_tool_85",
+        "toolbench_tool_7418",
+        "ultraTool_tool_1099"
+      ]
+    },
+    "cat_sub15_sub12": {
+      "children": [],
+      "services": [
+        "toolACE_tool_2555",
+        "toolACE_tool_2556",
+        "toolACE_tool_8594"
+      ]
+    },
+    "cat_sub15_sub14": {
+      "children": [],
+      "services": [
+        "metatool_which_tool_97",
+        "toolACE_tool_13784",
+        "toolACE_tool_2556",
+        "toolACE_tool_6936",
+        "toolACE_tool_9654"
+      ]
+    },
+    "cat_sub15_sub15": {
+      "children": [],
+      "services": [
+        "metatool_which_tool_97",
+        "toolACE_tool_10844",
+        "toolbench_tool_3749",
+        "toolbench_tool_5379",
+        "toolbench_tool_8422"
+      ]
+    },
+    "cat_sub15_sub16": {
+      "children": [],
+      "services": [
+        "apigen_tool_1423",
+        "apigen_tool_3378",
+        "metatool_which_tool_81",
+        "toolACE_tool_1551",
+        "toolACE_tool_7567",
+        "toolACE_tool_8696",
+        "webtools_spotify_tool_28",
+        "webtools_spotify_tool_4"
+      ]
+    },
+    "cat_sub15_sub2": {
+      "children": [],
+      "services": [
+        "apigen_tool_1118",
+        "apigen_tool_1136",
+        "apigen_tool_1289",
+        "apigen_tool_1355",
+        "apigen_tool_1606",
+        "apigen_tool_2047",
+        "apigen_tool_2053",
+        "apigen_tool_2333",
+        "apigen_tool_48",
+        "apigen_tool_736",
+        "apigen_tool_972",
+        "toolACE_tool_10086",
+        "toolACE_tool_11091",
+        "toolACE_tool_1819",
+        "toolACE_tool_3842",
+        "toolACE_tool_8847",
+        "toolACE_tool_90",
+        "toolACE_tool_9550",
+        "toolbench_tool_1047",
+        "toolbench_tool_12097",
+        "toolbench_tool_4912"
+      ]
+    },
+    "cat_sub15_sub3": {
+      "children": [],
+      "services": [
+        "apigen_tool_1136",
+        "apigen_tool_124",
+        "apigen_tool_1730",
+        "apigen_tool_2115",
+        "apigen_tool_2263",
+        "apigen_tool_2333",
+        "apigen_tool_48",
+        "toolACE_tool_3617",
+        "toolACE_tool_43",
+        "toolACE_tool_6611",
+        "toolACE_tool_7911",
+        "toolACE_tool_90",
+        "toolLens_tool_57",
+        "toolbench_tool_7418",
+        "webtools_spotify_tool_27"
+      ]
+    },
+    "cat_sub15_sub6": {
+      "children": [],
+      "services": [
+        "apigen_tool_1667",
+        "metatool_which_tool_81",
+        "toolACE_tool_743",
+        "toolACE_tool_981",
+        "toolbench_tool_866"
+      ]
+    },
+    "cat_sub15_sub7": {
+      "children": [],
+      "services": [
+        "apigen_tool_2047",
+        "metatool_which_tool_178",
+        "toolACE_tool_12401",
+        "toolACE_tool_2555",
+        "toolACE_tool_2556",
+        "toolACE_tool_6936",
+        "toolACE_tool_9654",
+        "ultraTool_tool_1069"
+      ]
+    },
+    "cat_sub15_sub9": {
+      "children": [],
+      "services": [
+        "taskbench_daily_tool_9",
+        "toolACE_tool_9758",
+        "toolbench_tool_3748",
+        "toolbench_tool_8421"
+      ]
+    },
+    "cat_sub16_sub1": {
+      "children": [],
+      "services": [
+        "apigen_tool_1039",
+        "apigen_tool_1731",
+        "apigen_tool_1848",
+        "apigen_tool_2577",
+        "metatool_which_tool_117",
+        "metatool_which_tool_37",
+        "toolACE_tool_13504",
+        "toolACE_tool_6611",
+        "toolbench_tool_4875",
+        "toolbench_tool_8061",
+        "toolbench_tool_8062",
+        "toolbench_tool_9875",
+        "tooleyes_tool_50"
+      ]
+    },
+    "cat_sub16_sub10": {
+      "children": [],
+      "services": [
+        "apigen_tool_1360",
+        "apigen_tool_186",
+        "apigen_tool_2209",
+        "apigen_tool_2508",
+        "apigen_tool_338",
+        "metatool_which_tool_138",
+        "toolACE_tool_13705",
+        "toolACE_tool_981",
+        "toolbench_tool_4140",
+        "toolbench_tool_699",
+        "toolbench_tool_9531"
+      ]
+    },
+    "cat_sub16_sub11": {
+      "children": [],
+      "services": [
+        "apigen_tool_84",
+        "reversechain_tool_609",
+        "toolACE_tool_12401",
+        "toolACE_tool_2540",
+        "toolACE_tool_2555",
+        "toolACE_tool_2556",
+        "toolACE_tool_2923",
+        "toolACE_tool_3844",
+        "toolACE_tool_5446",
+        "toolACE_tool_90",
+        "toolbench_tool_11902",
+        "toolbench_tool_4149",
+        "toolbench_tool_7418",
+        "toolbench_tool_7513",
+        "ultraTool_tool_1052",
+        "ultraTool_tool_1069",
+        "ultraTool_tool_423"
+      ]
+    },
+    "cat_sub16_sub12": {
+      "children": [],
+      "services": [
+        "apigen_tool_1641",
+        "apigen_tool_1901",
+        "apigen_tool_3300",
+        "reversechain_tool_578",
+        "toolACE_tool_10595",
+        "toolACE_tool_12676",
+        "toolACE_tool_14386",
+        "toolACE_tool_15334",
+        "toolACE_tool_2710",
+        "toolACE_tool_278",
+        "toolACE_tool_2923",
+        "toolACE_tool_4627",
+        "toolACE_tool_5356",
+        "toolACE_tool_6915",
+        "toolACE_tool_7246",
+        "toolACE_tool_7565",
+        "toolACE_tool_8901",
+        "toolbench_tool_2110",
+        "toolbench_tool_6649",
+        "toolbench_tool_7533",
+        "toolbench_tool_7534",
+        "toolbench_tool_7536",
+        "toolbench_tool_7539",
+        "toolbench_tool_907",
+        "tooleyes_tool_60"
+      ]
+    },
+    "cat_sub16_sub13": {
+      "children": [],
+      "services": [
+        "metatool_which_tool_178",
+        "metatool_which_tool_97",
+        "toolACE_tool_12976",
+        "toolACE_tool_13392",
+        "toolACE_tool_4976",
+        "toolbench_tool_2981",
+        "toolbench_tool_4760",
+        "ultraTool_tool_742"
+      ]
+    },
+    "cat_sub16_sub14": {
+      "children": [],
+      "services": [
+        "apigen_tool_1835",
+        "apigen_tool_572",
+        "apigen_tool_606",
+        "reversechain_tool_345",
+        "reversechain_tool_697",
+        "toolACE_tool_12675",
+        "toolACE_tool_12840",
+        "toolACE_tool_7641",
+        "toolACE_tool_8015",
+        "toolbench_tool_3647",
+        "toolbench_tool_6340",
+        "ultraTool_tool_350",
+        "ultraTool_tool_510"
+      ]
+    },
+    "cat_sub16_sub15": {
+      "children": [],
+      "services": [
+        "apigen_tool_1322",
+        "apigen_tool_2151",
+        "apigen_tool_410",
+        "apigen_tool_606",
+        "metatool_which_tool_151",
+        "reversechain_tool_478",
+        "toolACE_tool_1132",
+        "toolACE_tool_732",
+        "toolLens_tool_198",
+        "toolbench_tool_1069",
+        "toolbench_tool_1146",
+        "toolbench_tool_4142",
+        "toolbench_tool_6649",
+        "toolbench_tool_6650"
+      ]
+    },
+    "cat_sub16_sub16": {
+      "children": [],
+      "services": [
+        "apigen_tool_1029",
+        "apigen_tool_1121",
+        "apigen_tool_1668",
+        "apigen_tool_1780",
+        "apigen_tool_2016",
+        "apigen_tool_2872",
+        "apigen_tool_325",
+        "apigen_tool_393",
+        "apigen_tool_430",
+        "apigen_tool_439",
+        "apigen_tool_447",
+        "metatool_which_tool_0",
+        "reversechain_tool_577",
+        "reversechain_tool_697",
+        "toolACE_tool_10288",
+        "toolACE_tool_10701",
+        "toolACE_tool_12840",
+        "toolACE_tool_12947",
+        "toolACE_tool_2666",
+        "toolACE_tool_4015",
+        "toolACE_tool_4032",
+        "toolACE_tool_4241",
+        "toolACE_tool_4485",
+        "toolACE_tool_6071",
+        "toolACE_tool_7242",
+        "toolACE_tool_7419",
+        "toolACE_tool_7423",
+        "toolACE_tool_7945",
+        "toolACE_tool_8559",
+        "toolACE_tool_929",
+        "toolbench_tool_10",
+        "toolbench_tool_2110",
+        "toolbench_tool_4760",
+        "toolbench_tool_6302",
+        "toolbench_tool_7814"
+      ]
+    },
+    "cat_sub16_sub17": {
+      "children": [],
+      "services": [
+        "apigen_tool_161",
+        "metatool_which_tool_182",
+        "toolACE_tool_2503",
+        "toolACE_tool_4547",
+        "toolACE_tool_4936",
+        "toolACE_tool_7640"
+      ]
+    },
+    "cat_sub16_sub2": {
+      "children": [],
+      "services": [
+        "metatool_which_tool_97",
+        "toolACE_tool_14312",
+        "toolACE_tool_14776",
+        "toolACE_tool_2241",
+        "toolACE_tool_3532",
+        "toolACE_tool_7640",
+        "toolbench_tool_2981",
+        "toolbench_tool_6648",
+        "toolbench_tool_7534",
+        "toolbench_tool_8542"
+      ]
+    },
+    "cat_sub16_sub3": {
+      "children": [],
+      "services": [
+        "apigen_tool_1758",
+        "metatool_which_tool_171",
+        "toolACE_tool_345",
+        "toolACE_tool_6062",
+        "toolACE_tool_6358",
+        "toolACE_tool_6611",
+        "toolACE_tool_6833",
+        "toolACE_tool_7911",
+        "toolbench_tool_5552",
+        "toolbench_tool_7418"
+      ]
+    },
+    "cat_sub16_sub4": {
+      "children": [],
+      "services": [
+        "apigen_tool_1758",
+        "apigen_tool_41",
+        "toolACE_tool_11049",
+        "toolACE_tool_14022",
+        "toolACE_tool_14191",
+        "toolACE_tool_2052",
+        "toolACE_tool_2499",
+        "toolACE_tool_2540",
+        "toolbench_tool_10047",
+        "toolbench_tool_5716",
+        "ultraTool_tool_1099"
+      ]
+    },
+    "cat_sub16_sub5": {
+      "children": [],
+      "services": [
+        "metatool_which_tool_171",
+        "toolACE_tool_11049",
+        "toolACE_tool_11050",
+        "toolACE_tool_15122",
+        "toolACE_tool_15123",
+        "toolACE_tool_1885",
+        "toolACE_tool_2420",
+        "toolACE_tool_2421",
+        "toolACE_tool_2499",
+        "toolACE_tool_6833"
+      ]
+    },
+    "cat_sub16_sub6": {
+      "children": [],
+      "services": [
+        "apigen_tool_1278",
+        "apigen_tool_2308",
+        "reversechain_tool_272",
+        "reversechain_tool_273",
+        "toolACE_tool_15089",
+        "toolACE_tool_730",
+        "toolACE_tool_732",
+        "toolACE_tool_762",
+        "toolbench_tool_10",
+        "toolbench_tool_17",
+        "toolbench_tool_19",
+        "toolbench_tool_21",
+        "toolbench_tool_7684",
+        "toolbench_tool_8784",
+        "toolbench_tool_9",
+        "ultraTool_tool_275",
+        "ultraTool_tool_277",
+        "ultraTool_tool_722",
+        "ultraTool_tool_750"
+      ]
+    },
+    "cat_sub16_sub7": {
+      "children": [],
+      "services": [
+        "metatool_which_tool_151",
+        "metatool_which_tool_182",
+        "toolACE_tool_15039",
+        "toolACE_tool_15489",
+        "toolACE_tool_4547",
+        "toolACE_tool_7640"
+      ]
+    },
+    "cat_sub16_sub8": {
+      "children": [],
+      "services": [
+        "apigen_tool_1835",
+        "apigen_tool_219",
+        "apigen_tool_2229",
+        "apigen_tool_246",
+        "apigen_tool_2901",
+        "apigen_tool_309",
+        "apigen_tool_3098",
+        "apigen_tool_3356",
+        "apigen_tool_410",
+        "apigen_tool_650",
+        "apigen_tool_690",
+        "metatool_which_tool_138",
+        "metatool_which_tool_171",
+        "reversechain_tool_185",
+        "reversechain_tool_577",
+        "toolACE_tool_1155",
+        "toolACE_tool_14824",
+        "toolACE_tool_1793",
+        "toolACE_tool_3",
+        "toolACE_tool_4032",
+        "toolACE_tool_6145",
+        "toolACE_tool_6358",
+        "toolACE_tool_7424",
+        "toolACE_tool_785",
+        "toolACE_tool_7911",
+        "toolACE_tool_805",
+        "toolACE_tool_8411",
+        "toolACE_tool_967",
+        "toolLens_tool_244",
+        "toolLens_tool_264",
+        "toolbench_tool_10199",
+        "toolbench_tool_1952",
+        "toolbench_tool_2110",
+        "toolbench_tool_2931",
+        "toolbench_tool_4149",
+        "toolbench_tool_6301",
+        "toolbench_tool_6306",
+        "toolbench_tool_6649",
+        "toolbench_tool_6651",
+        "toolbench_tool_7418",
+        "toolbench_tool_7538",
+        "tooleyes_tool_65"
+      ]
+    },
+    "cat_sub16_sub9": {
+      "children": [],
+      "services": [
+        "apigen_tool_1572",
+        "apigen_tool_1880",
+        "apigen_tool_2209",
+        "apigen_tool_2674",
+        "apigen_tool_71",
+        "apigen_tool_86",
+        "metatool_which_tool_138",
+        "reversechain_tool_276",
+        "toolACE_tool_10133",
+        "toolACE_tool_1132",
+        "toolACE_tool_12676",
+        "toolACE_tool_13504",
+        "toolACE_tool_13705",
+        "toolACE_tool_2092",
+        "toolACE_tool_2499",
+        "toolACE_tool_2773",
+        "toolACE_tool_2923",
+        "toolACE_tool_5357",
+        "toolACE_tool_607",
+        "toolACE_tool_6788",
+        "toolACE_tool_6994",
+        "toolACE_tool_7367",
+        "toolACE_tool_7859",
+        "toolACE_tool_808",
+        "toolACE_tool_8852",
+        "toolACE_tool_929",
+        "toolACE_tool_9781",
+        "toolbench_tool_1069",
+        "toolbench_tool_11902",
+        "toolbench_tool_1867",
+        "toolbench_tool_1952",
+        "toolbench_tool_2272",
+        "toolbench_tool_4140",
+        "toolbench_tool_4976",
+        "toolbench_tool_7538",
+        "toolbench_tool_7827",
+        "toolbench_tool_7828",
+        "toolbench_tool_9021",
+        "toolbench_tool_905",
+        "tooleyes_tool_62",
+        "ultraTool_tool_1014"
+      ]
+    },
+    "cat_sub17_sub1": {
+      "children": [],
+      "services": [
+        "apigen_tool_1351",
+        "apigen_tool_1414",
+        "apigen_tool_2761",
+        "apigen_tool_2970",
+        "apigen_tool_633",
+        "metatool_which_tool_48",
+        "reversechain_tool_3",
+        "reversechain_tool_606",
+        "toolACE_tool_13154",
+        "toolACE_tool_13170",
+        "toolACE_tool_279",
+        "toolACE_tool_283",
+        "toolACE_tool_5882",
+        "toolACE_tool_6336",
+        "toolACE_tool_9623",
+        "toolLens_tool_46",
+        "toolbench_tool_3043",
+        "toolbench_tool_3292",
+        "toolbench_tool_3293",
+        "toolbench_tool_8393"
+      ]
+    },
+    "cat_sub17_sub11": {
+      "children": [],
+      "services": [
+        "reversechain_tool_606",
+        "toolACE_tool_12639",
+        "toolACE_tool_2222",
+        "toolACE_tool_4785",
+        "toolACE_tool_5315",
+        "toolACE_tool_6135",
+        "toolACE_tool_6291",
+        "toolACE_tool_7567",
+        "toolACE_tool_8224",
+        "toolbench_tool_5239",
+        "toolbench_tool_5240"
+      ]
+    },
+    "cat_sub17_sub2": {
+      "children": [],
+      "services": [
+        "toolACE_tool_8608",
+        "toolACE_tool_8609",
+        "toolLens_tool_140",
+        "toolbench_tool_3116",
+        "toolbench_tool_3123",
+        "toolbench_tool_3172",
+        "toolbench_tool_6457",
+        "toolbench_tool_8985",
+        "toolbench_tool_9367",
+        "toolbench_tool_9369",
+        "webtools_weather_tool_8"
+      ]
+    },
+    "cat_sub17_sub3": {
+      "children": [],
+      "services": [
+        "apigen_tool_65",
+        "apigen_tool_78",
+        "toolACE_tool_11888",
+        "toolACE_tool_14776",
+        "toolACE_tool_2141",
+        "toolACE_tool_2434",
+        "toolACE_tool_2510",
+        "toolACE_tool_5707",
+        "toolACE_tool_9315",
+        "toolalpaca_tool_40",
+        "toolalpaca_tool_41",
+        "toolbench_tool_2727",
+        "toolbench_tool_2728",
+        "toolbench_tool_2730",
+        "toolbench_tool_4882",
+        "webtools_food_tool_7"
+      ]
+    },
+    "cat_sub17_sub4": {
+      "children": [],
+      "services": [
+        "apigen_tool_1955",
+        "apigen_tool_2292",
+        "apigen_tool_2674",
+        "toolACE_tool_10133",
+        "toolACE_tool_12107",
+        "toolACE_tool_13168",
+        "toolACE_tool_13171",
+        "toolACE_tool_13392",
+        "toolACE_tool_281",
+        "tooleyes_tool_57"
+      ]
+    },
+    "cat_sub17_sub5": {
+      "children": [],
+      "services": [
+        "apibank_tool_35",
+        "apigen_tool_342",
+        "apigen_tool_410",
+        "metatool_which_tool_40",
+        "metatool_which_tool_6",
+        "t_eval_step_tool_1",
+        "toolACE_tool_13504",
+        "toolACE_tool_14825",
+        "toolACE_tool_1960",
+        "toolACE_tool_3997",
+        "toolACE_tool_6290",
+        "toolACE_tool_6788",
+        "toolACE_tool_9839",
+        "toolbench_tool_5265",
+        "toolbench_tool_5266",
+        "toolbench_tool_6588",
+        "toolbench_tool_6589",
+        "toolbench_tool_7534",
+        "toolbench_tool_9021",
+        "toolbench_tool_9199",
+        "tooleyes_tool_56",
+        "tooleyes_tool_57",
+        "tooleyes_tool_62"
+      ]
+    },
+    "cat_sub17_sub7": {
+      "children": [],
+      "services": [
+        "apigen_tool_1928",
+        "apigen_tool_70",
+        "metatool_which_tool_106",
+        "reversechain_tool_286",
+        "reversechain_tool_413",
+        "toolACE_tool_11888",
+        "toolACE_tool_13437",
+        "toolACE_tool_13687",
+        "toolACE_tool_14776",
+        "toolACE_tool_15401",
+        "toolACE_tool_1980",
+        "toolACE_tool_2092",
+        "toolACE_tool_2241",
+        "toolACE_tool_2425",
+        "toolACE_tool_4636",
+        "toolACE_tool_5099",
+        "toolACE_tool_5687",
+        "toolACE_tool_5828",
+        "toolACE_tool_6291",
+        "toolbench_tool_4893",
+        "toolbench_tool_7280"
+      ]
+    },
+    "cat_sub17_sub8": {
+      "children": [],
+      "services": [
+        "apigen_tool_402",
+        "apigen_tool_843",
+        "reversechain_tool_603",
+        "toolACE_tool_13392",
+        "toolACE_tool_169",
+        "toolACE_tool_2092",
+        "toolACE_tool_2176",
+        "toolACE_tool_2425",
+        "toolACE_tool_5828",
+        "toolACE_tool_5936",
+        "toolACE_tool_6140",
+        "toolACE_tool_8723",
+        "toolalpaca_tool_11",
+        "toolbench_tool_3043",
+        "toolbench_tool_6589",
+        "toolbench_tool_9930"
+      ]
+    },
+    "cat_sub17_sub9": {
+      "children": [],
+      "services": [
+        "apigen_tool_360",
+        "apigen_tool_843",
+        "toolACE_tool_13171",
+        "toolACE_tool_5316",
+        "toolACE_tool_5936",
+        "toolACE_tool_6140",
+        "toolACE_tool_7690",
+        "toolACE_tool_9709",
+        "toolACE_tool_9710",
+        "toolbench_tool_4843",
+        "toolbench_tool_7538"
+      ]
+    },
+    "cat_sub2_sub1": {
+      "children": [],
+      "services": [
+        "apigen_tool_1050",
+        "apigen_tool_1146",
+        "apigen_tool_1149",
+        "apigen_tool_1972",
+        "apigen_tool_44",
+        "apigen_tool_45",
+        "apigen_tool_655",
+        "apigen_tool_81",
+        "toolACE_tool_15289",
+        "toolACE_tool_169",
+        "toolACE_tool_3352",
+        "toolLens_tool_222",
+        "toolbench_tool_7655",
+        "toolbench_tool_7660"
+      ]
+    },
+    "cat_sub2_sub10": {
+      "children": [],
+      "services": [
+        "apigen_tool_717",
+        "toolACE_tool_7081",
+        "toolACE_tool_810",
+        "toolLens_tool_25",
+        "toolbench_tool_3150",
+        "toolbench_tool_3151"
+      ]
+    },
+    "cat_sub2_sub12": {
+      "children": [],
+      "services": [
+        "apigen_tool_1985",
+        "apigen_tool_2003",
+        "apigen_tool_497",
+        "apigen_tool_961",
+        "toolACE_tool_4532"
+      ]
+    },
+    "cat_sub2_sub13": {
+      "children": [],
+      "services": [
+        "toolACE_tool_11382",
+        "toolACE_tool_11774",
+        "toolACE_tool_11775",
+        "toolACE_tool_14030",
+        "toolACE_tool_15624",
+        "toolACE_tool_15803",
+        "toolACE_tool_2554",
+        "toolACE_tool_8999",
+        "toolLens_tool_104",
+        "ultraTool_tool_985"
+      ]
+    },
+    "cat_sub2_sub14": {
+      "children": [],
+      "services": [
+        "apigen_tool_1147",
+        "apigen_tool_1660",
+        "toolACE_tool_10534",
+        "toolACE_tool_11417",
+        "toolACE_tool_1234",
+        "toolACE_tool_12421",
+        "toolACE_tool_3260",
+        "toolACE_tool_3804",
+        "toolACE_tool_5446",
+        "toolbench_tool_8189"
+      ]
+    },
+    "cat_sub2_sub15": {
+      "children": [],
+      "services": [
+        "apigen_tool_1319",
+        "apigen_tool_1494",
+        "apigen_tool_1907",
+        "apigen_tool_2246",
+        "apigen_tool_2610",
+        "apigen_tool_2746",
+        "apigen_tool_307",
+        "apigen_tool_328",
+        "apigen_tool_448",
+        "apigen_tool_715",
+        "metatool_which_tool_120",
+        "toolACE_tool_10534",
+        "toolACE_tool_12039",
+        "toolACE_tool_1365",
+        "toolACE_tool_177",
+        "toolACE_tool_226",
+        "toolACE_tool_266",
+        "toolACE_tool_3260",
+        "toolACE_tool_5191",
+        "toolACE_tool_5256",
+        "toolACE_tool_599",
+        "toolACE_tool_6090",
+        "toolACE_tool_6580",
+        "toolACE_tool_7284",
+        "toolACE_tool_7494",
+        "toolACE_tool_9766",
+        "toolACE_tool_991",
+        "toolbench_tool_1514",
+        "toolbench_tool_1515",
+        "toolbench_tool_1591",
+        "toolbench_tool_5971",
+        "toolbench_tool_7663",
+        "toolbench_tool_8189",
+        "toolbench_tool_8194",
+        "toolbench_tool_9226",
+        "tooleyes_tool_75"
+      ]
+    },
+    "cat_sub2_sub2": {
+      "children": [],
+      "services": [
+        "apigen_tool_1199",
+        "apigen_tool_1683",
+        "apigen_tool_2003",
+        "apigen_tool_2264",
+        "apigen_tool_2272",
+        "apigen_tool_329",
+        "apigen_tool_607",
+        "apigen_tool_61",
+        "apigen_tool_775",
+        "metatool_which_tool_172",
+        "toolACE_tool_11173",
+        "toolACE_tool_1234",
+        "toolACE_tool_272",
+        "toolACE_tool_3893",
+        "toolACE_tool_4785",
+        "toolACE_tool_7498",
+        "toolLens_tool_287",
+        "toolbench_tool_1640",
+        "toolbench_tool_3205",
+        "toolbench_tool_3206",
+        "toolbench_tool_390",
+        "toolbench_tool_5972"
+      ]
+    },
+    "cat_sub2_sub3": {
+      "children": [],
+      "services": [
+        "apigen_tool_1105",
+        "apigen_tool_2097",
+        "toolACE_tool_1642",
+        "toolACE_tool_8489",
+        "toolACE_tool_913",
+        "toolbench_tool_1531"
+      ]
+    },
+    "cat_sub2_sub4": {
+      "children": [],
+      "services": [
+        "apigen_tool_1469",
+        "apigen_tool_1993",
+        "apigen_tool_43",
+        "apigen_tool_498",
+        "apigen_tool_870",
+        "toolACE_tool_1070",
+        "toolACE_tool_173",
+        "toolACE_tool_1815",
+        "toolACE_tool_9517",
+        "toolLens_tool_226",
+        "toolLens_tool_23",
+        "toolbench_tool_1442",
+        "toolbench_tool_1446",
+        "toolbench_tool_1448",
+        "toolbench_tool_1449",
+        "toolbench_tool_1669"
+      ]
+    },
+    "cat_sub2_sub5": {
+      "children": [],
+      "services": [
+        "apigen_tool_1201",
+        "apigen_tool_247",
+        "toolACE_tool_7841",
+        "toolbench_tool_1287",
+        "toolbench_tool_1290",
+        "toolbench_tool_5860"
+      ]
+    },
+    "cat_sub2_sub6": {
+      "children": [],
+      "services": [
+        "apigen_tool_1368",
+        "apigen_tool_2121",
+        "apigen_tool_2189",
+        "apigen_tool_24",
+        "apigen_tool_594",
+        "toolACE_tool_11803",
+        "toolACE_tool_3804",
+        "toolACE_tool_7495"
+      ]
+    },
+    "cat_sub2_sub7": {
+      "children": [],
+      "services": [
+        "apigen_tool_1481",
+        "apigen_tool_2004",
+        "apigen_tool_2692",
+        "apigen_tool_776",
+        "apigen_tool_978",
+        "toolbench_tool_1452",
+        "toolbench_tool_1454",
+        "toolbench_tool_1460"
+      ]
+    },
+    "cat_sub2_sub8": {
+      "children": [],
+      "services": [
+        "apigen_tool_1551",
+        "apigen_tool_497",
+        "toolACE_tool_3501",
+        "toolACE_tool_4046",
+        "toolACE_tool_9359",
+        "toolbench_tool_7597",
+        "toolbench_tool_7606"
+      ]
+    },
+    "cat_sub2_sub9": {
+      "children": [],
+      "services": [
+        "apigen_tool_1723",
+        "apigen_tool_2468",
+        "apigen_tool_406",
+        "toolACE_tool_12768",
+        "toolACE_tool_12770",
+        "toolACE_tool_358",
+        "toolACE_tool_4319",
+        "toolLens_tool_135"
+      ]
+    },
+    "cat_sub28_sub1": {
+      "children": [],
+      "services": [
+        "apigen_tool_1117",
+        "apigen_tool_136",
+        "apigen_tool_3052",
+        "apigen_tool_3268",
+        "apigen_tool_679",
+        "metatool_which_tool_27",
+        "metatool_which_tool_28",
+        "reversechain_tool_225",
+        "reversechain_tool_268",
+        "reversechain_tool_269",
+        "reversechain_tool_270",
+        "reversechain_tool_315",
+        "reversechain_tool_316",
+        "reversechain_tool_333",
+        "reversechain_tool_352",
+        "reversechain_tool_353",
+        "reversechain_tool_508",
+        "reversechain_tool_509",
+        "reversechain_tool_610",
+        "reversechain_tool_612",
+        "reversechain_tool_651",
+        "reversechain_tool_79",
+        "reversechain_tool_80",
+        "t_eval_step_tool_44",
+        "taskbench_daily_tool_31",
+        "toolACE_tool_10058",
+        "toolACE_tool_11900",
+        "toolACE_tool_13044",
+        "toolACE_tool_4337",
+        "toolACE_tool_6194",
+        "toolACE_tool_7177",
+        "toolbench_tool_3347",
+        "toolbench_tool_6438",
+        "toolbench_tool_804"
+      ]
+    },
+    "cat_sub28_sub10": {
+      "children": [],
+      "services": [
+        "reversechain_tool_13",
+        "reversechain_tool_181",
+        "reversechain_tool_182",
+        "reversechain_tool_363",
+        "reversechain_tool_407",
+        "reversechain_tool_415",
+        "reversechain_tool_522",
+        "t_eval_step_tool_31",
+        "t_eval_step_tool_33",
+        "toolACE_tool_12139",
+        "toolACE_tool_13847",
+        "toolACE_tool_9672",
+        "toolbench_tool_6625"
+      ]
+    },
+    "cat_sub28_sub11": {
+      "children": [],
+      "services": [
+        "toolACE_tool_12768",
+        "toolACE_tool_12770",
+        "toolACE_tool_2061",
+        "toolACE_tool_3195",
+        "toolACE_tool_4319",
+        "toolACE_tool_8780",
+        "toolACE_tool_9817"
+      ]
+    },
+    "cat_sub28_sub12": {
+      "children": [],
+      "services": [
+        "toolACE_tool_10595",
+        "toolACE_tool_11696",
+        "toolACE_tool_13044",
+        "toolACE_tool_13474",
+        "toolACE_tool_13847",
+        "toolACE_tool_15289",
+        "toolACE_tool_16067"
+      ]
+    },
+    "cat_sub28_sub13": {
+      "children": [],
+      "services": [
+        "apigen_tool_1606",
+        "apigen_tool_2208",
+        "apigen_tool_354",
+        "toolACE_tool_11291",
+        "toolACE_tool_1819",
+        "toolalpaca_tool_40",
+        "toolbench_tool_3347",
+        "toolbench_tool_4518",
+        "toolbench_tool_4914",
+        "toolbench_tool_5766",
+        "toolbench_tool_866"
+      ]
+    },
+    "cat_sub28_sub14": {
+      "children": [],
+      "services": [
+        "appbench_tool_30",
+        "reversechain_tool_105",
+        "reversechain_tool_278",
+        "reversechain_tool_337",
+        "reversechain_tool_458",
+        "reversechain_tool_591",
+        "reversechain_tool_635",
+        "reversechain_tool_99",
+        "toolACE_tool_12188",
+        "toolACE_tool_16067",
+        "toolLens_tool_123",
+        "toolLens_tool_5",
+        "toolbench_tool_12614"
+      ]
+    },
+    "cat_sub28_sub15": {
+      "children": [],
+      "services": [
+        "apigen_tool_1617",
+        "apigen_tool_1730",
+        "apigen_tool_276",
+        "appbench_tool_30",
+        "metatool_which_tool_147",
+        "toolACE_tool_2282",
+        "toolACE_tool_4319",
+        "toolACE_tool_6135",
+        "toolACE_tool_9018",
+        "toolbench_tool_7140"
+      ]
+    },
+    "cat_sub28_sub16": {
+      "children": [],
+      "services": [
+        "apigen_tool_153",
+        "apigen_tool_1594",
+        "apigen_tool_1888",
+        "apigen_tool_454",
+        "apigen_tool_492",
+        "apigen_tool_884",
+        "metatool_which_tool_28",
+        "metatool_which_tool_30",
+        "reversechain_tool_509",
+        "toolACE_tool_16067",
+        "toolACE_tool_2144",
+        "toolACE_tool_3489",
+        "toolbench_tool_2953",
+        "webtools_music_tool_1",
+        "webtools_spotify_tool_27",
+        "webtools_spotify_tool_4"
+      ]
+    },
+    "cat_sub28_sub17": {
+      "children": [],
+      "services": [
+        "apigen_tool_1353",
+        "apigen_tool_1547",
+        "apigen_tool_1840",
+        "apigen_tool_2208",
+        "apigen_tool_3021",
+        "apigen_tool_3169",
+        "toolACE_tool_14098",
+        "toolLens_tool_171",
+        "toolbench_tool_4589",
+        "toolbench_tool_4590",
+        "toolbench_tool_4652",
+        "toolbench_tool_4669"
+      ]
+    },
+    "cat_sub28_sub18": {
+      "children": [],
+      "services": [
+        "apigen_tool_0",
+        "apigen_tool_1146",
+        "apigen_tool_2610",
+        "apigen_tool_776",
+        "toolACE_tool_10534",
+        "toolACE_tool_11696",
+        "toolACE_tool_12770",
+        "toolACE_tool_15289",
+        "toolACE_tool_2061",
+        "toolACE_tool_4319"
+      ]
+    },
+    "cat_sub28_sub19": {
+      "children": [],
+      "services": [
+        "apigen_tool_136",
+        "apigen_tool_1606",
+        "apigen_tool_2333",
+        "toolACE_tool_10595",
+        "toolACE_tool_16067",
+        "toolACE_tool_1819",
+        "toolACE_tool_4337"
+      ]
+    },
+    "cat_sub28_sub3": {
+      "children": [],
+      "services": [
+        "apigen_tool_3052",
+        "apigen_tool_3268",
+        "toolACE_tool_11291",
+        "toolACE_tool_11900",
+        "toolACE_tool_12157",
+        "toolACE_tool_13044",
+        "toolACE_tool_13769",
+        "toolACE_tool_9585",
+        "toolalpaca_tool_43",
+        "toolbench_tool_4667",
+        "toolbench_tool_804",
+        "toolbench_tool_8149",
+        "toolbench_tool_8150",
+        "toolbench_tool_866"
+      ]
+    },
+    "cat_sub28_sub5": {
+      "children": [],
+      "services": [
+        "apigen_tool_1205",
+        "apigen_tool_2030",
+        "apigen_tool_354",
+        "apigen_tool_725",
+        "metatool_which_tool_28",
+        "reversechain_tool_267",
+        "toolACE_tool_11582",
+        "toolACE_tool_1819",
+        "toolLens_tool_111",
+        "toolbench_tool_11848",
+        "toolbench_tool_12888",
+        "toolbench_tool_13540",
+        "toolbench_tool_4518",
+        "toolbench_tool_791",
+        "toolbench_tool_795",
+        "toolbench_tool_797",
+        "toolbench_tool_799",
+        "toolbench_tool_804",
+        "webtools_tmdb_tool_48",
+        "webtools_tmdb_tool_52"
+      ]
+    },
+    "cat_sub28_sub7": {
+      "children": [],
+      "services": [
+        "apigen_tool_2077",
+        "apigen_tool_2421",
+        "toolACE_tool_594",
+        "toolACE_tool_8895",
+        "toolACE_tool_9118",
+        "toolalpaca_tool_78",
+        "toolalpaca_tool_80",
+        "toolbench_tool_2841",
+        "toolbench_tool_2889",
+        "toolbench_tool_5239"
+      ]
+    },
+    "cat_sub28_sub9": {
+      "children": [],
+      "services": [
+        "apigen_tool_1606",
+        "apigen_tool_276",
+        "appbench_tool_30",
+        "reversechain_tool_697",
+        "reversechain_tool_698",
+        "toolACE_tool_12188",
+        "toolACE_tool_9817",
+        "toolLens_tool_198",
+        "toolbench_tool_12614",
+        "ultraTool_tool_627"
+      ]
+    },
+    "cat_sub3_sub1": {
+      "children": [],
+      "services": [
+        "apigen_tool_1118",
+        "apigen_tool_1614",
+        "apigen_tool_1666",
+        "apigen_tool_2363",
+        "apigen_tool_415",
+        "apigen_tool_832",
+        "metatool_which_tool_50",
+        "reversechain_tool_604",
+        "toolACE_tool_10227",
+        "toolACE_tool_1091",
+        "toolACE_tool_5817",
+        "toolACE_tool_5821",
+        "toolACE_tool_7373",
+        "toolLens_tool_109",
+        "toolLens_tool_71",
+        "toolbench_tool_1144",
+        "toolbench_tool_382",
+        "toolbench_tool_7575",
+        "toolbench_tool_86",
+        "tooleyes_tool_41",
+        "tooleyes_tool_43",
+        "tooleyes_tool_47",
+        "ultraTool_tool_684",
+        "webtools_food_tool_14",
+        "webtools_food_tool_5",
+        "webtools_food_tool_9"
+      ]
+    },
+    "cat_sub3_sub10": {
+      "children": [],
+      "services": [
+        "apigen_tool_2209",
+        "apigen_tool_2308",
+        "reversechain_tool_42",
+        "reversechain_tool_478",
+        "reversechain_tool_504",
+        "reversechain_tool_604",
+        "reversechain_tool_697",
+        "toolACE_tool_16030",
+        "toolbench_tool_1146",
+        "toolbench_tool_5823",
+        "toolbench_tool_6625"
+      ]
+    },
+    "cat_sub3_sub11": {
+      "children": [],
+      "services": [
+        "apigen_tool_605",
+        "apigen_tool_614",
+        "apigen_tool_942",
+        "toolACE_tool_14906"
+      ]
+    },
+    "cat_sub3_sub13": {
+      "children": [],
+      "services": [
+        "apigen_tool_1846",
+        "apigen_tool_2729",
+        "apigen_tool_606",
+        "apigen_tool_84",
+        "reversechain_tool_424",
+        "toolACE_tool_15122",
+        "toolACE_tool_15123",
+        "toolLens_tool_72",
+        "toolbench_tool_3647",
+        "toolbench_tool_4149"
+      ]
+    },
+    "cat_sub3_sub14": {
+      "children": [],
+      "services": [
+        "metatool_which_tool_50",
+        "reversechain_tool_505",
+        "toolACE_tool_5821",
+        "toolACE_tool_8025",
+        "toolLens_tool_71"
+      ]
+    },
+    "cat_sub3_sub2": {
+      "children": [],
+      "services": [
+        "apigen_tool_1118",
+        "apigen_tool_1666",
+        "apigen_tool_1846",
+        "apigen_tool_222",
+        "apigen_tool_2477",
+        "apigen_tool_398",
+        "apigen_tool_536",
+        "reversechain_tool_349",
+        "reversechain_tool_350",
+        "reversechain_tool_633",
+        "toolACE_tool_11387",
+        "toolACE_tool_7554",
+        "toolACE_tool_7701",
+        "toolbench_tool_1152",
+        "toolbench_tool_383",
+        "toolbench_tool_7502",
+        "toolbench_tool_7504",
+        "toolbench_tool_7575",
+        "toolbench_tool_8571",
+        "toolbench_tool_9069",
+        "webtools_food_tool_1",
+        "webtools_food_tool_10"
+      ]
+    },
+    "cat_sub3_sub3": {
+      "children": [],
+      "services": [
+        "apigen_tool_1507",
+        "apigen_tool_398",
+        "metatool_which_tool_43",
+        "metatool_which_tool_45",
+        "reversechain_tool_275",
+        "reversechain_tool_45",
+        "toolACE_tool_11049",
+        "toolACE_tool_11385",
+        "toolACE_tool_2499",
+        "toolACE_tool_2738",
+        "toolbench_tool_2792",
+        "toolbench_tool_4906",
+        "toolbench_tool_8571"
+      ]
+    },
+    "cat_sub3_sub4": {
+      "children": [],
+      "services": [
+        "apigen_tool_137",
+        "toolACE_tool_4413",
+        "toolbench_tool_1117",
+        "toolbench_tool_4149",
+        "toolbench_tool_7576",
+        "ultraTool_tool_1052"
+      ]
+    },
+    "cat_sub3_sub5": {
+      "children": [],
+      "services": [
+        "apigen_tool_29",
+        "reversechain_tool_271",
+        "reversechain_tool_272",
+        "reversechain_tool_42",
+        "reversechain_tool_45",
+        "reversechain_tool_634",
+        "reversechain_tool_650",
+        "toolACE_tool_1998",
+        "toolACE_tool_4317",
+        "toolbench_tool_8571",
+        "ultraTool_tool_1014",
+        "webtools_food_tool_1"
+      ]
+    },
+    "cat_sub3_sub6": {
+      "children": [],
+      "services": [
+        "reversechain_tool_273",
+        "reversechain_tool_435",
+        "reversechain_tool_643",
+        "toolACE_tool_7576"
+      ]
+    },
+    "cat_sub3_sub7": {
+      "children": [],
+      "services": [
+        "apigen_tool_2779",
+        "apigen_tool_29",
+        "apigen_tool_320",
+        "metatool_which_tool_50",
+        "reversechain_tool_152",
+        "reversechain_tool_192",
+        "reversechain_tool_426",
+        "reversechain_tool_43",
+        "reversechain_tool_516",
+        "reversechain_tool_644",
+        "reversechain_tool_646",
+        "reversechain_tool_647",
+        "taskbench_daily_tool_31",
+        "taskbench_daily_tool_7",
+        "toolACE_tool_10333"
+      ]
+    },
+    "cat_sub3_sub9": {
+      "children": [],
+      "services": [
+        "metatool_which_tool_42",
+        "reversechain_tool_153",
+        "reversechain_tool_351",
+        "reversechain_tool_729",
+        "toolACE_tool_11050",
+        "toolACE_tool_8271",
+        "webtools_food_tool_12"
+      ]
+    },
+    "cat_sub4_sub1": {
+      "children": [],
+      "services": [
+        "appbench_tool_9",
+        "reversechain_tool_245",
+        "reversechain_tool_274",
+        "reversechain_tool_325",
+        "reversechain_tool_386",
+        "reversechain_tool_39",
+        "reversechain_tool_529",
+        "reversechain_tool_65",
+        "taskbench_daily_tool_3",
+        "toolACE_tool_4382",
+        "toolACE_tool_8015",
+        "toolbench_tool_2465",
+        "toolbench_tool_6340",
+        "toolbench_tool_7013",
+        "ultraTool_tool_267",
+        "ultraTool_tool_510",
+        "ultraTool_tool_617",
+        "ultraTool_tool_626"
+      ]
+    },
+    "cat_sub4_sub10": {
+      "children": [],
+      "services": [
+        "apigen_tool_1419",
+        "apigen_tool_1570",
+        "apigen_tool_1644",
+        "apigen_tool_1799",
+        "apigen_tool_1952",
+        "apigen_tool_2241",
+        "apigen_tool_402",
+        "apigen_tool_572",
+        "reversechain_tool_128",
+        "reversechain_tool_129",
+        "reversechain_tool_19",
+        "reversechain_tool_63",
+        "reversechain_tool_85",
+        "toolACE_tool_1097",
+        "toolACE_tool_12008",
+        "toolACE_tool_16007",
+        "toolACE_tool_16050",
+        "toolACE_tool_3201",
+        "toolACE_tool_4117",
+        "toolACE_tool_540",
+        "toolACE_tool_607",
+        "toolACE_tool_732",
+        "toolACE_tool_7641",
+        "toolACE_tool_929",
+        "toolACE_tool_9612",
+        "toolLens_tool_16",
+        "toolLens_tool_29",
+        "toolalpaca_tool_11",
+        "toolalpaca_tool_9",
+        "toolbench_tool_2404",
+        "toolbench_tool_6387",
+        "toolbench_tool_6389",
+        "toolbench_tool_7797",
+        "toolbench_tool_7798",
+        "toolbench_tool_9933",
+        "toolbench_tool_9937",
+        "toolbench_tool_9940"
+      ]
+    },
+    "cat_sub4_sub11": {
+      "children": [],
+      "services": [
+        "apigen_tool_264",
+        "apigen_tool_572",
+        "reversechain_tool_20",
+        "reversechain_tool_345",
+        "toolACE_tool_12840",
+        "toolACE_tool_15089",
+        "toolACE_tool_3493",
+        "toolACE_tool_6575",
+        "toolACE_tool_762",
+        "toolACE_tool_810",
+        "toolACE_tool_8623",
+        "toolACE_tool_9405",
+        "toolACE_tool_9631",
+        "toolbench_tool_19",
+        "toolbench_tool_4256",
+        "toolbench_tool_9930"
+      ]
+    },
+    "cat_sub4_sub12": {
+      "children": [],
+      "services": [
+        "apigen_tool_1034",
+        "apigen_tool_1521",
+        "apigen_tool_1692",
+        "apigen_tool_2292",
+        "apigen_tool_2674",
+        "apigen_tool_2761",
+        "apigen_tool_3049",
+        "apigen_tool_717",
+        "apigen_tool_843",
+        "reversechain_tool_131",
+        "reversechain_tool_21",
+        "reversechain_tool_222",
+        "reversechain_tool_276",
+        "reversechain_tool_277",
+        "reversechain_tool_278",
+        "reversechain_tool_280",
+        "reversechain_tool_302",
+        "reversechain_tool_40",
+        "reversechain_tool_530",
+        "reversechain_tool_531",
+        "reversechain_tool_603",
+        "reversechain_tool_64",
+        "reversechain_tool_697",
+        "reversechain_tool_94",
+        "t_eval_step_tool_13",
+        "toolACE_tool_10381",
+        "toolACE_tool_12675",
+        "toolACE_tool_12676",
+        "toolACE_tool_16030",
+        "toolACE_tool_1998",
+        "toolACE_tool_2423",
+        "toolACE_tool_3200",
+        "toolACE_tool_3239",
+        "toolACE_tool_3451",
+        "toolACE_tool_5936",
+        "toolACE_tool_6575",
+        "toolACE_tool_7004",
+        "toolACE_tool_7081",
+        "toolACE_tool_9405",
+        "toolLens_tool_123",
+        "toolLens_tool_25",
+        "toolLens_tool_5",
+        "toolLens_tool_94",
+        "toolbench_tool_1727",
+        "toolbench_tool_1729",
+        "toolbench_tool_2392",
+        "toolbench_tool_3148",
+        "toolbench_tool_3150",
+        "toolbench_tool_3667",
+        "toolbench_tool_5675",
+        "toolbench_tool_9800",
+        "ultraTool_tool_1140",
+        "ultraTool_tool_582",
+        "ultraTool_tool_737",
+        "webtools_weather_tool_1",
+        "webtools_weather_tool_10"
+      ]
+    },
+    "cat_sub4_sub13": {
+      "children": [],
+      "services": [
+        "reversechain_tool_17",
+        "reversechain_tool_301",
+        "reversechain_tool_474",
+        "reversechain_tool_654",
+        "taskbench_daily_tool_26",
+        "toolACE_tool_2738",
+        "toolACE_tool_5871",
+        "toolLens_tool_5",
+        "toolLens_tool_72",
+        "toolbench_tool_12614",
+        "ultraTool_tool_389"
+      ]
+    },
+    "cat_sub4_sub15": {
+      "children": [],
+      "services": [
+        "toolACE_tool_7632",
+        "toolbench_tool_6340",
+        "ultraTool_tool_267"
+      ]
+    },
+    "cat_sub4_sub2": {
+      "children": [],
+      "services": [
+        "apibank_tool_83",
+        "apigen_tool_1521",
+        "apigen_tool_2378",
+        "apigen_tool_256",
+        "apigen_tool_27",
+        "apigen_tool_440",
+        "metatool_which_tool_25",
+        "reversechain_tool_133",
+        "reversechain_tool_275",
+        "reversechain_tool_32",
+        "reversechain_tool_330",
+        "reversechain_tool_331",
+        "reversechain_tool_384",
+        "reversechain_tool_385",
+        "reversechain_tool_395",
+        "reversechain_tool_411",
+        "reversechain_tool_542",
+        "reversechain_tool_601",
+        "reversechain_tool_654",
+        "reversechain_tool_715",
+        "reversechain_tool_748",
+        "reversechain_tool_75",
+        "reversechain_tool_76",
+        "reversechain_tool_87",
+        "t_eval_dialog_tool_18",
+        "toolACE_tool_4001",
+        "toolACE_tool_4118",
+        "toolACE_tool_4384",
+        "toolACE_tool_7633",
+        "toolbench_tool_11372",
+        "tooleyes_tool_85",
+        "tooleyes_tool_87",
+        "ultraTool_tool_446",
+        "ultraTool_tool_466",
+        "ultraTool_tool_490",
+        "ultraTool_tool_503",
+        "ultraTool_tool_552",
+        "ultraTool_tool_554",
+        "ultraTool_tool_558"
+      ]
+    },
+    "cat_sub4_sub3": {
+      "children": [],
+      "services": [
+        "appbench_tool_4",
+        "taskbench_daily_tool_27",
+        "toolACE_tool_1998",
+        "toolACE_tool_3200",
+        "ultraTool_tool_275",
+        "ultraTool_tool_722"
+      ]
+    },
+    "cat_sub4_sub4": {
+      "children": [],
+      "services": [
+        "appbench_tool_2",
+        "reversechain_tool_548",
+        "taskbench_daily_tool_6",
+        "toolACE_tool_4380",
+        "toolACE_tool_9036",
+        "ultraTool_tool_350"
+      ]
+    },
+    "cat_sub4_sub5": {
+      "children": [],
+      "services": [
+        "apigen_tool_269",
+        "appbench_tool_5",
+        "reversechain_tool_452",
+        "reversechain_tool_585",
+        "reversechain_tool_590",
+        "toolACE_tool_10194",
+        "toolACE_tool_1423",
+        "toolLens_tool_280",
+        "toolbench_tool_2433",
+        "toolbench_tool_4233"
+      ]
+    },
+    "cat_sub4_sub6": {
+      "children": [],
+      "services": [
+        "apigen_tool_937",
+        "reversechain_tool_453",
+        "ultraTool_tool_524"
+      ]
+    },
+    "cat_sub4_sub7": {
+      "children": [],
+      "services": [
+        "toolACE_tool_2738",
+        "toolACE_tool_7132",
+        "toolACE_tool_878",
+        "ultraTool_tool_684"
+      ]
+    },
+    "cat_sub4_sub9": {
+      "children": [],
+      "services": [
+        "apigen_tool_1569",
+        "apigen_tool_768",
+        "appbench_tool_30",
+        "metatool_which_tool_25",
+        "metatool_which_tool_26",
+        "reversechain_tool_246",
+        "reversechain_tool_302",
+        "reversechain_tool_585",
+        "reversechain_tool_589",
+        "reversechain_tool_89",
+        "toolbench_tool_12614",
+        "toolbench_tool_3622",
+        "toolbench_tool_5673",
+        "toolbench_tool_7332",
+        "toolbench_tool_8600",
+        "ultraTool_tool_684"
+      ]
+    },
+    "cat_sub41_sub1": {
+      "children": [],
+      "services": [
+        "apigen_tool_1277",
+        "apigen_tool_1359",
+        "apigen_tool_150",
+        "apigen_tool_2081",
+        "apigen_tool_2130",
+        "apigen_tool_529",
+        "apigen_tool_972",
+        "toolACE_tool_10400",
+        "toolACE_tool_10734",
+        "toolACE_tool_1180",
+        "toolACE_tool_14651",
+        "toolACE_tool_4747",
+        "toolACE_tool_4825",
+        "toolACE_tool_981",
+        "toolbench_tool_1040",
+        "toolbench_tool_3009",
+        "toolbench_tool_4914",
+        "toolbench_tool_6468",
+        "toolbench_tool_826",
+        "toolbench_tool_9004",
+        "toolbench_tool_9531"
+      ]
+    },
+    "cat_sub41_sub10": {
+      "children": [],
+      "services": [
+        "apigen_tool_1507",
+        "apigen_tool_354",
+        "apigen_tool_614",
+        "apigen_tool_942",
+        "reversechain_tool_634",
+        "toolACE_tool_4118",
+        "toolACE_tool_7444",
+        "toolACE_tool_8025",
+        "toolLens_tool_19",
+        "ultraTool_tool_1014"
+      ]
+    },
+    "cat_sub41_sub11": {
+      "children": [],
+      "services": [
+        "apigen_tool_1507",
+        "apigen_tool_1521",
+        "apigen_tool_440",
+        "metatool_which_tool_151",
+        "toolACE_tool_2052",
+        "toolACE_tool_4118",
+        "toolACE_tool_6194",
+        "toolACE_tool_981",
+        "toolbench_tool_10080",
+        "toolbench_tool_699"
+      ]
+    },
+    "cat_sub41_sub13": {
+      "children": [],
+      "services": [
+        "metatool_which_tool_109",
+        "toolACE_tool_10734",
+        "toolACE_tool_14651",
+        "toolACE_tool_15248",
+        "toolACE_tool_7444",
+        "toolbench_tool_3009",
+        "toolbench_tool_4518",
+        "toolbench_tool_4914",
+        "toolbench_tool_5766",
+        "toolbench_tool_784",
+        "webtools_tmdb_tool_29"
+      ]
+    },
+    "cat_sub41_sub2": {
+      "children": [],
+      "services": [
+        "apigen_tool_1644",
+        "apigen_tool_1846",
+        "apigen_tool_222",
+        "apigen_tool_415",
+        "apigen_tool_536",
+        "apigen_tool_605",
+        "apigen_tool_942",
+        "metatool_which_tool_42",
+        "reversechain_tool_151",
+        "reversechain_tool_153",
+        "reversechain_tool_186",
+        "reversechain_tool_349",
+        "reversechain_tool_424",
+        "reversechain_tool_43",
+        "reversechain_tool_45",
+        "reversechain_tool_633",
+        "reversechain_tool_642",
+        "toolACE_tool_1091",
+        "toolACE_tool_11387",
+        "toolACE_tool_1545",
+        "toolACE_tool_5821",
+        "toolACE_tool_7367",
+        "toolACE_tool_7373",
+        "toolACE_tool_7554",
+        "toolACE_tool_7701",
+        "toolACE_tool_8025",
+        "toolACE_tool_8470",
+        "toolLens_tool_71",
+        "toolbench_tool_383",
+        "toolbench_tool_7576",
+        "toolbench_tool_8571",
+        "tooleyes_tool_26",
+        "tooleyes_tool_41",
+        "ultraTool_tool_1014",
+        "ultraTool_tool_1021",
+        "ultraTool_tool_426"
+      ]
+    },
+    "cat_sub41_sub3": {
+      "children": [],
+      "services": [
+        "apigen_tool_1117",
+        "metatool_which_tool_27",
+        "reversechain_tool_225",
+        "reversechain_tool_270",
+        "reversechain_tool_316",
+        "reversechain_tool_610",
+        "reversechain_tool_650",
+        "toolACE_tool_15248",
+        "toolbench_tool_3347"
+      ]
+    },
+    "cat_sub41_sub4": {
+      "children": [],
+      "services": [
+        "apigen_tool_529",
+        "toolACE_tool_11215",
+        "toolACE_tool_11216",
+        "toolbench_tool_4976",
+        "webtools_spotify_tool_1",
+        "webtools_spotify_tool_28",
+        "webtools_spotify_tool_29",
+        "webtools_spotify_tool_9"
+      ]
+    },
+    "cat_sub41_sub5": {
+      "children": [],
+      "services": [
+        "apigen_tool_1493",
+        "apigen_tool_2167",
+        "apigen_tool_354",
+        "toolACE_tool_11417",
+        "toolACE_tool_7455",
+        "toolalpaca_tool_41",
+        "toolbench_tool_5718",
+        "toolbench_tool_5766",
+        "toolbench_tool_7663",
+        "toolbench_tool_866"
+      ]
+    },
+    "cat_sub41_sub6": {
+      "children": [],
+      "services": [
+        "apigen_tool_2180",
+        "metatool_which_tool_109",
+        "toolACE_tool_13044",
+        "toolACE_tool_13847",
+        "toolACE_tool_1744",
+        "toolACE_tool_4337",
+        "toolACE_tool_5956",
+        "toolLens_tool_111",
+        "toolLens_tool_19",
+        "toolalpaca_tool_44",
+        "toolbench_tool_11848",
+        "toolbench_tool_12888",
+        "toolbench_tool_4521",
+        "toolbench_tool_4525",
+        "toolbench_tool_4668",
+        "toolbench_tool_7502",
+        "toolbench_tool_7504",
+        "toolbench_tool_777",
+        "toolbench_tool_781",
+        "toolbench_tool_797",
+        "toolbench_tool_8149",
+        "toolbench_tool_855",
+        "toolbench_tool_866",
+        "webtools_tmdb_tool_0",
+        "webtools_tmdb_tool_29",
+        "webtools_tmdb_tool_33"
+      ]
+    },
+    "cat_sub41_sub7": {
+      "children": [],
+      "services": [
+        "apigen_tool_2333",
+        "apigen_tool_562",
+        "reversechain_tool_446",
+        "toolACE_tool_14651",
+        "toolACE_tool_4825",
+        "toolbench_tool_4652",
+        "toolbench_tool_5717",
+        "ultraTool_tool_1052",
+        "webtools_spotify_tool_28"
+      ]
+    },
+    "cat_sub41_sub8": {
+      "children": [],
+      "services": [
+        "apigen_tool_1039",
+        "apigen_tool_136",
+        "apigen_tool_415",
+        "apigen_tool_545",
+        "apigen_tool_605",
+        "apigen_tool_614",
+        "apigen_tool_942",
+        "reversechain_tool_153",
+        "toolACE_tool_10400",
+        "toolACE_tool_14906",
+        "toolACE_tool_4825",
+        "toolACE_tool_648",
+        "toolACE_tool_7140",
+        "toolACE_tool_7444",
+        "toolACE_tool_9550",
+        "toolbench_tool_1040",
+        "toolbench_tool_4976",
+        "toolbench_tool_779",
+        "toolbench_tool_855",
+        "toolbench_tool_9531",
+        "webtools_tmdb_tool_0"
+      ]
+    },
+    "cat_sub41_sub9": {
+      "children": [],
+      "services": [
+        "apigen_tool_562",
+        "apigen_tool_605",
+        "reversechain_tool_153",
+        "toolACE_tool_2061",
+        "toolACE_tool_4337",
+        "toolACE_tool_8469",
+        "toolACE_tool_8470",
+        "toolACE_tool_898",
+        "toolbench_tool_7513",
+        "toolbench_tool_826",
+        "ultraTool_tool_1052"
+      ]
+    },
+    "cat_sub42_sub1": {
+      "children": [],
+      "services": [
+        "apigen_tool_1814",
+        "apigen_tool_3042",
+        "t_eval_dialog_tool_36",
+        "toolACE_tool_345",
+        "toolACE_tool_371",
+        "toolbench_tool_3749",
+        "toolbench_tool_6648",
+        "toolbench_tool_7348",
+        "toolbench_tool_7417",
+        "toolbench_tool_7418"
+      ]
+    },
+    "cat_sub42_sub10": {
+      "children": [],
+      "services": [
+        "apigen_tool_11",
+        "apigen_tool_2081",
+        "apigen_tool_2577",
+        "toolbench_tool_1040",
+        "toolbench_tool_784"
+      ]
+    },
+    "cat_sub42_sub11": {
+      "children": [],
+      "services": [
+        "apigen_tool_2729",
+        "apigen_tool_2882",
+        "apigen_tool_545",
+        "toolACE_tool_12330",
+        "toolACE_tool_14098",
+        "toolACE_tool_322",
+        "toolACE_tool_8025",
+        "toolACE_tool_9550",
+        "toolLens_tool_272",
+        "toolbench_tool_1040",
+        "toolbench_tool_11904",
+        "toolbench_tool_12097",
+        "toolbench_tool_3288",
+        "toolbench_tool_3749",
+        "toolbench_tool_4141",
+        "toolbench_tool_4589",
+        "toolbench_tool_4742",
+        "toolbench_tool_4829",
+        "toolbench_tool_5379",
+        "toolbench_tool_5718",
+        "toolbench_tool_5860",
+        "toolbench_tool_6387",
+        "toolbench_tool_6389",
+        "toolbench_tool_784",
+        "toolbench_tool_9226",
+        "toolbench_tool_9881"
+      ]
+    },
+    "cat_sub42_sub12": {
+      "children": [],
+      "services": [
+        "apigen_tool_1776",
+        "apigen_tool_178",
+        "apigen_tool_237",
+        "apigen_tool_3357",
+        "apigen_tool_579",
+        "reversechain_tool_151",
+        "reversechain_tool_185",
+        "ultraTool_tool_143"
+      ]
+    },
+    "cat_sub42_sub13": {
+      "children": [],
+      "services": [
+        "apigen_tool_338",
+        "apigen_tool_605",
+        "metatool_which_tool_138",
+        "metatool_which_tool_45",
+        "reversechain_tool_374",
+        "reversechain_tool_609",
+        "toolACE_tool_11049",
+        "toolACE_tool_11050",
+        "toolACE_tool_2540",
+        "toolACE_tool_5517",
+        "toolACE_tool_6936",
+        "toolACE_tool_7495",
+        "toolACE_tool_8852",
+        "toolbench_tool_4977"
+      ]
+    },
+    "cat_sub42_sub14": {
+      "children": [],
+      "services": [
+        "apigen_tool_2882",
+        "reversechain_tool_509",
+        "toolbench_tool_9467"
+      ]
+    },
+    "cat_sub42_sub15": {
+      "children": [],
+      "services": [
+        "toolACE_tool_10287",
+        "toolACE_tool_13154",
+        "toolACE_tool_1439",
+        "toolACE_tool_5022",
+        "toolACE_tool_7568"
+      ]
+    },
+    "cat_sub42_sub16": {
+      "children": [],
+      "services": [
+        "toolbench_tool_2341",
+        "toolbench_tool_2703",
+        "toolbench_tool_4133",
+        "toolbench_tool_5774",
+        "toolbench_tool_779",
+        "toolbench_tool_843",
+        "toolbench_tool_854"
+      ]
+    },
+    "cat_sub42_sub2": {
+      "children": [],
+      "services": [
+        "metatool_which_tool_138",
+        "metatool_which_tool_171",
+        "toolACE_tool_6358",
+        "toolbench_tool_6651",
+        "toolbench_tool_7418"
+      ]
+    },
+    "cat_sub42_sub3": {
+      "children": [],
+      "services": [
+        "apigen_tool_605",
+        "metatool_which_tool_45",
+        "toolACE_tool_11387",
+        "toolACE_tool_116",
+        "toolACE_tool_8025",
+        "toolbench_tool_6387"
+      ]
+    },
+    "cat_sub42_sub4": {
+      "children": [],
+      "services": [
+        "toolbench_tool_1019",
+        "toolbench_tool_1040",
+        "toolbench_tool_11904",
+        "toolbench_tool_4977"
+      ]
+    },
+    "cat_sub42_sub5": {
+      "children": [],
+      "services": [
+        "apigen_tool_1493",
+        "metatool_which_tool_81",
+        "toolACE_tool_10310",
+        "toolACE_tool_878"
+      ]
+    },
+    "cat_sub42_sub6": {
+      "children": [],
+      "services": [
+        "metatool_which_tool_117",
+        "metatool_which_tool_81",
+        "reversechain_tool_509",
+        "reversechain_tool_609",
+        "toolACE_tool_14022",
+        "toolACE_tool_7568",
+        "toolLens_tool_137",
+        "toolbench_tool_10047",
+        "toolbench_tool_5240",
+        "toolbench_tool_8014"
+      ]
+    },
+    "cat_sub42_sub7": {
+      "children": [],
+      "services": [
+        "apigen_tool_1776",
+        "apigen_tool_2603",
+        "apigen_tool_430",
+        "t_eval_dialog_tool_29",
+        "toolACE_tool_2875",
+        "toolACE_tool_4072",
+        "toolACE_tool_6936",
+        "toolACE_tool_7859"
+      ]
+    },
+    "cat_sub42_sub8": {
+      "children": [],
+      "services": [
+        "apigen_tool_2872",
+        "toolACE_tool_13154",
+        "toolACE_tool_3451"
+      ]
+    },
+    "cat_sub42_sub9": {
+      "children": [],
+      "services": [
+        "apigen_tool_1316",
+        "metatool_which_tool_138",
+        "toolACE_tool_757",
+        "toolbench_tool_1699",
+        "toolbench_tool_1700",
+        "toolbench_tool_7417",
+        "toolbench_tool_7827",
+        "toolbench_tool_7828"
+      ]
+    },
+    "cat_sub43_sub1": {
+      "children": [],
+      "services": [
+        "apigen_tool_1118",
+        "apigen_tool_222",
+        "apigen_tool_29",
+        "apigen_tool_320",
+        "reversechain_tool_152",
+        "reversechain_tool_192",
+        "reversechain_tool_43",
+        "reversechain_tool_646",
+        "reversechain_tool_71",
+        "taskbench_daily_tool_31",
+        "toolACE_tool_1091",
+        "toolACE_tool_15089",
+        "toolbench_tool_19",
+        "ultraTool_tool_275"
+      ]
+    },
+    "cat_sub43_sub2": {
+      "children": [],
+      "services": [
+        "reversechain_tool_159",
+        "reversechain_tool_161",
+        "reversechain_tool_163",
+        "reversechain_tool_474",
+        "reversechain_tool_541",
+        "reversechain_tool_9",
+        "taskbench_daily_tool_26",
+        "ultraTool_tool_416",
+        "ultraTool_tool_426",
+        "ultraTool_tool_433"
+      ]
+    },
+    "cat_sub43_sub3": {
+      "children": [],
+      "services": [
+        "apigen_tool_1521",
+        "reversechain_tool_275",
+        "reversechain_tool_411",
+        "reversechain_tool_548",
+        "reversechain_tool_715",
+        "toolACE_tool_4380",
+        "ultraTool_tool_446",
+        "ultraTool_tool_524",
+        "ultraTool_tool_554"
+      ]
+    },
+    "cat_sub43_sub4": {
+      "children": [],
+      "services": [
+        "apigen_tool_354",
+        "toolACE_tool_1952",
+        "toolACE_tool_3489",
+        "toolbench_tool_12097"
+      ]
+    },
+    "cat_sub43_sub8": {
+      "children": [
+        "cat_sub43_sub8_sub1",
+        "cat_sub43_sub8_sub2",
+        "cat_sub43_sub8_sub3",
+        "cat_sub43_sub8_sub4",
+        "cat_sub43_sub8_sub5",
+        "cat_sub43_sub8_sub7"
+      ],
+      "services": [
+        "toolACE_tool_11385",
+        "toolACE_tool_2499"
+      ]
+    },
+    "cat_sub43_sub9": {
+      "children": [],
+      "services": [
+        "apigen_tool_2263",
+        "toolACE_tool_4413",
+        "toolbench_tool_1481",
+        "toolbench_tool_2973",
+        "toolbench_tool_5719",
+        "toolbench_tool_8547",
+        "webtools_spotify_tool_7"
+      ]
+    },
+    "cat_sub5_sub1": {
+      "children": [],
+      "services": [
+        "apigen_tool_1075",
+        "apigen_tool_1134",
+        "apigen_tool_1557",
+        "apigen_tool_1715",
+        "apigen_tool_200",
+        "apigen_tool_2037",
+        "apigen_tool_2151",
+        "apigen_tool_2308",
+        "apigen_tool_3096",
+        "apigen_tool_3324",
+        "apigen_tool_3325",
+        "apigen_tool_369",
+        "apigen_tool_371",
+        "apigen_tool_563",
+        "apigen_tool_850",
+        "apigen_tool_878",
+        "reversechain_tool_211",
+        "reversechain_tool_222",
+        "toolACE_tool_13171",
+        "toolACE_tool_15564",
+        "toolACE_tool_355",
+        "toolACE_tool_491",
+        "toolACE_tool_498",
+        "toolACE_tool_8242",
+        "toolACE_tool_9672",
+        "toolLens_tool_278",
+        "toolbench_tool_11",
+        "toolbench_tool_1146",
+        "toolbench_tool_1727",
+        "toolbench_tool_1728",
+        "toolbench_tool_1729",
+        "toolbench_tool_1736",
+        "toolbench_tool_6830",
+        "toolbench_tool_7686",
+        "toolbench_tool_8341",
+        "toolbench_tool_9448",
+        "toolbench_tool_9782"
+      ]
+    },
+    "cat_sub5_sub10": {
+      "children": [],
+      "services": [
+        "apigen_tool_1835",
+        "apigen_tool_2970",
+        "apigen_tool_3044",
+        "apigen_tool_444",
+        "apigen_tool_920",
+        "apigen_tool_922",
+        "toolACE_tool_13154"
+      ]
+    },
+    "cat_sub5_sub11": {
+      "children": [],
+      "services": [
+        "apigen_tool_2068",
+        "apigen_tool_2241",
+        "toolACE_tool_1097",
+        "toolACE_tool_16007",
+        "toolACE_tool_16050",
+        "toolLens_tool_16",
+        "toolalpaca_tool_11",
+        "toolalpaca_tool_8",
+        "toolalpaca_tool_9",
+        "toolbench_tool_4256",
+        "toolbench_tool_7797",
+        "toolbench_tool_7798",
+        "toolbench_tool_9930"
+      ]
+    },
+    "cat_sub5_sub12": {
+      "children": [],
+      "services": [
+        "reversechain_tool_5",
+        "toolACE_tool_12840",
+        "toolACE_tool_3493",
+        "toolACE_tool_762",
+        "toolACE_tool_8623",
+        "toolbench_tool_4256",
+        "toolbench_tool_9930"
+      ]
+    },
+    "cat_sub5_sub13": {
+      "children": [],
+      "services": [
+        "metatool_which_tool_13",
+        "reversechain_tool_20",
+        "toolACE_tool_15401",
+        "toolACE_tool_5882",
+        "toolACE_tool_9623",
+        "toolbench_tool_668",
+        "toolbench_tool_7814"
+      ]
+    },
+    "cat_sub5_sub14": {
+      "children": [],
+      "services": [
+        "apigen_tool_1000",
+        "apigen_tool_1349",
+        "apigen_tool_1414",
+        "apigen_tool_2292",
+        "apigen_tool_475",
+        "apigen_tool_633",
+        "metatool_which_tool_120",
+        "reversechain_tool_20",
+        "reversechain_tool_591",
+        "toolACE_tool_14698",
+        "toolbench_tool_3170"
+      ]
+    },
+    "cat_sub5_sub15": {
+      "children": [],
+      "services": [
+        "apigen_tool_2292",
+        "apigen_tool_2308",
+        "apigen_tool_843",
+        "reversechain_tool_478",
+        "reversechain_tool_528",
+        "reversechain_tool_591",
+        "reversechain_tool_651",
+        "toolACE_tool_10381",
+        "toolACE_tool_10980",
+        "toolACE_tool_12107",
+        "toolACE_tool_13168",
+        "toolACE_tool_13171",
+        "toolACE_tool_4118",
+        "toolLens_tool_280",
+        "toolLens_tool_94",
+        "toolbench_tool_11",
+        "toolbench_tool_11372",
+        "toolbench_tool_2404",
+        "toolbench_tool_3667",
+        "ultraTool_tool_503"
+      ]
+    },
+    "cat_sub5_sub16": {
+      "children": [],
+      "services": [
+        "apigen_tool_1322",
+        "apigen_tool_1955",
+        "apigen_tool_2209",
+        "apigen_tool_2292",
+        "apigen_tool_606",
+        "reversechain_tool_276",
+        "reversechain_tool_301",
+        "reversechain_tool_336",
+        "reversechain_tool_478",
+        "reversechain_tool_504",
+        "reversechain_tool_604",
+        "reversechain_tool_634",
+        "toolACE_tool_3200",
+        "toolACE_tool_4118",
+        "toolACE_tool_5871",
+        "toolbench_tool_11372",
+        "toolbench_tool_1146",
+        "toolbench_tool_2392",
+        "toolbench_tool_3647",
+        "ultraTool_tool_503"
+      ]
+    },
+    "cat_sub5_sub18": {
+      "children": [],
+      "services": [
+        "metatool_which_tool_120",
+        "reversechain_tool_105",
+        "reversechain_tool_589",
+        "toolACE_tool_810",
+        "toolLens_tool_123",
+        "toolLens_tool_5",
+        "toolbench_tool_4140"
+      ]
+    },
+    "cat_sub5_sub19": {
+      "children": [],
+      "services": [
+        "reversechain_tool_13",
+        "reversechain_tool_228",
+        "reversechain_tool_362",
+        "toolACE_tool_10176",
+        "toolACE_tool_10534",
+        "toolACE_tool_16067",
+        "ultraTool_tool_1140"
+      ]
+    },
+    "cat_sub5_sub2": {
+      "children": [
+        "cat_loc_search_1",
+        "cat_loc_search_10",
+        "cat_loc_search_11",
+        "cat_loc_search_2",
+        "cat_loc_search_4",
+        "cat_loc_search_5",
+        "cat_loc_search_6",
+        "cat_loc_search_9"
+      ],
+      "services": [
+        "apigen_tool_1835",
+        "appbench_tool_30",
+        "toolACE_tool_12107"
+      ]
+    },
+    "cat_sub5_sub3": {
+      "children": [],
+      "services": [
+        "apigen_tool_1692",
+        "apigen_tool_1955",
+        "apigen_tool_2209",
+        "apigen_tool_563",
+        "apigen_tool_843",
+        "reversechain_tool_697",
+        "t_eval_step_tool_13",
+        "toolACE_tool_10381",
+        "toolACE_tool_10980",
+        "toolACE_tool_4118",
+        "toolACE_tool_5871",
+        "toolACE_tool_9672",
+        "toolLens_tool_144",
+        "toolLens_tool_280",
+        "toolLens_tool_94",
+        "toolbench_tool_11372",
+        "toolbench_tool_1146",
+        "toolbench_tool_1729",
+        "toolbench_tool_7691",
+        "toolbench_tool_9930",
+        "webtools_weather_tool_2"
+      ]
+    },
+    "cat_sub5_sub4": {
+      "children": [],
+      "services": [
+        "apigen_tool_269",
+        "appbench_tool_5",
+        "reversechain_tool_585",
+        "reversechain_tool_94",
+        "toolACE_tool_3200",
+        "toolACE_tool_354",
+        "toolACE_tool_6575",
+        "toolACE_tool_9405",
+        "toolbench_tool_3714",
+        "toolbench_tool_4233",
+        "toolbench_tool_7684",
+        "toolbench_tool_7691"
+      ]
+    },
+    "cat_sub5_sub5": {
+      "children": [],
+      "services": [
+        "apigen_tool_269",
+        "reversechain_tool_94",
+        "t_eval_step_tool_19",
+        "toolACE_tool_1096",
+        "toolACE_tool_3200",
+        "toolACE_tool_3451",
+        "toolbench_tool_1727",
+        "toolbench_tool_3665",
+        "toolbench_tool_7684"
+      ]
+    },
+    "cat_sub5_sub6": {
+      "children": [],
+      "services": [
+        "apigen_tool_1968",
+        "apigen_tool_2028",
+        "apigen_tool_2151",
+        "apigen_tool_2308",
+        "apigen_tool_3025",
+        "apigen_tool_314",
+        "apigen_tool_362",
+        "appbench_tool_30",
+        "reversechain_tool_26",
+        "toolACE_tool_3402",
+        "toolACE_tool_355",
+        "toolACE_tool_9612",
+        "toolLens_tool_13",
+        "toolLens_tool_144",
+        "toolbench_tool_1736",
+        "toolbench_tool_253",
+        "toolbench_tool_3303",
+        "toolbench_tool_3622",
+        "toolbench_tool_5",
+        "toolbench_tool_5673",
+        "toolbench_tool_5675"
+      ]
+    },
+    "cat_sub5_sub7": {
+      "children": [
+        "cat_sub5_sub7_sub1",
+        "cat_sub5_sub7_sub2",
+        "cat_sub5_sub7_sub3",
+        "cat_sub5_sub7_sub4"
+      ],
+      "services": [
+        "apigen_tool_314",
+        "appbench_tool_30",
+        "toolACE_tool_13397"
+      ]
+    },
+    "cat_sub5_sub8": {
+      "children": [],
+      "services": [
+        "apigen_tool_13",
+        "reversechain_tool_138",
+        "reversechain_tool_3",
+        "toolACE_tool_8895",
+        "toolACE_tool_9118",
+        "toolLens_tool_14",
+        "toolbench_tool_2841",
+        "webtools_weather_tool_1"
+      ]
+    },
+    "cat_sub5_sub9": {
+      "children": [],
+      "services": [
+        "apigen_tool_2970",
+        "apigen_tool_996",
+        "toolACE_tool_13154",
+        "toolACE_tool_9623",
+        "toolbench_tool_7332",
+        "webtools_weather_tool_1"
+      ]
+    },
+    "cat_sub6_sub1": {
+      "children": [
+        "cat_sub6_sub1_sub1",
+        "cat_sub6_sub1_sub10",
+        "cat_sub6_sub1_sub12",
+        "cat_sub6_sub1_sub2",
+        "cat_sub6_sub1_sub3",
+        "cat_sub6_sub1_sub4",
+        "cat_sub6_sub1_sub5",
+        "cat_sub6_sub1_sub6",
+        "cat_sub6_sub1_sub7",
+        "cat_sub6_sub1_sub8",
+        "cat_sub6_sub1_sub9"
+      ],
+      "services": [
+        "toolLens_tool_19",
+        "toolbench_tool_781",
+        "toolbench_tool_782",
+        "toolbench_tool_804"
+      ]
+    },
+    "cat_sub6_sub10": {
+      "children": [],
+      "services": [
+        "apigen_tool_1359",
+        "apigen_tool_1606",
+        "apigen_tool_2030",
+        "apigen_tool_834",
+        "toolACE_tool_13847",
+        "toolACE_tool_4747",
+        "toolbench_tool_3009"
+      ]
+    },
+    "cat_sub6_sub2": {
+      "children": [],
+      "services": [
+        "metatool_which_tool_109",
+        "metatool_which_tool_28",
+        "toolLens_tool_19",
+        "toolbench_tool_12887",
+        "toolbench_tool_4522",
+        "toolbench_tool_7502",
+        "toolbench_tool_7504",
+        "toolbench_tool_781"
+      ]
+    },
+    "cat_sub6_sub3": {
+      "children": [],
+      "services": [
+        "apigen_tool_112",
+        "apigen_tool_1136",
+        "apigen_tool_1289",
+        "apigen_tool_1355",
+        "apigen_tool_1359",
+        "apigen_tool_150",
+        "apigen_tool_1606",
+        "apigen_tool_1853",
+        "apigen_tool_1931",
+        "apigen_tool_2047",
+        "apigen_tool_2053",
+        "apigen_tool_2081",
+        "apigen_tool_2115",
+        "apigen_tool_2130",
+        "apigen_tool_301",
+        "apigen_tool_358",
+        "apigen_tool_48",
+        "apigen_tool_72",
+        "apigen_tool_736",
+        "apigen_tool_972",
+        "metatool_which_tool_70",
+        "toolACE_tool_10086",
+        "toolACE_tool_10400",
+        "toolACE_tool_10734",
+        "toolACE_tool_11419",
+        "toolACE_tool_14571",
+        "toolACE_tool_1819",
+        "toolACE_tool_2621",
+        "toolACE_tool_2963",
+        "toolACE_tool_3842",
+        "toolACE_tool_4187",
+        "toolACE_tool_43",
+        "toolACE_tool_4747",
+        "toolACE_tool_8847",
+        "toolACE_tool_981",
+        "toolLens_tool_52",
+        "toolbench_tool_1040",
+        "toolbench_tool_1047",
+        "toolbench_tool_11902",
+        "toolbench_tool_11904",
+        "toolbench_tool_4912",
+        "toolbench_tool_4914",
+        "toolbench_tool_6468",
+        "toolbench_tool_6964",
+        "toolbench_tool_8075",
+        "toolbench_tool_826",
+        "toolbench_tool_9428"
+      ]
+    },
+    "cat_sub6_sub4": {
+      "children": [],
+      "services": [
+        "reversechain_tool_13",
+        "reversechain_tool_181",
+        "reversechain_tool_182",
+        "reversechain_tool_228",
+        "reversechain_tool_26",
+        "reversechain_tool_363",
+        "reversechain_tool_371",
+        "reversechain_tool_407",
+        "reversechain_tool_415",
+        "reversechain_tool_522",
+        "t_eval_step_tool_31",
+        "t_eval_step_tool_33",
+        "toolACE_tool_12139",
+        "toolACE_tool_9672",
+        "toolACE_tool_9817",
+        "toolbench_tool_4725",
+        "toolbench_tool_4726",
+        "toolbench_tool_6625",
+        "webtools_tmdb_tool_22"
+      ]
+    },
+    "cat_sub6_sub5": {
+      "children": [],
+      "services": [
+        "apigen_tool_1205",
+        "apigen_tool_337",
+        "apigen_tool_354",
+        "apigen_tool_623",
+        "reversechain_tool_265",
+        "reversechain_tool_267",
+        "toolACE_tool_11582",
+        "toolACE_tool_5399",
+        "toolLens_tool_149",
+        "toolbench_tool_11848",
+        "toolbench_tool_12888",
+        "toolbench_tool_13540",
+        "toolbench_tool_4523",
+        "toolbench_tool_4525",
+        "toolbench_tool_6625",
+        "toolbench_tool_799",
+        "webtools_tmdb_tool_15",
+        "webtools_tmdb_tool_46"
+      ]
+    },
+    "cat_sub6_sub6": {
+      "children": [],
+      "services": [
+        "appbench_tool_13",
+        "metatool_which_tool_109",
+        "metatool_which_tool_28",
+        "reversechain_tool_266",
+        "reversechain_tool_267",
+        "reversechain_tool_362",
+        "reversechain_tool_446",
+        "reversechain_tool_556",
+        "t_eval_step_tool_42",
+        "toolACE_tool_10690",
+        "toolACE_tool_16067",
+        "toolbench_tool_2541",
+        "toolbench_tool_4518",
+        "toolbench_tool_798",
+        "toolbench_tool_826",
+        "webtools_tmdb_tool_29",
+        "webtools_tmdb_tool_39",
+        "webtools_tmdb_tool_50",
+        "webtools_tmdb_tool_53"
+      ]
+    },
+    "cat_sub6_sub7": {
+      "children": [],
+      "services": [
+        "apigen_tool_885",
+        "metatool_which_tool_109",
+        "reversechain_tool_609",
+        "reversechain_tool_84",
+        "toolACE_tool_14571",
+        "toolACE_tool_2222",
+        "toolACE_tool_2621",
+        "toolACE_tool_7000",
+        "toolLens_tool_37",
+        "toolLens_tool_52",
+        "toolbench_tool_1047",
+        "toolbench_tool_10479",
+        "toolbench_tool_11902",
+        "toolbench_tool_11904",
+        "toolbench_tool_3350",
+        "toolbench_tool_3352",
+        "toolbench_tool_4912",
+        "toolbench_tool_852",
+        "webtools_tmdb_tool_1",
+        "webtools_tmdb_tool_31"
+      ]
+    },
+    "cat_sub6_sub8": {
+      "children": [],
+      "services": [
+        "apigen_tool_3268",
+        "toolACE_tool_12157",
+        "toolACE_tool_1744",
+        "toolalpaca_tool_43",
+        "toolalpaca_tool_44",
+        "toolbench_tool_4667",
+        "toolbench_tool_4668",
+        "toolbench_tool_8149"
+      ]
+    },
+    "cat_sub6_sub9": {
+      "children": [],
+      "services": [
+        "apigen_tool_1089",
+        "reversechain_tool_12",
+        "reversechain_tool_362",
+        "reversechain_tool_406",
+        "reversechain_tool_554",
+        "reversechain_tool_597",
+        "toolACE_tool_1247",
+        "toolACE_tool_4825",
+        "toolLens_tool_111",
+        "toolbench_tool_13539",
+        "toolbench_tool_777",
+        "toolbench_tool_855",
+        "toolbench_tool_8982"
+      ]
+    },
+    "cat_sub7_sub1": {
+      "children": [],
+      "services": [
+        "apigen_tool_2516",
+        "reversechain_tool_100",
+        "reversechain_tool_106",
+        "reversechain_tool_113",
+        "reversechain_tool_127",
+        "reversechain_tool_159",
+        "reversechain_tool_17",
+        "reversechain_tool_231",
+        "reversechain_tool_301",
+        "reversechain_tool_336",
+        "reversechain_tool_373",
+        "reversechain_tool_88",
+        "toolACE_tool_5871",
+        "toolACE_tool_7132",
+        "toolLens_tool_198",
+        "toolLens_tool_72",
+        "toolbench_tool_10086"
+      ]
+    },
+    "cat_sub7_sub10": {
+      "children": [],
+      "services": [
+        "apigen_tool_1549",
+        "reversechain_tool_702",
+        "toolACE_tool_8429",
+        "toolACE_tool_9250",
+        "toolLens_tool_198",
+        "toolbench_tool_10083"
+      ]
+    },
+    "cat_sub7_sub11": {
+      "children": [],
+      "services": [
+        "metatool_which_tool_190",
+        "metatool_which_tool_22",
+        "reversechain_tool_23",
+        "toolACE_tool_9251"
+      ]
+    },
+    "cat_sub7_sub12": {
+      "children": [],
+      "services": [
+        "apigen_tool_1187",
+        "apigen_tool_1666",
+        "toolACE_tool_10227",
+        "toolACE_tool_8885",
+        "toolLens_tool_179",
+        "webtools_food_tool_10",
+        "webtools_food_tool_12",
+        "webtools_food_tool_9"
+      ]
+    },
+    "cat_sub7_sub15": {
+      "children": [],
+      "services": [
+        "apigen_tool_320",
+        "metatool_which_tool_22",
+        "toolLens_tool_50",
+        "tooleyes_tool_41",
+        "tooleyes_tool_43",
+        "webtools_food_tool_1",
+        "webtools_food_tool_14"
+      ]
+    },
+    "cat_sub7_sub16": {
+      "children": [],
+      "services": [
+        "reversechain_tool_276",
+        "reversechain_tool_278",
+        "reversechain_tool_302",
+        "reversechain_tool_89",
+        "toolACE_tool_2282",
+        "toolACE_tool_2738",
+        "toolACE_tool_7132"
+      ]
+    },
+    "cat_sub7_sub17": {
+      "children": [],
+      "services": [
+        "apigen_tool_1184",
+        "reversechain_tool_107",
+        "reversechain_tool_160",
+        "reversechain_tool_171",
+        "reversechain_tool_213",
+        "reversechain_tool_301",
+        "reversechain_tool_348",
+        "reversechain_tool_374",
+        "toolbench_tool_10080",
+        "ultraTool_tool_389"
+      ]
+    },
+    "cat_sub7_sub19": {
+      "children": [],
+      "services": [
+        "apigen_tool_2791",
+        "metatool_which_tool_190",
+        "metatool_which_tool_22",
+        "tooleyes_tool_41",
+        "webtools_food_tool_2"
+      ]
+    },
+    "cat_sub7_sub2": {
+      "children": [],
+      "services": [
+        "apigen_tool_2211",
+        "reversechain_tool_17",
+        "reversechain_tool_172",
+        "reversechain_tool_301",
+        "reversechain_tool_539",
+        "toolACE_tool_3844",
+        "toolLens_tool_72",
+        "toolbench_tool_4149",
+        "ultraTool_tool_423"
+      ]
+    },
+    "cat_sub7_sub3": {
+      "children": [],
+      "services": [
+        "apigen_tool_1553",
+        "reversechain_tool_107",
+        "reversechain_tool_114",
+        "reversechain_tool_18",
+        "reversechain_tool_213",
+        "reversechain_tool_310",
+        "reversechain_tool_375",
+        "toolACE_tool_16030",
+        "toolLens_tool_72",
+        "toolbench_tool_4825",
+        "tooleyes_tool_41",
+        "tooleyes_tool_47",
+        "ultraTool_tool_430",
+        "webtools_food_tool_5"
+      ]
+    },
+    "cat_sub7_sub4": {
+      "children": [],
+      "services": [
+        "appbench_tool_22",
+        "reversechain_tool_161",
+        "reversechain_tool_163",
+        "reversechain_tool_302",
+        "reversechain_tool_337",
+        "reversechain_tool_348",
+        "reversechain_tool_474",
+        "reversechain_tool_541",
+        "reversechain_tool_654",
+        "reversechain_tool_99"
+      ]
+    },
+    "cat_sub7_sub5": {
+      "children": [],
+      "services": [
+        "apigen_tool_320",
+        "reversechain_tool_9",
+        "taskbench_daily_tool_26",
+        "toolbench_tool_4760",
+        "ultraTool_tool_416",
+        "ultraTool_tool_426",
+        "ultraTool_tool_433"
+      ]
+    },
+    "cat_sub7_sub6": {
+      "children": [],
+      "services": [
+        "apigen_tool_1184",
+        "apigen_tool_1185",
+        "apigen_tool_1186",
+        "apigen_tool_1549",
+        "apigen_tool_2234",
+        "apigen_tool_2791",
+        "apigen_tool_3011",
+        "apigen_tool_474",
+        "metatool_which_tool_190",
+        "metatool_which_tool_22",
+        "toolACE_tool_8429",
+        "toolACE_tool_850",
+        "toolLens_tool_103",
+        "toolLens_tool_286",
+        "toolLens_tool_40",
+        "toolbench_tool_10080",
+        "toolbench_tool_10083",
+        "toolbench_tool_7230",
+        "tooleyes_tool_41",
+        "tooleyes_tool_45",
+        "ultraTool_tool_991",
+        "webtools_food_tool_20",
+        "webtools_food_tool_4",
+        "webtools_food_tool_6"
+      ]
+    },
+    "cat_sub7_sub7": {
+      "children": [],
+      "services": [
+        "apigen_tool_1185",
+        "apigen_tool_1186",
+        "apigen_tool_2108",
+        "apigen_tool_474",
+        "reversechain_tool_521",
+        "toolACE_tool_8885",
+        "toolLens_tool_138",
+        "toolLens_tool_51",
+        "toolbench_tool_10080",
+        "toolbench_tool_7230",
+        "webtools_food_tool_7"
+      ]
+    },
+    "cat_sub7_sub8": {
+      "children": [],
+      "services": [
+        "apigen_tool_1152",
+        "apigen_tool_1186",
+        "apigen_tool_2648",
+        "apigen_tool_3011",
+        "reversechain_tool_374",
+        "reversechain_tool_565",
+        "reversechain_tool_566",
+        "toolACE_tool_2282",
+        "toolACE_tool_6235",
+        "toolLens_tool_151",
+        "toolLens_tool_286",
+        "toolLens_tool_50",
+        "tooleyes_tool_41",
+        "webtools_food_tool_1",
+        "webtools_food_tool_7",
+        "webtools_food_tool_8"
+      ]
+    },
+    "cat_sub7_sub9": {
+      "children": [],
+      "services": [
+        "metatool_which_tool_22",
+        "reversechain_tool_310",
+        "reversechain_tool_702",
+        "toolACE_tool_5805",
+        "toolbench_tool_10083",
+        "toolbench_tool_10099",
+        "webtools_food_tool_6"
+      ]
+    },
+    "cat_sub8_sub1": {
+      "children": [],
+      "services": [
+        "apibank_tool_71",
+        "reversechain_tool_198",
+        "ultraTool_tool_1133",
+        "webtools_spotify_tool_14"
+      ]
+    },
+    "cat_sub8_sub10": {
+      "children": [],
+      "services": [
+        "webtools_spotify_tool_10",
+        "webtools_spotify_tool_28",
+        "webtools_spotify_tool_29",
+        "webtools_spotify_tool_30",
+        "webtools_spotify_tool_9"
+      ]
+    },
+    "cat_sub8_sub11": {
+      "children": [],
+      "services": [
+        "apigen_tool_2263",
+        "webtools_spotify_tool_13",
+        "webtools_spotify_tool_27",
+        "webtools_spotify_tool_7"
+      ]
+    },
+    "cat_sub8_sub14": {
+      "children": [],
+      "services": [
+        "apigen_tool_1594",
+        "toolACE_tool_3489",
+        "toolbench_tool_2953"
+      ]
+    },
+    "cat_sub8_sub15": {
+      "children": [],
+      "services": [
+        "apigen_tool_3378",
+        "toolACE_tool_2144",
+        "toolACE_tool_8696"
+      ]
+    },
+    "cat_sub8_sub16": {
+      "children": [],
+      "services": [
+        "apigen_tool_454",
+        "apigen_tool_527",
+        "apigen_tool_765"
+      ]
+    },
+    "cat_sub8_sub17": {
+      "children": [],
+      "services": [
+        "reversechain_tool_509",
+        "toolACE_tool_11215",
+        "toolACE_tool_11216",
+        "toolACE_tool_8780"
+      ]
+    },
+    "cat_sub8_sub2": {
+      "children": [],
+      "services": [
+        "apigen_tool_1423",
+        "apigen_tool_153",
+        "apigen_tool_1530",
+        "apigen_tool_160",
+        "apigen_tool_1888",
+        "apigen_tool_1891",
+        "apigen_tool_72",
+        "apigen_tool_875",
+        "apigen_tool_884",
+        "metatool_which_tool_30",
+        "reversechain_tool_201",
+        "reversechain_tool_698",
+        "toolACE_tool_11582",
+        "toolACE_tool_14571",
+        "toolACE_tool_1551",
+        "toolACE_tool_6208",
+        "ultraTool_tool_1146",
+        "ultraTool_tool_1149",
+        "webtools_music_tool_1",
+        "webtools_spotify_tool_5"
+      ]
+    },
+    "cat_sub8_sub3": {
+      "children": [],
+      "services": [
+        "apigen_tool_1304",
+        "apigen_tool_211",
+        "apigen_tool_492",
+        "apigen_tool_877",
+        "apigen_tool_885",
+        "metatool_which_tool_30",
+        "toolACE_tool_10176",
+        "toolACE_tool_10834",
+        "toolACE_tool_11290",
+        "toolACE_tool_14570",
+        "toolACE_tool_14571",
+        "toolACE_tool_1551",
+        "toolACE_tool_1582",
+        "toolACE_tool_2621",
+        "toolACE_tool_2622",
+        "toolACE_tool_2623",
+        "toolACE_tool_7477",
+        "toolACE_tool_8140",
+        "toolACE_tool_8491",
+        "toolACE_tool_983",
+        "toolLens_tool_52",
+        "toolbench_tool_11902",
+        "toolbench_tool_11904",
+        "toolbench_tool_4976",
+        "toolbench_tool_4977",
+        "toolbench_tool_8075",
+        "webtools_spotify_tool_5"
+      ]
+    },
+    "cat_sub8_sub4": {
+      "children": [],
+      "services": [
+        "apigen_tool_1530",
+        "apigen_tool_1624",
+        "apigen_tool_1891",
+        "apigen_tool_422",
+        "apigen_tool_530",
+        "reversechain_tool_562",
+        "toolACE_tool_1797",
+        "toolACE_tool_5765",
+        "toolLens_tool_44",
+        "toolbench_tool_1014",
+        "toolbench_tool_11902",
+        "toolbench_tool_4976",
+        "ultraTool_tool_1146",
+        "webtools_music_tool_2",
+        "webtools_spotify_tool_0",
+        "webtools_spotify_tool_1",
+        "webtools_spotify_tool_2",
+        "webtools_spotify_tool_3"
+      ]
+    },
+    "cat_sub8_sub5": {
+      "children": [],
+      "services": [
+        "apigen_tool_160",
+        "apigen_tool_1624",
+        "apigen_tool_529",
+        "apigen_tool_875",
+        "reversechain_tool_201",
+        "toolACE_tool_3116",
+        "toolACE_tool_6208",
+        "toolLens_tool_44",
+        "toolbench_tool_1014",
+        "toolbench_tool_1019",
+        "toolbench_tool_4976",
+        "webtools_spotify_tool_1",
+        "webtools_spotify_tool_34",
+        "webtools_spotify_tool_38"
+      ]
+    },
+    "cat_sub8_sub6": {
+      "children": [],
+      "services": [
+        "apigen_tool_2621",
+        "apigen_tool_529",
+        "apigen_tool_884",
+        "metatool_which_tool_30",
+        "reversechain_tool_2",
+        "toolbench_tool_7439",
+        "webtools_spotify_tool_33",
+        "webtools_spotify_tool_34",
+        "webtools_spotify_tool_35",
+        "webtools_spotify_tool_39"
+      ]
+    },
+    "cat_sub8_sub8": {
+      "children": [],
+      "services": [
+        "metatool_which_tool_81",
+        "reversechain_tool_657",
+        "toolACE_tool_16067",
+        "toolbench_tool_1017",
+        "ultraTool_tool_1140",
+        "webtools_spotify_tool_27",
+        "webtools_spotify_tool_4"
+      ]
+    },
+    "cat_sub8_sub9": {
+      "children": [],
+      "services": [
+        "apigen_tool_1888",
+        "apigen_tool_635",
+        "webtools_music_tool_1"
+      ]
+    },
+    "cat_sub9_sub1": {
+      "children": [],
+      "services": [
+        "apibank_tool_56",
+        "apigen_tool_70",
+        "reversechain_tool_709",
+        "reversechain_tool_710",
+        "toolACE_tool_11311",
+        "toolACE_tool_13437",
+        "toolACE_tool_2425",
+        "toolACE_tool_8271",
+        "ultraTool_tool_994"
+      ]
+    },
+    "cat_sub9_sub10": {
+      "children": [],
+      "services": [
+        "apigen_tool_1928",
+        "reversechain_tool_285",
+        "reversechain_tool_286",
+        "toolACE_tool_13687",
+        "toolACE_tool_15401",
+        "toolACE_tool_4636",
+        "toolACE_tool_5099",
+        "toolACE_tool_6126",
+        "toolACE_tool_9091",
+        "toolLens_tool_128",
+        "toolbench_tool_274",
+        "toolbench_tool_668"
+      ]
+    },
+    "cat_sub9_sub11": {
+      "children": [],
+      "services": [
+        "toolACE_tool_13437",
+        "toolACE_tool_15488",
+        "toolACE_tool_15489",
+        "toolACE_tool_4935",
+        "toolACE_tool_4936",
+        "toolACE_tool_5239",
+        "toolACE_tool_7640"
+      ]
+    },
+    "cat_sub9_sub12": {
+      "children": [],
+      "services": [
+        "apigen_tool_2464",
+        "apigen_tool_70",
+        "reversechain_tool_606",
+        "toolACE_tool_11888",
+        "toolACE_tool_14776",
+        "toolACE_tool_2092",
+        "toolACE_tool_2241",
+        "toolACE_tool_5687",
+        "toolACE_tool_9276",
+        "toolACE_tool_9622",
+        "toolbench_tool_4882",
+        "toolbench_tool_4893"
+      ]
+    },
+    "cat_sub9_sub14": {
+      "children": [],
+      "services": [
+        "reversechain_tool_413",
+        "toolACE_tool_2471",
+        "toolACE_tool_4000",
+        "toolACE_tool_5863",
+        "toolLens_tool_292",
+        "toolbench_tool_7533"
+      ]
+    },
+    "cat_sub9_sub15": {
+      "children": [],
+      "services": [
+        "apigen_tool_2464",
+        "taskbench_daily_tool_13",
+        "toolACE_tool_5828"
+      ]
+    },
+    "cat_sub9_sub16": {
+      "children": [],
+      "services": [
+        "apigen_tool_1617",
+        "reversechain_tool_41",
+        "reversechain_tool_649",
+        "toolACE_tool_14030",
+        "toolACE_tool_14258",
+        "toolACE_tool_14776",
+        "toolACE_tool_4935",
+        "toolACE_tool_9250",
+        "toolACE_tool_9622",
+        "ultraTool_tool_990"
+      ]
+    },
+    "cat_sub9_sub17": {
+      "children": [],
+      "services": [
+        "toolACE_tool_7566",
+        "toolACE_tool_7567",
+        "toolACE_tool_7568",
+        "toolACE_tool_8999"
+      ]
+    },
+    "cat_sub9_sub2": {
+      "children": [],
+      "services": [
+        "apigen_tool_2464",
+        "reversechain_tool_711",
+        "toolACE_tool_11889",
+        "toolACE_tool_5239",
+        "toolACE_tool_5687",
+        "toolACE_tool_5829",
+        "toolACE_tool_8271",
+        "toolACE_tool_8999",
+        "toolACE_tool_9629",
+        "ultraTool_tool_994"
+      ]
+    },
+    "cat_sub9_sub3": {
+      "children": [],
+      "services": [
+        "apibank_tool_58",
+        "apibank_tool_61",
+        "reversechain_tool_412",
+        "reversechain_tool_647",
+        "toolACE_tool_15489",
+        "toolACE_tool_4331"
+      ]
+    },
+    "cat_sub9_sub4": {
+      "children": [],
+      "services": [
+        "apibank_tool_55",
+        "apibank_tool_62",
+        "reversechain_tool_413",
+        "toolACE_tool_11775",
+        "toolACE_tool_15624",
+        "toolACE_tool_5828",
+        "toolbench_tool_7280"
+      ]
+    },
+    "cat_sub9_sub5": {
+      "children": [],
+      "services": [
+        "apigen_tool_2735",
+        "toolACE_tool_11775",
+        "toolACE_tool_14030",
+        "toolACE_tool_15803",
+        "toolACE_tool_2554",
+        "toolACE_tool_7448",
+        "toolACE_tool_8999",
+        "toolLens_tool_104"
+      ]
+    },
+    "cat_sub9_sub6": {
+      "children": [],
+      "services": [
+        "apigen_tool_1549",
+        "apigen_tool_255",
+        "metatool_which_tool_22",
+        "reversechain_tool_23",
+        "reversechain_tool_310",
+        "reversechain_tool_702",
+        "toolACE_tool_11774",
+        "toolACE_tool_15624",
+        "toolACE_tool_5805",
+        "toolACE_tool_9250",
+        "toolACE_tool_9251",
+        "toolLens_tool_43",
+        "toolbench_tool_10083",
+        "toolbench_tool_10099",
+        "webtools_food_tool_6",
+        "webtools_food_tool_7"
+      ]
+    },
+    "cat_sub9_sub8": {
+      "children": [],
+      "services": [
+        "reversechain_tool_370",
+        "reversechain_tool_516",
+        "reversechain_tool_528",
+        "reversechain_tool_647",
+        "toolLens_tool_292",
+        "toolbench_tool_4893",
+        "toolbench_tool_4906",
+        "ultraTool_tool_994"
+      ]
+    },
+    "cat_sub9_sub9": {
+      "children": [],
+      "services": [
+        "reversechain_tool_251",
+        "reversechain_tool_370",
+        "toolACE_tool_7640",
+        "toolACE_tool_9278",
+        "toolbench_tool_3667"
+      ]
+    },
+    "cat_fin_1_sub1": {
+      "children": [],
+      "services": [
+        "apibank_tool_31",
+        "apigen_tool_1182",
+        "apigen_tool_1669",
+        "apigen_tool_1719",
+        "apigen_tool_1772",
+        "apigen_tool_1817",
+        "apigen_tool_744",
+        "reversechain_tool_290",
+        "toolACE_tool_4485",
+        "toolbench_tool_1952",
+        "toolbench_tool_1953",
+        "toolbench_tool_2056",
+        "toolbench_tool_2150",
+        "tooleyes_tool_56"
+      ]
+    },
+    "cat_fin_1_sub10": {
+      "children": [],
+      "services": [
+        "apigen_tool_1880",
+        "apigen_tool_726",
+        "toolACE_tool_7859",
+        "toolACE_tool_786"
+      ]
+    },
+    "cat_fin_1_sub11": {
+      "children": [],
+      "services": [
+        "apigen_tool_2819",
+        "apigen_tool_325",
+        "apigen_tool_52",
+        "reversechain_tool_578",
+        "toolACE_tool_1",
+        "toolACE_tool_14822",
+        "toolACE_tool_3167",
+        "toolACE_tool_53",
+        "toolACE_tool_9654",
+        "toolbench_tool_3302"
+      ]
+    },
+    "cat_fin_1_sub12": {
+      "children": [],
+      "services": [
+        "apigen_tool_439",
+        "apigen_tool_888",
+        "toolACE_tool_8559"
+      ]
+    },
+    "cat_fin_1_sub13": {
+      "children": [],
+      "services": [
+        "toolACE_tool_4268",
+        "toolACE_tool_7485",
+        "toolbench_tool_1952"
+      ]
+    },
+    "cat_fin_1_sub2": {
+      "children": [],
+      "services": [
+        "apibank_tool_31",
+        "apigen_tool_1340",
+        "apigen_tool_1797",
+        "apigen_tool_2603",
+        "apigen_tool_2867",
+        "apigen_tool_325",
+        "apigen_tool_828",
+        "apigen_tool_842",
+        "apigen_tool_85",
+        "t_eval_step_tool_28",
+        "t_eval_step_tool_45",
+        "toolACE_tool_1375",
+        "toolACE_tool_1439",
+        "toolACE_tool_3355",
+        "toolACE_tool_4523",
+        "toolACE_tool_6788",
+        "toolACE_tool_7242",
+        "toolbench_tool_2056",
+        "tooleyes_tool_56",
+        "ultraTool_tool_121"
+      ]
+    },
+    "cat_fin_1_sub3": {
+      "children": [],
+      "services": [
+        "apigen_tool_1860",
+        "apigen_tool_2739",
+        "toolACE_tool_3187",
+        "toolACE_tool_4015",
+        "toolACE_tool_4241",
+        "toolbench_tool_1952",
+        "toolbench_tool_6302"
+      ]
+    },
+    "cat_fin_1_sub4": {
+      "children": [],
+      "services": [
+        "apigen_tool_2603",
+        "toolACE_tool_4015",
+        "toolACE_tool_9270",
+        "toolbench_tool_6302"
+      ]
+    },
+    "cat_fin_1_sub5": {
+      "children": [],
+      "services": [
+        "apigen_tool_430",
+        "toolACE_tool_4485",
+        "toolbench_tool_2255",
+        "ultraTool_tool_108"
+      ]
+    },
+    "cat_fin_1_sub6": {
+      "children": [],
+      "services": [
+        "apigen_tool_1029",
+        "toolACE_tool_10288",
+        "toolACE_tool_7419",
+        "toolACE_tool_7423"
+      ]
+    },
+    "cat_fin_1_sub7": {
+      "children": [],
+      "services": [
+        "apigen_tool_1041",
+        "reversechain_tool_291",
+        "reversechain_tool_292",
+        "reversechain_tool_578",
+        "toolACE_tool_6788",
+        "toolACE_tool_7945",
+        "toolACE_tool_808"
+      ]
+    },
+    "cat_fin_1_sub8": {
+      "children": [],
+      "services": [
+        "apigen_tool_1572",
+        "toolACE_tool_9781",
+        "toolbench_tool_2272"
+      ]
+    },
+    "cat_fin_1_sub9": {
+      "children": [],
+      "services": [
+        "apigen_tool_1572",
+        "apigen_tool_1880",
+        "t_eval_dialog_tool_29",
+        "toolACE_tool_12595",
+        "toolACE_tool_4241",
+        "toolbench_tool_1952",
+        "toolbench_tool_2272"
+      ]
+    },
+    "cat_fin_8_sub1": {
+      "children": [],
+      "services": [
+        "apigen_tool_1341",
+        "apigen_tool_2009",
+        "apigen_tool_393",
+        "apigen_tool_86",
+        "toolACE_tool_14824",
+        "toolACE_tool_3",
+        "toolACE_tool_805",
+        "toolACE_tool_9732",
+        "toolLens_tool_73",
+        "toolbench_tool_2271"
+      ]
+    },
+    "cat_fin_8_sub2": {
+      "children": [],
+      "services": [
+        "apigen_tool_1641",
+        "apigen_tool_219",
+        "apigen_tool_309",
+        "apigen_tool_3098",
+        "apigen_tool_3300",
+        "apigen_tool_3356",
+        "toolACE_tool_1155",
+        "toolACE_tool_14824",
+        "toolACE_tool_1793",
+        "toolACE_tool_4072",
+        "toolACE_tool_6145",
+        "toolACE_tool_7424",
+        "toolACE_tool_785",
+        "toolbench_tool_2110",
+        "toolbench_tool_6306",
+        "toolbench_tool_7536"
+      ]
+    },
+    "cat_fin_8_sub3": {
+      "children": [],
+      "services": [
+        "apigen_tool_1860",
+        "apigen_tool_2229",
+        "apigen_tool_948",
+        "toolACE_tool_11217",
+        "toolACE_tool_2164",
+        "toolACE_tool_4015",
+        "toolACE_tool_4241",
+        "toolbench_tool_6302",
+        "toolbench_tool_7539",
+        "toolbench_tool_905",
+        "toolbench_tool_907",
+        "tooleyes_tool_65",
+        "ultraTool_tool_170"
+      ]
+    },
+    "cat_fin_8_sub4": {
+      "children": [],
+      "services": [
+        "apigen_tool_2739",
+        "apigen_tool_426",
+        "apigen_tool_439",
+        "apigen_tool_690",
+        "apigen_tool_932",
+        "toolbench_tool_6304",
+        "toolbench_tool_7533",
+        "toolbench_tool_907"
+      ]
+    },
+    "cat_fin_8_sub5": {
+      "children": [],
+      "services": [
+        "apigen_tool_246",
+        "apigen_tool_2781",
+        "apigen_tool_360",
+        "t_eval_dialog_tool_29",
+        "toolACE_tool_1324",
+        "toolACE_tool_4032",
+        "toolACE_tool_4241",
+        "toolACE_tool_7565",
+        "toolLens_tool_244",
+        "toolbench_tool_1952",
+        "toolbench_tool_6301",
+        "toolbench_tool_6649",
+        "toolbench_tool_6650",
+        "toolbench_tool_7538",
+        "tooleyes_tool_65"
+      ]
+    },
+    "cat_fin_8_sub7": {
+      "children": [],
+      "services": [
+        "apigen_tool_726",
+        "toolACE_tool_2950",
+        "toolACE_tool_3187",
+        "toolACE_tool_7419",
+        "toolbench_tool_1952",
+        "toolbench_tool_6649",
+        "toolbench_tool_905"
+      ]
+    },
+    "cat_fin_8_sub8": {
+      "children": [],
+      "services": [
+        "toolACE_tool_5356",
+        "toolACE_tool_898",
+        "toolACE_tool_9781",
+        "toolbench_tool_2272",
+        "toolbench_tool_7533",
+        "toolbench_tool_7539"
+      ]
+    },
+    "cat_sub43_sub8_sub1": {
+      "children": [],
+      "services": [
+        "apigen_tool_1846",
+        "apigen_tool_398",
+        "apigen_tool_536",
+        "reversechain_tool_271",
+        "reversechain_tool_349",
+        "reversechain_tool_45",
+        "reversechain_tool_62",
+        "reversechain_tool_633",
+        "reversechain_tool_642",
+        "reversechain_tool_650",
+        "toolACE_tool_10844",
+        "toolACE_tool_4317",
+        "toolACE_tool_5821",
+        "toolACE_tool_7554",
+        "toolACE_tool_7701",
+        "toolbench_tool_1152",
+        "toolbench_tool_2792",
+        "toolbench_tool_383",
+        "toolbench_tool_7575",
+        "toolbench_tool_7576",
+        "toolbench_tool_8571",
+        "ultraTool_tool_1014"
+      ]
+    },
+    "cat_sub43_sub8_sub2": {
+      "children": [],
+      "services": [
+        "apigen_tool_579",
+        "apigen_tool_795",
+        "reversechain_tool_435",
+        "reversechain_tool_569",
+        "reversechain_tool_570",
+        "reversechain_tool_729",
+        "toolbench_tool_8646",
+        "ultraTool_tool_277",
+        "ultraTool_tool_416",
+        "ultraTool_tool_750"
+      ]
+    },
+    "cat_sub43_sub8_sub3": {
+      "children": [],
+      "services": [
+        "toolACE_tool_2709",
+        "toolACE_tool_5933",
+        "toolbench_tool_2599",
+        "toolbench_tool_8422",
+        "ultraTool_tool_195",
+        "ultraTool_tool_197",
+        "ultraTool_tool_209",
+        "ultraTool_tool_264"
+      ]
+    },
+    "cat_sub43_sub8_sub4": {
+      "children": [],
+      "services": [
+        "apigen_tool_3098",
+        "toolACE_tool_2696",
+        "toolACE_tool_2709",
+        "toolACE_tool_9734",
+        "ultraTool_tool_74"
+      ]
+    },
+    "cat_sub43_sub8_sub5": {
+      "children": [],
+      "services": [
+        "reversechain_tool_350",
+        "reversechain_tool_351",
+        "reversechain_tool_729",
+        "toolACE_tool_5517",
+        "ultraTool_tool_1052"
+      ]
+    },
+    "cat_sub43_sub8_sub7": {
+      "children": [],
+      "services": [
+        "apigen_tool_3098",
+        "toolACE_tool_12595",
+        "toolACE_tool_5821",
+        "toolACE_tool_9732",
+        "toolbench_tool_1043"
+      ]
+    },
+    "cat_loc_search_1": {
+      "children": [],
+      "services": [
+        "apigen_tool_2512",
+        "apigen_tool_314",
+        "apigen_tool_369",
+        "apigen_tool_768",
+        "reversechain_tool_211",
+        "reversechain_tool_222",
+        "reversechain_tool_301",
+        "reversechain_tool_336",
+        "reversechain_tool_604",
+        "toolACE_tool_13397",
+        "toolACE_tool_813",
+        "toolbench_tool_1146",
+        "toolbench_tool_2392",
+        "toolbench_tool_3148",
+        "toolbench_tool_3303",
+        "toolbench_tool_3622",
+        "toolbench_tool_3679",
+        "toolbench_tool_4232",
+        "toolbench_tool_5",
+        "toolbench_tool_6829",
+        "webtools_weather_tool_1",
+        "webtools_weather_tool_2"
+      ]
+    },
+    "cat_loc_search_10": {
+      "children": [],
+      "services": [
+        "apigen_tool_3049",
+        "apigen_tool_768",
+        "apigen_tool_853",
+        "metatool_which_tool_120",
+        "reversechain_tool_276",
+        "reversechain_tool_301",
+        "reversechain_tool_528",
+        "reversechain_tool_589",
+        "reversechain_tool_591",
+        "reversechain_tool_697",
+        "toolACE_tool_5871",
+        "toolbench_tool_2392",
+        "toolbench_tool_3137",
+        "toolbench_tool_3148",
+        "toolbench_tool_3303",
+        "toolbench_tool_3622",
+        "toolbench_tool_3647",
+        "toolbench_tool_4140",
+        "ultraTool_tool_503",
+        "webtools_weather_tool_1"
+      ]
+    },
+    "cat_loc_search_11": {
+      "children": [],
+      "services": [
+        "toolACE_tool_1096",
+        "toolACE_tool_9672",
+        "toolLens_tool_123",
+        "webtools_weather_tool_2"
+      ]
+    },
+    "cat_loc_search_2": {
+      "children": [],
+      "services": [
+        "apigen_tool_1692",
+        "t_eval_step_tool_13",
+        "toolbench_tool_3621",
+        "toolbench_tool_4232",
+        "toolbench_tool_9800"
+      ]
+    },
+    "cat_loc_search_4": {
+      "children": [],
+      "services": [
+        "reversechain_tool_17",
+        "reversechain_tool_301",
+        "reversechain_tool_336",
+        "toolACE_tool_5871"
+      ]
+    },
+    "cat_loc_search_5": {
+      "children": [],
+      "services": [
+        "apigen_tool_606",
+        "reversechain_tool_42",
+        "reversechain_tool_504",
+        "reversechain_tool_528",
+        "reversechain_tool_604",
+        "toolbench_tool_1146"
+      ]
+    },
+    "cat_loc_search_6": {
+      "children": [],
+      "services": [
+        "metatool_which_tool_120",
+        "reversechain_tool_13",
+        "reversechain_tool_228",
+        "reversechain_tool_26",
+        "reversechain_tool_589",
+        "reversechain_tool_591",
+        "toolACE_tool_9672",
+        "toolLens_tool_123"
+      ]
+    },
+    "cat_loc_search_9": {
+      "children": [],
+      "services": [
+        "toolACE_tool_10534",
+        "toolACE_tool_16067",
+        "toolbench_tool_3303"
+      ]
+    },
+    "cat_sub5_sub7_sub1": {
+      "children": [],
+      "services": [
+        "apigen_tool_1322",
+        "apigen_tool_2242",
+        "apigen_tool_2728",
+        "apigen_tool_2793",
+        "apigen_tool_362",
+        "apigen_tool_768",
+        "reversechain_tool_566",
+        "reversechain_tool_567",
+        "toolACE_tool_12639",
+        "toolACE_tool_353",
+        "toolACE_tool_461",
+        "toolACE_tool_6142",
+        "toolACE_tool_8661",
+        "toolACE_tool_9612",
+        "toolLens_tool_180",
+        "toolbench_tool_3680",
+        "toolbench_tool_3749",
+        "toolbench_tool_5676"
+      ]
+    },
+    "cat_sub5_sub7_sub2": {
+      "children": [],
+      "services": [
+        "reversechain_tool_104",
+        "reversechain_tool_222",
+        "reversechain_tool_605",
+        "toolACE_tool_4046",
+        "toolACE_tool_813",
+        "toolbench_tool_7332",
+        "toolbench_tool_8600"
+      ]
+    },
+    "cat_sub5_sub7_sub3": {
+      "children": [],
+      "services": [
+        "apigen_tool_1955",
+        "apigen_tool_1968",
+        "apigen_tool_2674",
+        "apigen_tool_3025",
+        "apigen_tool_371",
+        "apigen_tool_851",
+        "toolACE_tool_13171",
+        "toolACE_tool_3402",
+        "toolACE_tool_355",
+        "toolLens_tool_13",
+        "toolbench_tool_253",
+        "toolbench_tool_2889",
+        "toolbench_tool_3303",
+        "toolbench_tool_5",
+        "toolbench_tool_5673",
+        "toolbench_tool_5675",
+        "toolbench_tool_6"
+      ]
+    },
+    "cat_sub5_sub7_sub4": {
+      "children": [],
+      "services": [
+        "apigen_tool_2382",
+        "reversechain_tool_105",
+        "reversechain_tool_362",
+        "toolbench_tool_3622",
+        "toolbench_tool_4140",
+        "webtools_weather_tool_1"
+      ]
+    },
+    "cat_sub6_sub1_sub1": {
+      "children": [],
+      "services": [
+        "apigen_tool_1080",
+        "apigen_tool_1784",
+        "apigen_tool_266",
+        "apigen_tool_2848",
+        "apigen_tool_3268",
+        "reversechain_tool_204",
+        "reversechain_tool_264",
+        "reversechain_tool_322",
+        "reversechain_tool_637",
+        "toolbench_tool_12888",
+        "toolbench_tool_4518",
+        "toolbench_tool_4520",
+        "toolbench_tool_4667",
+        "toolbench_tool_7502"
+      ]
+    },
+    "cat_sub6_sub1_sub10": {
+      "children": [],
+      "services": [
+        "apigen_tool_725",
+        "toolACE_tool_7444",
+        "toolbench_tool_4667",
+        "toolbench_tool_795",
+        "webtools_tmdb_tool_0",
+        "webtools_tmdb_tool_33"
+      ]
+    },
+    "cat_sub6_sub1_sub12": {
+      "children": [],
+      "services": [
+        "metatool_which_tool_109",
+        "toolLens_tool_19",
+        "toolbench_tool_7502",
+        "toolbench_tool_7504",
+        "toolbench_tool_843",
+        "webtools_tmdb_tool_22"
+      ]
+    },
+    "cat_sub6_sub1_sub2": {
+      "children": [],
+      "services": [
+        "apigen_tool_1080",
+        "apigen_tool_1784",
+        "apigen_tool_266",
+        "apigen_tool_276",
+        "apigen_tool_2848",
+        "apigen_tool_3040",
+        "apigen_tool_3268",
+        "apigen_tool_435",
+        "apigen_tool_810",
+        "reversechain_tool_264",
+        "t_eval_dialog_tool_22",
+        "t_eval_step_tool_33",
+        "t_eval_step_tool_39",
+        "toolACE_tool_2981",
+        "toolACE_tool_9585",
+        "toolLens_tool_185",
+        "toolalpaca_tool_43",
+        "toolbench_tool_4520",
+        "toolbench_tool_4667",
+        "toolbench_tool_7502",
+        "toolbench_tool_7504",
+        "toolbench_tool_795",
+        "toolbench_tool_804",
+        "webtools_tmdb_tool_0",
+        "webtools_tmdb_tool_23"
+      ]
+    },
+    "cat_sub6_sub1_sub3": {
+      "children": [],
+      "services": [
+        "apigen_tool_289",
+        "apigen_tool_435",
+        "t_eval_step_tool_41",
+        "toolACE_tool_7444",
+        "toolLens_tool_111",
+        "toolbench_tool_11848",
+        "toolbench_tool_12888",
+        "toolbench_tool_3008",
+        "toolbench_tool_6625",
+        "toolbench_tool_7505",
+        "toolbench_tool_780",
+        "toolbench_tool_791"
+      ]
+    },
+    "cat_sub6_sub1_sub4": {
+      "children": [],
+      "services": [
+        "reversechain_tool_362",
+        "t_eval_step_tool_33",
+        "toolACE_tool_5956",
+        "toolLens_tool_111",
+        "toolbench_tool_777",
+        "toolbench_tool_855"
+      ]
+    },
+    "cat_sub6_sub1_sub5": {
+      "children": [],
+      "services": [
+        "reversechain_tool_267",
+        "reversechain_tool_362",
+        "reversechain_tool_446",
+        "t_eval_step_tool_20",
+        "toolACE_tool_1426",
+        "toolbench_tool_4518",
+        "toolbench_tool_852",
+        "toolbench_tool_854",
+        "webtools_tmdb_tool_1",
+        "webtools_tmdb_tool_22",
+        "webtools_tmdb_tool_31",
+        "webtools_tmdb_tool_38",
+        "webtools_tmdb_tool_39"
+      ]
+    },
+    "cat_sub6_sub1_sub6": {
+      "children": [],
+      "services": [
+        "toolACE_tool_5399",
+        "toolbench_tool_4531",
+        "webtools_tmdb_tool_48",
+        "webtools_tmdb_tool_52"
+      ]
+    },
+    "cat_sub6_sub1_sub7": {
+      "children": [],
+      "services": [
+        "reversechain_tool_267",
+        "reversechain_tool_323",
+        "reversechain_tool_596",
+        "toolbench_tool_795",
+        "toolbench_tool_852",
+        "webtools_tmdb_tool_29"
+      ]
+    },
+    "cat_sub6_sub1_sub8": {
+      "children": [],
+      "services": [
+        "toolbench_tool_11839",
+        "toolbench_tool_11848",
+        "toolbench_tool_797",
+        "webtools_tmdb_tool_6"
+      ]
+    },
+    "cat_sub6_sub1_sub9": {
+      "children": [],
+      "services": [
+        "apigen_tool_2180",
+        "toolbench_tool_4521",
+        "toolbench_tool_797"
+      ]
+    }
+  },
+  "build_status": "complete"
+}

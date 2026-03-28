@@ -1,0 +1,719 @@
+[
+  {
+    "id": "mcp_query_1",
+    "query": "I just finished a big refactor on our team's repo and want to open a pull request with a summary of changes, but I also need to notify the engineering channel so people can start reviewing it before our standup tomorrow morning.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_455"
+      },
+      {
+        "id": "mcp_service_1135"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_2",
+    "query": "A customer just emailed me saying they were double-charged for their subscription. I need to look up their payment history and issue a refund for the duplicate transaction, and then send them a confirmation email from our support address.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_1182"
+      },
+      {
+        "id": "mcp_service_466"
+      },
+      {
+        "id": "mcp_service_467"
+      },
+      {
+        "id": "mcp_service_468"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_3",
+    "query": "I'm planning a team offsite next month in Tokyo — I need to find a nice place to stay for 8 people near Shibuya, and also block off those dates on my work calendar so nobody schedules meetings over it.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_28"
+      },
+      {
+        "id": "mcp_service_481"
+      },
+      {
+        "id": "mcp_service_490"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_4",
+    "query": "Our production app started throwing a bunch of unhandled promise rejections after the last deploy. I need to pull up the error reports to see what's going on, and then roll back the deployment if it looks bad.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_1117"
+      },
+      {
+        "id": "mcp_service_1301"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_5",
+    "query": "I've been procrastinating on organizing my side project tasks. I want to dump all my scattered notes into a proper project board with columns for backlog, in-progress, and done, and also set up individual task cards with due dates.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_1260"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_6",
+    "query": "Our designer just updated the mockups for the new onboarding flow and I want to grab the latest screens from the design file, then create tickets in our issue tracker for each screen that the frontend team needs to implement.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_415"
+      },
+      {
+        "id": "mcp_service_655"
+      },
+      {
+        "id": "mcp_service_656"
+      },
+      {
+        "id": "mcp_service_657"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_7",
+    "query": "I want to set up a playlist for deep focus work — something with ambient electronic and lo-fi beats, probably around 2 hours long. I usually listen while coding late at night so nothing too upbeat.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_1155"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_8",
+    "query": "We're seeing weird latency spikes on our API every day around 3pm and I'm not sure if it's a database issue or something in our application layer. I need to check our monitoring dashboards and also run some queries directly against the database to see if there are slow queries locking things up.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_295"
+      },
+      {
+        "id": "mcp_service_997"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_9",
+    "query": "I just wrote a long research doc with meeting notes and product decisions from this quarter and I want to save it to our team wiki so everyone can reference it. Also need to make sure it's linked from our main project page.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_877"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_10",
+    "query": "We're containerizing our microservices and I need to build the Docker images for three services, push them to our registry, and then update the deployment configs in our cluster to use the new image tags. Preferably without any downtime.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_342"
+      },
+      {
+        "id": "mcp_service_626"
+      },
+      {
+        "id": "mcp_service_627"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_11",
+    "query": "My coworker shared a bunch of design assets in our shared drive last week but I can't remember the exact folder. I need to dig through our Google Drive to find the files, and then send a quick text to her phone letting her know I grabbed them since she's out of office and probably not checking email.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_484"
+      },
+      {
+        "id": "mcp_service_1267"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_12",
+    "query": "Black Friday is coming up and I need to check which products in our Shopify store have low inventory so I can decide what to put on sale versus what to restock. After that I want to pull up our email subscriber list to see how many people we'd be reaching with our promo blast.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_1127"
+      },
+      {
+        "id": "mcp_service_686"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_13",
+    "query": "There's a bug that keeps getting reported by QA and I want to find the original Jira ticket to see all the comments and history, then update our internal knowledge base page on Confluence with the workaround we discovered yesterday so the support team stops pinging me about it.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_90"
+      },
+      {
+        "id": "mcp_service_91"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_14",
+    "query": "I'm putting together a competitive analysis and need to pull the transcripts from a few competitor product demo videos on YouTube, then organize the key feature comparisons into a spreadsheet so my PM can review it during our strategy meeting on Thursday.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_737"
+      },
+      {
+        "id": "mcp_service_487"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_15",
+    "query": "We just migrated to Cloudflare and I want to make sure our DNS records are configured correctly and the caching rules are working. Also need to peek at our Grafana dashboards to confirm that the migration didn't introduce any new error spikes or weird traffic patterns.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_221"
+      },
+      {
+        "id": "mcp_service_493"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_16",
+    "query": "Our gaming community Discord server has been getting a lot of spam from bot accounts lately and I need to check the recent messages and set up some auto-moderation rules. After that I want to send an email to all our registered community members through our mailing service to let them know about the new server rules and verification steps.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_336"
+      },
+      {
+        "id": "mcp_service_1116"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_17",
+    "query": "We're running into performance issues and I think our MongoDB queries are getting slow because we're not caching anything. I want to look at the query patterns hitting our database and then set up some Redis caching for the most frequently accessed data to take the load off.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_824"
+      },
+      {
+        "id": "mcp_service_1060"
+      },
+      {
+        "id": "mcp_service_825"
+      },
+      {
+        "id": "mcp_service_826"
+      },
+      {
+        "id": "mcp_service_1061"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_18",
+    "query": "I'm heading to Berlin next week for a conference and I want to know what the weather's going to be like so I can pack appropriately — last time I froze because I didn't bring a proper jacket. Also need to message my colleague on Telegram to coordinate our travel plans since we're sharing a cab from the airport.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_736"
+      },
+      {
+        "id": "mcp_service_1201"
+      },
+      {
+        "id": "mcp_service_1202"
+      },
+      {
+        "id": "mcp_service_1203"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_19",
+    "query": "I have a sales call with a potential enterprise client tomorrow and I need to pull up their company info and past interactions from our CRM so I'm not going in blind. Also want to schedule the Zoom meeting and send them the invite link ahead of time.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_529"
+      },
+      {
+        "id": "mcp_service_1387"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_20",
+    "query": "We're building a new feature that needs full-text search across our product catalog and I want to set up the search index in Elasticsearch with the right field mappings. Our backend is on Firebase so I also need to sync the product data from Firestore into the search index.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_369"
+      },
+      {
+        "id": "mcp_service_422"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_21",
+    "query": "Our CI pipeline on Jenkins keeps failing on the integration test step and nobody on the team can figure out why — the logs are super cryptic. I need to look at the recent build logs and maybe retrigger the job with some extra debug flags. Also want to check if the same tests pass on our GitLab repo's own CI, since we mirror everything there.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_576"
+      },
+      {
+        "id": "mcp_service_462"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_22",
+    "query": "I've been wanting to get more serious about investing and I'd like to check how a few tech stocks have been performing over the last quarter — especially NVIDIA and Apple — and maybe place a small buy order if the price dipped recently. I'm not super experienced so I want to start conservative.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_1362"
+      },
+      {
+        "id": "mcp_service_46"
+      },
+      {
+        "id": "mcp_service_1367"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_23",
+    "query": "We're migrating our app's backend from a traditional Postgres setup to Supabase because we want built-in auth and real-time subscriptions. I need to create the new tables in Supabase matching our current schema, and also set up an Airtable base for the product team to manually review and approve data migrations before we flip the switch.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_1187"
+      },
+      {
+        "id": "mcp_service_30"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_24",
+    "query": "We just launched our new product and I want to put together a Twitter thread announcing the features with some nice screenshots of the app in action. I'm thinking maybe 5-6 tweets with a screenshot attached to each one — our designer said the landing page looks great on desktop so I want to capture that too.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_1354"
+      },
+      {
+        "id": "mcp_service_165"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_25",
+    "query": "I keep all my research notes and reading highlights in Obsidian but they're getting really disorganized. I want to search through everything related to our Q1 market research and pull out the key insights, then translate the executive summary into Japanese since we're presenting to our Tokyo office next week.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_885"
+      },
+      {
+        "id": "mcp_service_644"
+      },
+      {
+        "id": "mcp_service_886"
+      },
+      {
+        "id": "mcp_service_887"
+      },
+      {
+        "id": "mcp_service_307"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_26",
+    "query": "A few of our enterprise clients in Brazil have been asking us to communicate via WhatsApp instead of email since that's what everyone uses there. I need to set up message templates for order confirmations and shipping updates, and also make sure their contact info is up to date in Salesforce so our account managers have the full picture.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_1334"
+      },
+      {
+        "id": "mcp_service_1094"
+      },
+      {
+        "id": "mcp_service_1096"
+      },
+      {
+        "id": "mcp_service_730"
+      },
+      {
+        "id": "mcp_service_1095"
+      },
+      {
+        "id": "mcp_service_1335"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_27",
+    "query": "I'm organizing a team lunch for about 12 people and need to find some good restaurant options near our office in downtown SF — preferably something with outdoor seating and a decent vegetarian menu. Once I pick a place I want to send out a quick poll in our Teams channel so people can vote on the time.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_485"
+      },
+      {
+        "id": "mcp_service_808"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_28",
+    "query": "Our Kubernetes cluster has been acting flaky and I suspect some pods are getting OOM-killed. I want to check the Prometheus metrics for memory usage across our services over the past 24 hours, and also look at the AWS console to see if we need to scale up the node group or if there's a resource limit we forgot to set.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_1014"
+      },
+      {
+        "id": "mcp_service_106"
+      },
+      {
+        "id": "mcp_service_1015"
+      },
+      {
+        "id": "mcp_service_1016"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_29",
+    "query": "We have a bunch of CSV reports from different vendors sitting in an S3 bucket that I need to pull down and consolidate into a single Excel workbook with separate tabs for each vendor. My manager loves pivot tables so I should probably set one up summarizing the totals by region.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_113"
+      },
+      {
+        "id": "mcp_service_388"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_30",
+    "query": "Our data pipeline has been silently failing for the past two days and nobody noticed because the Airflow DAG didn't send alerts. I need to check which tasks failed and rerun them, and then set up an Outlook notification rule through our Microsoft 365 account so the on-call engineer gets pinged immediately if it happens again.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_29"
+      },
+      {
+        "id": "mcp_service_802"
+      },
+      {
+        "id": "mcp_service_707"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_31",
+    "query": "I just moved into a new apartment and I'm finally getting around to setting up all the smart home stuff I bought impulsively during Prime Day. I've got Home Assistant running on a Raspberry Pi in the closet, and I want to create some automations — like turning off every light at midnight because I always forget, and having the thermostat drop to 18 degrees when I leave for work. Oh also I need to add all the remaining setup tasks to my TickTick list so I don't keep forgetting about things like calibrating the motion sensors and programming the smart blinds schedule.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_523"
+      },
+      {
+        "id": "mcp_service_1233"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_32",
+    "query": "My daughter's doing a school science fair project about Mars and she's absolutely obsessed with the rovers — she even named her hamster Perseverance. I want to pull up some recent photos from the Mars rovers that she can print out for her poster board, and also look up some background information about the geology of Jezero Crater and the history of Mars exploration so we can write accurate captions together. She's in 6th grade so nothing too technical but it needs to be factually correct.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_846"
+      },
+      {
+        "id": "mcp_service_847"
+      },
+      {
+        "id": "mcp_service_848"
+      },
+      {
+        "id": "mcp_service_1340"
+      },
+      {
+        "id": "mcp_service_933"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_33",
+    "query": "I've been running a small history podcast as a side project with my college roommate and we just recorded our 50th episode, which honestly feels like a huge milestone for something we almost quit after episode 10. I need to upload the new episode to Podbean with the show notes and chapter markers — we're covering the fall of Constantinople this time — and I also want to upload the custom episode artwork and some audiogram clips to Cloudinary so I can grab shareable links for promoting it on social media.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_993"
+      },
+      {
+        "id": "mcp_service_222"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_34",
+    "query": "We're wrapping up our sprint this Friday and there are still like seven open issues in Linear that haven't been touched — some of them are blockers for the mobile release and I need to figure out which ones we can punt to next cycle versus which ones absolutely have to ship. Once the remaining PRs get merged, I want to kick off a production deploy on Netlify and keep an eye on the build to make sure it succeeds, because last time someone deployed on a Friday afternoon without watching and we had a broken site for the entire weekend.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_655"
+      },
+      {
+        "id": "mcp_service_656"
+      },
+      {
+        "id": "mcp_service_657"
+      },
+      {
+        "id": "mcp_service_865"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_35",
+    "query": "Tax season is giving me anxiety — I'm a freelance graphic designer and I need to reconcile all my PayPal transactions from Q4 with what's showing in my Xero accounting system. I'm pretty sure there are at least three invoices still marked as unpaid even though the clients already sent me the money weeks ago through PayPal, and my accountant is going to have questions if I don't sort this out before our meeting next Tuesday. I just want everything to match up cleanly for once.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_962"
+      },
+      {
+        "id": "mcp_service_1358"
+      },
+      {
+        "id": "mcp_service_1359"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_36",
+    "query": "I got into crypto back in 2021 during the hype and honestly I haven't really looked at my portfolio since the market crashed. I mainly hold ETH and a few smaller altcoins on Binance, and I want to check how everything's doing now — see the current values, any gains or losses. Also I'd like to get an overall market summary and maybe look at what the top performing coins have been recently, because I'm thinking about rebalancing a bit. Nothing aggressive, I've always been more of a buy-and-hold person.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_138"
+      },
+      {
+        "id": "mcp_service_238"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_37",
+    "query": "We just closed a partnership deal with a manufacturing company in Munich and I need to translate our standard partnership agreement and onboarding materials from English to German before we send them over — the quality has to be really polished because it's basically a legal document and our CEO would kill me if there were embarrassing translation errors. Once the German versions are ready I want to email them directly to their head of partnerships, I'm pretty sure his email address is somewhere in my Gmail from when we were going back and forth scheduling the signing call.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_307"
+      },
+      {
+        "id": "mcp_service_466"
+      },
+      {
+        "id": "mcp_service_467"
+      },
+      {
+        "id": "mcp_service_468"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_38",
+    "query": "I'm deep in my thesis literature review right now and I keep finding references to papers on transformer architectures for time series forecasting that I haven't read yet. I need to do a thorough search across arXiv and Google Scholar for anything relevant published after 2023, especially stuff about patch-based transformers and frequency-domain attention mechanisms. Once I've identified the key papers I want to auto-generate proper BibTeX citations so I can drop them straight into my LaTeX bibliography without spending an hour manually formatting everything like I did last time.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_85"
+      },
+      {
+        "id": "mcp_service_477"
+      },
+      {
+        "id": "mcp_service_903"
+      },
+      {
+        "id": "mcp_service_1100"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_39",
+    "query": "Our staging environment on Heroku has been acting weird ever since we added that new background worker dyno for processing image uploads, and I'm honestly not sure if the latest Buildkite pipeline actually deployed the right commit or if something went wrong midway. I want to pull up the recent Buildkite build logs to check if all the test steps passed and confirm which commit hash ended up getting deployed, and then look at the Heroku dashboard to see if the worker dyno is actually running or if it's crash-looping again — last three times it was an out-of-memory issue because someone forgot to bump the dyno size.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_514"
+      },
+      {
+        "id": "mcp_service_170"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_40",
+    "query": "Our marketing team is prepping for the product launch next month and we desperately need fresh visuals for the campaign — the current ones look super dated and generic, like stock photos from 2015. I want to find some high-quality lifestyle and tech-themed images that feel modern and authentic, preferably people actually using devices in natural settings rather than those awful staged office handshake photos. Once I find a good batch I need to upload them to our company's Box account in the shared marketing assets folder so the designers and content writers can grab them for the landing page, email templates, and social posts.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_972"
+      },
+      {
+        "id": "mcp_service_156"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_41",
+    "query": "I signed up for my first marathon in October and I really need to get serious about training instead of just doing random jogs when I feel like it. I want to pull my recent running data from Strava to see my weekly mileage and pace trends over the past couple months, and then based on where I'm at, set up a structured 20-week training plan in Todoist with long runs on Saturdays and recovery days on Mondays — I've heard that's the way to do it without burning out. I also want to track my resting heart rate over time to make sure I'm not overtraining.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_1180"
+      },
+      {
+        "id": "mcp_service_1181"
+      },
+      {
+        "id": "mcp_service_1246"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_42",
+    "query": "I run a small design agency and we're juggling way too many client projects right now — it's getting hard to track who's doing what and which deliverables are overdue. I need to restructure our Monday.com workspace so each client has their own board with proper status columns and due dates, and I also want to set up a Calendly page for new client intake calls so prospects can book a 30-minute discovery session without the endless back-and-forth emailing about availability that's been eating up my mornings.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_822"
+      },
+      {
+        "id": "mcp_service_823"
+      },
+      {
+        "id": "mcp_service_180"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_43",
+    "query": "My VP just asked me to put together a quarterly business review deck by Thursday and I need hard numbers. I want to run a few queries in Snowflake to get the revenue breakdown by region and product line for Q4, and then cross-reference that with our Mixpanel funnels to understand where users are dropping off in the upgrade flow — we've been seeing a dip in paid conversions and nobody has a clear answer on why. The board is going to ask about it so I need to go in with actual data, not guesses.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_1141"
+      },
+      {
+        "id": "mcp_service_815"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_44",
+    "query": "We got paged at 2am last night for a P1 incident and the on-call engineer acknowledged it in PagerDuty but didn't actually fix anything — they just silenced the alert and went back to sleep, which is not great. I need to pull up the full incident timeline and escalation history to see what happened, and also check our PostHog dashboards to understand the actual user impact, because if error rates spiked for more than an hour we'll need to do a proper post-mortem and figure out whether our alerting thresholds are too lenient.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_951"
+      },
+      {
+        "id": "mcp_service_998"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_45",
+    "query": "I've been saving interesting articles and research links in Raindrop.io for months but never actually turned any of it into content. This weekend I want to go through my bookmarks tagged 'blog-ideas' and pick out the best three topics, then draft and publish at least one post on our WordPress blog about developer productivity tools — something practical that other engineers would actually want to read, not just another generic listicle.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_1049"
+      },
+      {
+        "id": "mcp_service_1348"
+      },
+      {
+        "id": "mcp_service_1349"
+      },
+      {
+        "id": "mcp_service_1350"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_46",
+    "query": "We're hiring for a senior backend role and I've been browsing LinkedIn profiles of potential candidates who liked our recent engineering blog post. I want to look at a few of their profiles in more detail — specifically their work history and any open-source contributions — and then send personalized outreach emails through Resend to the ones who seem like a good fit, something casual and genuine rather than the typical spammy recruiter template that everyone ignores.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_511"
+      },
+      {
+        "id": "mcp_service_659"
+      },
+      {
+        "id": "mcp_service_660"
+      },
+      {
+        "id": "mcp_service_1072"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_47",
+    "query": "We're migrating our analytics infrastructure from a bunch of ad-hoc scripts to a proper Databricks lakehouse setup, and I need to provision the new workspace and configure the compute clusters through Terraform so everything is reproducible and version-controlled. Our data engineer left last month so I'm kind of figuring this out as I go — I want to make sure the Terraform state is properly managed in Terraform Cloud and that the Databricks workspace has the right access controls before I start moving any production data over.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_1211"
+      },
+      {
+        "id": "mcp_service_1212"
+      },
+      {
+        "id": "mcp_service_291"
+      },
+      {
+        "id": "mcp_service_292"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_48",
+    "query": "Our customer support volume has tripled since we launched the new pricing tiers and the team is drowning. I need to pull up all the unresolved Intercom conversations from the past week to see what the most common complaints are — I have a feeling it's mostly confusion about feature limits on the free plan. Once I identify the top issues I want to create ClickUp tasks for the product team to address each one, with priority levels based on how many customers brought it up, so we can start fixing the actual root causes instead of just replying to the same questions over and over.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_563"
+      },
+      {
+        "id": "mcp_service_214"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_49",
+    "query": "I'm working on a computer vision side project to automatically identify bird species from photos I take on my morning hikes, and I want to browse Hugging Face for pre-trained image classification models that might work well — ideally something fine-tuned on bird datasets like CUB-200 rather than just generic ImageNet. Once I find a promising model I want to run some test predictions on Replicate with a few of my own photos to see how accurate it is before I commit to building a whole pipeline around it.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_530"
+      },
+      {
+        "id": "mcp_service_1070"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_50",
+    "query": "I write a weekly newsletter on my Ghost blog about emerging tech trends and this week I want to cover the rise of AI-generated art in commercial design workflows. The problem is I never have good header images — I usually just grab something generic from the internet which looks lazy. This time I want to generate a few custom illustrations using an AI image model, something abstract and colorful that captures the theme of human-AI creative collaboration, and then publish the post on Ghost with the best one as the featured image.",
+    "correct_tools": [
+      {
+        "id": "mcp_service_448"
+      },
+      {
+        "id": "mcp_service_121"
+      },
+      {
+        "id": "mcp_service_400"
+      },
+      {
+        "id": "mcp_service_546"
+      }
+    ]
+  }
+]

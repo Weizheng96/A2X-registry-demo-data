@@ -1,0 +1,82 @@
+[
+  {
+    "query": "什么礼物适合送给一个热爱科学和太空的10岁孩子？",
+    "query_en": "What would be a suitable gift for a 10-year-old who is really into science and space?"
+  },
+  {
+    "query": "我和朋友计划去徒步旅行，需要知道山区过去一个月的平均温度和降水量",
+    "query_en": "My friends and I are planning a hiking trip and need to know the average temperature and precipitation in the mountains for the past month. Can you provide us with this information? Additionally, we would like to know what to pack for the trip."
+  },
+  {
+    "query": "我在找意大利婚礼汤的食谱，顺便列一个这个月的采购清单",
+    "query_en": "I'm looking for Italian wedding soup recipes and a grocery list for my meal planning for the upcoming month."
+  },
+  {
+    "query": "帮我查柏林过去24小时的空气质量数据和东京现在的天气",
+    "query_en": "Get the past 24 hours of air quality data for Berlin and the current weather in Tokyo."
+  },
+  {
+    "query": "我想看一部评分高的动作冒险电影，要有精彩的动作场面和引人入胜的剧情",
+    "query_en": "I want to watch a highly-rated action-adventure movie with intense action sequences, a gripping plot, and well-developed characters."
+  },
+  {
+    "query": "和朋友从纽约自驾去芝加哥，查一下两个城市的天气和潮汐信息",
+    "query_en": "My friends and I are going on a road trip from New York to Chicago. Could you please give us the current weather conditions for both cities? Additionally, we would like to know the high and low tide times for a beach stop along the way."
+  },
+  {
+    "query": "我需要一个浪漫晚餐约会的歌单，要浪漫舒缓的那种",
+    "query_en": "I need a playlist for a romantic dinner date. Can you create something romantic and soothing?"
+  },
+  {
+    "query": "我计划去旅行，需要订酒店，有没有酒店预订的优惠券？",
+    "query_en": "I'm planning to travel and I need to book a hotel. Can you find any coupons for hotel bookings?"
+  },
+  {
+    "query": "我想一个人出去走走，推荐一些安静祥和的城市，要有人口和旅游信息",
+    "query_en": "I am planning a solo trip and I want to visit some peaceful cities. Can you recommend some calm and serene cities around the world? I would like to know the names of these cities, their population, and their tourist attractions."
+  },
+  {
+    "query": "帮我把2000日元换算成美元、欧元和印度卢比",
+    "query_en": "Please help me convert 2000 JPY to USD, EUR, and INR using the Currency Converter_v3 tool."
+  },
+  {
+    "query": "计划带家人去光污染少的偏远地方观星，推荐目的地和天文信息",
+    "query_en": "I'm planning a family trip to a remote location with minimal light pollution for stargazing. Can you recommend some secluded destinations with clear skies and low light pollution? It would also be great to know the astronomy data for those locations."
+  },
+  {
+    "query": "我是Lisa，根据我的穿衣风格和当前位置的天气，今天穿什么合适？",
+    "query_en": "I'm Lisa, what should I wear today based on my style and the weather where I'm located?"
+  },
+  {
+    "query": "我在找薪资有竞争力的远程工作，顺便帮我生成一封求职信",
+    "query_en": "I'm looking for a remote job that offers a competitive salary. Can you suggest an API that allows me to search for remote jobs based on salary range? Additionally, I'd like to generate a cover letter for a software engineering position."
+  },
+  {
+    "query": "自驾游出发，查一下当前位置的天气和今天的天文数据",
+    "query_en": "I'm planning a road trip across the country. Can you give me the current weather conditions for my current location? Also, provide the astronomy data for today, including sunrise, sunset, moonrise, and moon phase."
+  },
+  {
+    "query": "纽约、伦敦和东京现在的天气怎么样？",
+    "query_en": "What is the current weather in New York City, London, and Tokyo?"
+  },
+  {
+    "query": "John能借《战争与和平》到这个月底吗？",
+    "query_en": "Can John borrow \"War and Peace\" until the end of this month?"
+  },
+  {
+    "query": "明天想看最新的皮克斯电影，推荐一个吃早餐的地方，帮我订2人8点的位",
+    "query_en": "We are looking forward to watching the latest Pixar film tomorrow. Can you suggest a place to enjoy breakfast and make a reservation for 2 at 8 AM?"
+  },
+  {
+    "query": "计划周末短途旅行，推荐一家评价好的附近酒店，提供地址和电话",
+    "query_en": "I'm planning a weekend getaway and need to find a nearby hotel. Can you recommend a hotel with good ratings, provide its name, address, phone number, and distance from my location?"
+  },
+  {
+    "query": "和朋友看动漫之夜，推荐一部高排名、正在播出的动漫，附上简介",
+    "query_en": "I'm planning a movie night with my friends and we want to watch an anime. Can you recommend an anime that has a high ranking, good reviews, and is currently airing? Also, provide us with the synopsis, genre, and other details about the anime."
+  },
+  {
+    "query": "组织公司活动，帮我查查全球各大足球联赛的有趣信息",
+    "query_en": "I'm organizing a company event and I need to gather some interesting facts about football leagues worldwide. Can you help me retrieve information about different football leagues? Additionally, I want to know the top scorers of each league."
+  }
+]

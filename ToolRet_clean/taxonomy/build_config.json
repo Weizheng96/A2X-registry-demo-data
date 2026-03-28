@@ -1,0 +1,22 @@
+{
+  "service_path": "database/ToolRet_clean/service.json",
+  "output_dir": "database/ToolRet_clean/taxonomy",
+  "keyword_batch_size": 50,
+  "max_keywords_per_service": 5,
+  "temperature_keywords": 0.0,
+  "temperature_design": 0.0,
+  "generic_ratio": 0.333,
+  "delete_threshold": 2,
+  "classification_retries": 2,
+  "max_refine_iterations": 3,
+  "temperature_classify": 0.0,
+  "keyword_threshold": 500,
+  "max_service_size": 40,
+  "max_categories_size": 20,
+  "max_depth": 3,
+  "min_leaf_size": 5,
+  "workers": 20,
+  "enable_cross_domain": true,
+  "reuse_keywords": true,
+  "service_hash": "f4ca137e82e7d1368d1ccaea94bec33477c4565195ba92b3366aba5b35e2c12e"
+}

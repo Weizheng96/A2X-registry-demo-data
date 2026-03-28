@@ -1,0 +1,719 @@
+[
+  {
+    "id": "mcp_query_1",
+    "query": "我刚把团队仓库做了一次大规模重构，想提一个PR把改动摘要写上去，另外还得在工程频道通知一下大家，这样明天早上站会之前他们就可以开始review了。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_455"
+      },
+      {
+        "id": "mcp_service_1135"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_2",
+    "query": "有个客户刚发邮件说他的订阅被重复扣款了。我需要查一下他的付款记录，把重复的那笔退掉，然后用我们的客服邮箱给他发一封确认邮件。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_1182"
+      },
+      {
+        "id": "mcp_service_466"
+      },
+      {
+        "id": "mcp_service_467"
+      },
+      {
+        "id": "mcp_service_468"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_3",
+    "query": "我在筹备下个月在东京的团建，需要在涩谷附近找一个能住8个人的好地方，另外还得在我的工作日历上把那几天锁住，免得别人往上面排会议。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_28"
+      },
+      {
+        "id": "mcp_service_481"
+      },
+      {
+        "id": "mcp_service_490"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_4",
+    "query": "我们的生产环境在上次部署之后开始疯狂抛unhandled promise rejection。我得拉一下错误报告看看到底怎么回事，如果情况严重的话就回滚部署。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_1117"
+      },
+      {
+        "id": "mcp_service_1301"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_5",
+    "query": "我的业余项目任务一直没整理，拖了好久了。我想把到处散落的笔记都收进一个正经的看板里，分成待办、进行中和已完成三栏，每个任务卡片都设上截止日期。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_1260"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_6",
+    "query": "我们的设计师刚更新了新用户引导流程的设计稿，我想从设计文件里导出最新的界面截图，然后在issue tracker里给前端团队按每个页面各建一张工单。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_415"
+      },
+      {
+        "id": "mcp_service_655"
+      },
+      {
+        "id": "mcp_service_656"
+      },
+      {
+        "id": "mcp_service_657"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_7",
+    "query": "我想创建一个专注工作用的歌单，放一些氛围电子和lo-fi节拍的音乐，大概两个小时左右。我一般深夜写代码的时候听，所以别太嗨的那种。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_1155"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_8",
+    "query": "我们的API每天下午三点左右都会出现奇怪的延迟尖峰，不确定是数据库的问题还是应用层的问题。我需要看一下监控面板，另外直接跑几条数据库查询看看是不是有慢查询在锁表。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_295"
+      },
+      {
+        "id": "mcp_service_997"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_9",
+    "query": "我刚写完一份很长的文档，记录了这个季度的会议纪要和产品决策，想把它存到团队wiki上方便大家查阅。还需要确保从主项目页面能链接过去。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_877"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_10",
+    "query": "我们在做微服务容器化，需要给三个服务构建Docker镜像、推送到镜像仓库，然后更新集群里的部署配置用上新的镜像标签。最好能不停机完成。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_342"
+      },
+      {
+        "id": "mcp_service_626"
+      },
+      {
+        "id": "mcp_service_627"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_11",
+    "query": "同事上周在共享盘里分享了一堆设计素材，但我想不起来具体在哪个文件夹了。我得翻一下Google Drive找到那些文件，然后给她发条短信说一声我拿到了，因为她在休假，估计不会看邮件。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_484"
+      },
+      {
+        "id": "mcp_service_1267"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_12",
+    "query": "黑色星期五快到了，我需要检查一下我们Shopify店铺里哪些商品库存不足，好决定哪些做促销、哪些要补货。之后还想拉一下邮件订阅者列表，看看我们的促销邮件能覆盖多少人。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_1127"
+      },
+      {
+        "id": "mcp_service_686"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_13",
+    "query": "QA一直在反馈同一个bug，我想找到最早的那张Jira工单看看所有的评论和历史记录，然后把我们昨天发现的临时解决方案更新到Confluence的内部知识库页面上，这样客服团队就不用老来找我问了。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_90"
+      },
+      {
+        "id": "mcp_service_91"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_14",
+    "query": "我在做竞品分析，需要从YouTube上几个竞品的产品演示视频里提取字幕文本，然后把关键的功能对比整理到电子表格里，这样我们PM周四的策略会议上就能直接看了。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_737"
+      },
+      {
+        "id": "mcp_service_487"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_15",
+    "query": "我们刚迁移到了Cloudflare，我想确认一下DNS记录配置正确、缓存规则生效了。还需要看看Grafana监控面板，确认这次迁移没有引入新的错误尖峰或者异常流量。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_221"
+      },
+      {
+        "id": "mcp_service_493"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_16",
+    "query": "我们游戏社区的Discord服务器最近一直被机器人账号刷垃圾信息，我需要查看最近的消息记录并设置一些自动审核规则。搞完之后还要通过邮件服务给所有注册的社区成员群发一封邮件，通知他们新的服务器规则和身份验证流程。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_336"
+      },
+      {
+        "id": "mcp_service_1116"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_17",
+    "query": "我们遇到了性能问题，我觉得是MongoDB查询变慢了，因为我们什么缓存都没做。我想看看打到数据库上的查询模式，然后给访问最频繁的数据加上Redis缓存来减轻压力。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_824"
+      },
+      {
+        "id": "mcp_service_1060"
+      },
+      {
+        "id": "mcp_service_825"
+      },
+      {
+        "id": "mcp_service_826"
+      },
+      {
+        "id": "mcp_service_1061"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_18",
+    "query": "我下周要去柏林参加一个会议，想看看那边天气怎么样好提前收拾行李——上次就是因为没带厚外套冻得够呛。还得在Telegram上联系一下同事协调出行安排，我们打算从机场拼车走。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_736"
+      },
+      {
+        "id": "mcp_service_1201"
+      },
+      {
+        "id": "mcp_service_1202"
+      },
+      {
+        "id": "mcp_service_1203"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_19",
+    "query": "明天有一个和潜在企业客户的销售电话，我需要从CRM里调出他们的公司信息和过往沟通记录，不能啥都不了解就上去聊。另外还想提前把Zoom会议排好，把邀请链接发给对方。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_529"
+      },
+      {
+        "id": "mcp_service_1387"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_20",
+    "query": "我们在开发一个新功能，需要对产品目录做全文搜索，我想在Elasticsearch里建好索引并配置字段映射。我们后端用的Firebase，所以还得把Firestore里的产品数据同步到搜索索引里。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_369"
+      },
+      {
+        "id": "mcp_service_422"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_21",
+    "query": "我们Jenkins上的CI流水线一直在集成测试这一步挂掉，团队里没人搞得明白为什么——日志写得贼难懂。我得看看最近的构建日志，可能需要加点debug参数重新跑一次。另外还想看看同样的测试在我们GitLab仓库自带的CI上能不能跑过，因为代码是同步镜像的。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_576"
+      },
+      {
+        "id": "mcp_service_462"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_22",
+    "query": "我最近想认真搞一下投资，想看看几只科技股上个季度的表现——特别是英伟达和苹果——如果最近价格跌了的话可能会小额买入一些。我没什么经验，所以打算先保守一点。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_1362"
+      },
+      {
+        "id": "mcp_service_46"
+      },
+      {
+        "id": "mcp_service_1367"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_23",
+    "query": "我们正在把应用后端从传统的Postgres迁移到Supabase，主要是想用它自带的认证和实时订阅功能。我需要在Supabase里按现有的schema建新表，另外还得建一个Airtable让产品团队在我们正式切换之前手动审核和批准数据迁移。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_1187"
+      },
+      {
+        "id": "mcp_service_30"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_24",
+    "query": "我们的新产品刚上线，我想在Twitter上发一组推文宣传一下主要功能，配上一些产品实际使用的截图。大概发5到6条，每条配一张图——我们设计师说落地页在桌面端看起来特别好，我也想截一下那个。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_1354"
+      },
+      {
+        "id": "mcp_service_165"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_25",
+    "query": "我把所有的研究笔记和阅读标注都放在Obsidian里，但现在越来越乱了。我想把跟Q1市场调研相关的内容全部搜出来，提炼出关键洞察，然后把执行摘要翻译成日语，因为下周要给东京办公室做汇报。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_885"
+      },
+      {
+        "id": "mcp_service_644"
+      },
+      {
+        "id": "mcp_service_886"
+      },
+      {
+        "id": "mcp_service_887"
+      },
+      {
+        "id": "mcp_service_307"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_26",
+    "query": "我们在巴西的几个企业客户一直要求用WhatsApp沟通，说那边大家都用这个。我需要设置订单确认和物流更新的消息模板，另外还得确认他们在Salesforce里的联系信息是最新的，这样客户经理那边能看到完整的资料。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_1334"
+      },
+      {
+        "id": "mcp_service_1094"
+      },
+      {
+        "id": "mcp_service_1096"
+      },
+      {
+        "id": "mcp_service_730"
+      },
+      {
+        "id": "mcp_service_1095"
+      },
+      {
+        "id": "mcp_service_1335"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_27",
+    "query": "我在组织一次12人左右的团队午餐，需要在旧金山市中心办公室附近找几家不错的餐厅——最好有户外座位、素食菜单也别太差。选好地方之后我想在Teams频道发个投票让大家选时间。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_485"
+      },
+      {
+        "id": "mcp_service_808"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_28",
+    "query": "我们的Kubernetes集群最近不太稳定，我怀疑有些Pod因为内存不足被OOM Kill了。我想看看Prometheus过去24小时各服务的内存使用指标，另外还得去AWS控制台看看是不是需要扩容节点组，或者是漏设了资源限制。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_1014"
+      },
+      {
+        "id": "mcp_service_106"
+      },
+      {
+        "id": "mcp_service_1015"
+      },
+      {
+        "id": "mcp_service_1016"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_29",
+    "query": "我们S3里堆了一堆不同供应商的CSV报表，我需要把它们拉下来合并成一个Excel工作簿，每个供应商一个sheet。我们经理特别喜欢数据透视表，所以我最好按区域做一个汇总。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_113"
+      },
+      {
+        "id": "mcp_service_388"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_30",
+    "query": "我们的数据管道已经默默挂了两天了，没人发现，因为Airflow的DAG没发告警。我得查一下哪些任务失败了然后重跑，之后还要在Microsoft 365里设一个Outlook通知规则，下次再出问题的话oncall工程师能第一时间收到提醒。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_29"
+      },
+      {
+        "id": "mcp_service_802"
+      },
+      {
+        "id": "mcp_service_707"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_31",
+    "query": "我刚搬了新家，终于要把Prime Day冲动买的那堆智能家居设备装起来了。Home Assistant已经跑在壁橱里的树莓派上了，我想设几个自动化——比如每天午夜自动关所有灯因为我老忘记，还有出门上班的时候恒温器自动降到18度。对了还得把剩下的安装任务加到TickTick里，免得又忘了调校走廊的运动传感器和设置智能窗帘的定时。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_523"
+      },
+      {
+        "id": "mcp_service_1233"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_32",
+    "query": "我女儿在做一个关于火星的科学展览项目，她超级痴迷火星车——连仓鼠都取名叫毅力号。我想找一些火星车最近拍的照片让她打印出来贴在展板上，另外还想查一下耶泽罗陨石坑的地质资料和火星探索的历史背景，好一起写准确的图片说明。她上六年级，内容不能太专业但得确保事实正确。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_846"
+      },
+      {
+        "id": "mcp_service_847"
+      },
+      {
+        "id": "mcp_service_848"
+      },
+      {
+        "id": "mcp_service_1340"
+      },
+      {
+        "id": "mcp_service_933"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_33",
+    "query": "我跟大学室友一起做的历史播客刚录完第50期，说实话这对一个差点在第10期就放弃的项目来说真的算里程碑了。我得把新一期传到Podbean上，附上节目备注和章节标记——这期讲的是君士坦丁堡的陷落——另外还想把定制的单集封面和一些音频短片上传到Cloudinary，好拿到分享链接在社交媒体上推广。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_993"
+      },
+      {
+        "id": "mcp_service_222"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_34",
+    "query": "这周五冲刺就要结束了，Linear里还有七个issue没人动过——其中几个是移动端发版的阻塞项，我得搞清楚哪些可以挪到下个迭代、哪些必须这次搞定。等剩下的PR合并完，我想在Netlify上触发一次生产部署然后盯着构建过程确保成功，上次有人周五下午部署完就不管了，结果网站挂了一整个周末。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_655"
+      },
+      {
+        "id": "mcp_service_656"
+      },
+      {
+        "id": "mcp_service_657"
+      },
+      {
+        "id": "mcp_service_865"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_35",
+    "query": "报税季真让我焦虑——我是自由职业的平面设计师，需要把Q4所有的PayPal交易和Xero记账系统里的数据对上。我很确定至少有三张发票还显示未付款，但客户早就通过PayPal把钱打过来了，下周二跟会计开会之前我得把这些理清楚。真希望这次能一次对齐。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_962"
+      },
+      {
+        "id": "mcp_service_1358"
+      },
+      {
+        "id": "mcp_service_1359"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_36",
+    "query": "我2021年跟风入了币圈，说实话自从市场崩了之后就没怎么看过了。我主要在Binance上持有ETH和一些小币种，想看看现在整体情况怎么样——当前价值、盈亏之类的。另外也想看一下大盘概况和最近表现好的币种，考虑稍微调一下仓位。不会太激进的，我一直都是长期持有的风格。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_138"
+      },
+      {
+        "id": "mcp_service_238"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_37",
+    "query": "我们刚跟慕尼黑的一家制造企业谈成了合作，我需要把我们的标准合作协议和入职材料从英文翻译成德文——质量必须非常精致，因为基本上算是法律文件，翻译出了纰漏CEO会杀了我的。翻译好之后我想直接发邮件给他们的合作负责人，之前约签约电话的时候他在Gmail里回过我，邮箱地址应该能找到。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_307"
+      },
+      {
+        "id": "mcp_service_466"
+      },
+      {
+        "id": "mcp_service_467"
+      },
+      {
+        "id": "mcp_service_468"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_38",
+    "query": "我现在正在赶毕业论文的文献综述，不断发现还有关于Transformer在时间序列预测方面的论文没读过。我需要在arXiv和Google Scholar上彻底搜一遍2023年之后发表的相关论文，特别是patch-based Transformer和频域注意力机制的。找到关键论文之后我想自动生成BibTeX引用，这样就能直接丢进LaTeX参考文献里，不用像上次那样花一个小时手动排版了。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_85"
+      },
+      {
+        "id": "mcp_service_477"
+      },
+      {
+        "id": "mcp_service_903"
+      },
+      {
+        "id": "mcp_service_1100"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_39",
+    "query": "自从我们在Heroku上给图片上传加了新的后台worker dyno之后，staging环境就一直不太对劲，我也不确定最新的Buildkite流水线到底有没有部署正确的commit。我想拉一下最近的Buildkite构建日志看看测试有没有全过、最终部署的是哪个commit hash，然后去Heroku看看那个worker dyno到底是在正常运行还是又在崩溃循环了——前三次都是因为有人忘了升dyno规格导致内存不够。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_514"
+      },
+      {
+        "id": "mcp_service_170"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_40",
+    "query": "市场团队在为下个月的产品发布准备素材，急需新的视觉内容——现有的看起来太过时太假了，跟2015年的图库照片似的。我想找一些高质量的生活方式和科技主题图片，风格要现代真实，最好是人在自然场景中实际使用设备的，千万别再来那种尴尬的办公室握手照了。找到好的之后需要上传到公司的Box账号里的市场素材共享文件夹，设计师和内容编辑好拿去做落地页、邮件模板和社媒帖子。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_972"
+      },
+      {
+        "id": "mcp_service_156"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_41",
+    "query": "我报名了十月份的第一场马拉松，真的该认真训练了，不能再想跑就跑没个计划。我想从Strava里拉一下最近几个月的跑量和配速趋势，然后根据现在的水平在Todoist里制定一个20周的训练计划，周六安排长跑、周一做恢复——听说这样不容易练废。另外还想持续关注一下静息心率，确保自己没有过度训练。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_1180"
+      },
+      {
+        "id": "mcp_service_1181"
+      },
+      {
+        "id": "mcp_service_1246"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_42",
+    "query": "我开了一家小型设计工作室，现在同时在做的客户项目太多了，谁在做什么、哪些交付物逾期了已经快跟不上了。我需要把Monday.com的工作区重新整理一下，每个客户一个独立看板、配上合理的状态列和截止日期，另外还想设一个Calendly的预约页面，让新客户可以直接预订30分钟的咨询会议，不用再来来回回发邮件约时间了，每天早上都被这个事占掉好多时间。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_822"
+      },
+      {
+        "id": "mcp_service_823"
+      },
+      {
+        "id": "mcp_service_180"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_43",
+    "query": "VP让我周四之前准备好季度业务回顾的PPT，必须拿出硬数据。我想在Snowflake里跑几条查询，按区域和产品线拆解Q4的收入，然后和Mixpanel的漏斗数据交叉分析一下用户在升级流程的哪一步流失了——最近付费转化一直在下滑但没人说得清原因。董事会肯定会问这个，我得带着真实数据去，不能靠猜。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_1141"
+      },
+      {
+        "id": "mcp_service_815"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_44",
+    "query": "昨晚凌晨两点被P1事故叫醒了，oncall工程师在PagerDuty上点了确认但什么都没修——就是把告警静音了然后继续睡觉，这个操作真的不太行。我得把完整的事故时间线和升级记录拉出来看看到底发生了什么，另外还得查一下PostHog的面板看看实际的用户影响，如果错误率飙升超过一个小时的话就得做正式的事后复盘，顺便评估一下我们的告警阈值是不是设得太松了。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_951"
+      },
+      {
+        "id": "mcp_service_998"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_45",
+    "query": "我在Raindrop.io上攒了好几个月的文章和调研链接，但一直没把它们变成实际内容。这个周末我想翻一下标记了'blog-ideas'的书签，挑出最好的三个选题，然后至少在我们的WordPress博客上写一篇关于开发者生产力工具的文章——要写得有实用价值、其他工程师真的会想看的那种，别又弄成烂大街的清单体。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_1049"
+      },
+      {
+        "id": "mcp_service_1348"
+      },
+      {
+        "id": "mcp_service_1349"
+      },
+      {
+        "id": "mcp_service_1350"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_46",
+    "query": "我们在招一个高级后端工程师，我一直在看LinkedIn上那些给我们最近技术博客点赞的人的主页。我想仔细看看其中几个人的详细资料——主要是工作经历和有没有开源贡献——然后用Resend给看起来合适的人发个性化的邀约邮件，语气要随意真诚一些，别写成那种谁都不会回的千篇一律的猎头模板。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_511"
+      },
+      {
+        "id": "mcp_service_659"
+      },
+      {
+        "id": "mcp_service_660"
+      },
+      {
+        "id": "mcp_service_1072"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_47",
+    "query": "我们正在把数据分析基础设施从一堆零散脚本迁移到正规的Databricks lakehouse架构上，需要通过Terraform来配置新的工作区和计算集群，确保一切都是可复现的、版本受控的。我们的数据工程师上个月离职了，所以我得自己摸索——主要是想确保Terraform的状态文件在Terraform Cloud里管理好，Databricks工作区的访问权限也配对了，然后再开始迁移生产数据。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_1211"
+      },
+      {
+        "id": "mcp_service_1212"
+      },
+      {
+        "id": "mcp_service_291"
+      },
+      {
+        "id": "mcp_service_292"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_48",
+    "query": "自从我们上了新的定价方案之后客服量翻了三倍，团队快扛不住了。我需要把过去一周所有未解决的Intercom对话拉出来看看最常见的投诉是什么——我估计大部分是对免费版功能限制的困惑。找出高频问题之后我想在ClickUp里给产品团队按优先级创建任务，根据反馈的客户数量来排序，这样我们就能开始解决根本原因，而不是一遍遍回复同样的问题。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_563"
+      },
+      {
+        "id": "mcp_service_214"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_49",
+    "query": "我在做一个计算机视觉的业余项目，想通过我晨间徒步时拍的照片自动识别鸟的种类。我想去Hugging Face上找找有没有合适的预训练图像分类模型——最好是在CUB-200这种鸟类数据集上微调过的，而不是通用的ImageNet模型。找到靠谱的模型之后我想在Replicate上用我自己的几张照片跑一下测试推理，看看准确率怎么样，再决定要不要围绕它搭一整套流水线。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_530"
+      },
+      {
+        "id": "mcp_service_1070"
+      }
+    ]
+  },
+  {
+    "id": "mcp_query_50",
+    "query": "我每周在Ghost博客上写一期关于新兴科技趋势的newsletter，这期想聊聊AI生成艺术在商业设计工作流中的兴起。问题是我一直找不到好的头图——通常就从网上随便拿一张，看起来很敷衍。这次我想用AI图像模型生成几张定制插画，要那种抽象的、色彩丰富的风格，能体现人类与AI协作创造的主题，然后挑最好的一张作为封面图发布到Ghost上。",
+    "correct_tools": [
+      {
+        "id": "mcp_service_448"
+      },
+      {
+        "id": "mcp_service_121"
+      },
+      {
+        "id": "mcp_service_400"
+      },
+      {
+        "id": "mcp_service_546"
+      }
+    ]
+  }
+]

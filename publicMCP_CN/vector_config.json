@@ -1,0 +1,4 @@
+{
+  "embedding_model": "shibing624/text2vec-base-chinese",
+  "embedding_dim": 768
+}

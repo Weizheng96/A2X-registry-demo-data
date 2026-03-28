@@ -1,0 +1,2121 @@
+{
+  "version": "2.0-hierarchical",
+  "categories": {
+    "root": {
+      "name": "All API Services",
+      "description": "Root node containing all API services across all functional domains"
+    },
+    "cat_sub1": {
+      "name": "Sports & Recreation",
+      "description": "Services for sports events, scores, statistics, teams, and recreational activities.",
+      "boundary": "Includes live scores, sports news, team data, and recreational activity info. Excludes fitness tracking (Healthcare) and general entertainment media.",
+      "decision_rule": "Classify here if the primary purpose is to follow sports, get game data, or find recreational activity information."
+    },
+    "cat_sub10": {
+      "name": "Weather & Environment",
+      "description": "Services for weather forecasts, climate data, environmental conditions, and natural phenomena.",
+      "boundary": "Includes weather forecasts, air quality, climate models, and natural disaster alerts. Excludes geographical maps and general scientific research data.",
+      "decision_rule": "Classify here if the primary purpose is to get weather, climate, or environmental condition data."
+    },
+    "cat_sub11": {
+      "name": "Education & Learning",
+      "description": "Services for educational content, learning resources, academic information, and research.",
+      "boundary": "Includes online courses, educational videos, academic databases, tutoring, and scientific research tools. Excludes entertainment books and professional career training.",
+      "decision_rule": "Classify here if the primary purpose is to access educational materials, learning tools, academic information, or scientific research data."
+    },
+    "cat_sub12": {
+      "name": "Social Media & Communication",
+      "description": "Services for social networking, messaging, email, and online communication platforms.",
+      "boundary": "Includes social networks, chat apps, email services, and video conferencing. Excludes news consumption and business marketing automation.",
+      "decision_rule": "Classify here if the primary purpose is to connect with people, communicate online, or use social networks."
+    },
+    "cat_sub13": {
+      "name": "Employment & Careers",
+      "description": "Services for job searching, career development, professional networking, and HR tools.",
+      "boundary": "Includes job boards, resume builders, recruitment platforms, and professional networks. Excludes general business analytics and customer management.",
+      "decision_rule": "Classify here if the primary purpose is to find jobs, develop a career, network professionally, or manage HR processes."
+    },
+    "cat_sub14": {
+      "name": "Business & Analytics",
+      "description": "Services for business operations, marketing, sales, analytics, and customer management.",
+      "boundary": "Includes CRM, marketing automation, sales data, business intelligence, and customer analytics. Excludes financial trading and general technology tools.",
+      "decision_rule": "Classify here if the primary purpose is to manage business operations, analyze customer/market data, or run marketing/sales campaigns."
+    },
+    "cat_sub18": {
+      "name": "Gaming & Interactive",
+      "description": "Services for video games, gaming content, interactive entertainment, and esports.",
+      "boundary": "Includes game APIs, esports data, gaming platforms, and interactive media. Excludes general entertainment streaming and sports betting.",
+      "decision_rule": "Classify here if the primary purpose is to play games, access gaming content, or get game-related information."
+    },
+    "cat_sub2": {
+      "name": "Finance & Investing",
+      "description": "Services for banking, investments, stocks, cryptocurrency, and personal finance management.",
+      "boundary": "Includes stock trading, crypto exchanges, banking APIs, and personal budgeting tools. Excludes business accounting software and e-commerce payment processing.",
+      "decision_rule": "Classify here if the primary purpose is to manage money, track investments, trade assets, or access financial services."
+    },
+    "cat_sub20": {
+      "name": "Real Estate & Property",
+      "description": "Services for property listings, real estate data, housing markets, and property management.",
+      "boundary": "Includes property search, real estate valuations, rental listings, and housing data. Excludes general business analytics and financial services.",
+      "decision_rule": "Classify here if the primary purpose is to find properties, get real estate information, or manage housing-related data."
+    },
+    "cat_sub21": {
+      "name": "Development Tools",
+      "description": "Services for software development, programming tools, and technical resources.",
+      "boundary": "Includes developer tools, APIs, documentation, and code libraries. Excludes data storage, file sharing, and cloud infrastructure services.",
+      "decision_rule": "Classify here if the primary purpose is to develop software, use programming tools, or access technical resources for development."
+    },
+    "cat_sub22": {
+      "name": "Data & Infrastructure",
+      "description": "Services for data management, storage, sharing, and cloud infrastructure.",
+      "boundary": "Includes data storage, file sharing, cloud services, data transfer, and download services. Excludes software development tools and business analytics.",
+      "decision_rule": "Classify here if the primary purpose is to store, share, transfer, or manage data and infrastructure resources."
+    },
+    "cat_sub23": {
+      "name": "Events & Activities",
+      "description": "Services for events, schedules, bookings, tickets, and activity information.",
+      "boundary": "Includes event listings, schedules, ticketing, bookings, and activity data. Excludes travel booking, sports events, and entertainment streaming.",
+      "decision_rule": "Classify here if the primary purpose is to find event information, check schedules, book tickets, or manage activities."
+    },
+    "cat_sub3": {
+      "name": "Travel & Transportation",
+      "description": "Services for booking travel, finding flights, accommodations, and transport options.",
+      "boundary": "Includes flight/hotel booking, ride-sharing, public transit info, and travel planning. Excludes general maps for non-travel use and automotive repair services.",
+      "decision_rule": "Classify here if the primary purpose is to plan, book, or get information for travel or transportation."
+    },
+    "cat_sub4": {
+      "name": "Shopping & E-commerce",
+      "description": "Services for online retail, product searches, price comparisons, and purchases.",
+      "boundary": "Includes product listings, shopping carts, payment processing, and retail marketplaces. Excludes food delivery (Food & Dining) and B2B procurement platforms.",
+      "decision_rule": "Classify here if the primary purpose is to find, compare, or buy products online."
+    },
+    "cat_sub5": {
+      "name": "Entertainment & Media",
+      "description": "Services for consuming movies, music, videos, books, and entertainment content.",
+      "boundary": "Includes streaming media, entertainment news, book databases, celebrity info, and religious/spiritual content. Excludes interactive gaming and social media interaction.",
+      "decision_rule": "Classify here if the primary purpose is to consume or discover entertainment, media, or faith-based content."
+    },
+    "cat_sub6": {
+      "name": "Food & Dining",
+      "description": "Services for restaurants, recipes, food delivery, and dining recommendations.",
+      "boundary": "Includes restaurant reviews, meal delivery, recipe databases, and dining guides. Excludes grocery shopping (Shopping) and nutrition tracking (Healthcare).",
+      "decision_rule": "Classify here if the primary purpose is to find food, order meals, get recipes, or choose dining options."
+    },
+    "cat_sub7": {
+      "name": "Geography & Maps",
+      "description": "Services for maps, locations, geospatial data, and geographical information systems.",
+      "boundary": "Includes mapping, geocoding, routing, location-based services, and GIS data. Excludes weather data and travel booking interfaces.",
+      "decision_rule": "Classify here if the primary purpose is to get maps, location coordinates, or geographical data for any application."
+    },
+    "cat_sub8": {
+      "name": "Healthcare & Wellness",
+      "description": "Services for medical information, health tracking, wellness, and healthcare resources.",
+      "boundary": "Includes medical databases, symptom checkers, fitness trackers, and telemedicine. Excludes sports performance data and food nutrition APIs.",
+      "decision_rule": "Classify here if the primary purpose is to access medical info, track health metrics, or find healthcare services."
+    },
+    "cat_sub9": {
+      "name": "News & Information",
+      "description": "Services for news articles, current events, journalism, and factual reporting.",
+      "boundary": "Includes news aggregators, press releases, fact-checking, and event reporting. Excludes entertainment gossip, social media feeds, and educational content.",
+      "decision_rule": "Classify here if the primary purpose is to read news, follow current events, or get factual reports."
+    },
+    "cat_sports_1": {
+      "name": "Football/Soccer Services",
+      "description": "Services providing data for football/soccer matches, teams, players, leagues, and competitions.",
+      "boundary": "Football/soccer-specific data services. Excludes rugby, American football, and general multi-sport aggregation.",
+      "decision_rule": "If the service primarily provides football/soccer data (matches, standings, players, teams), classify here."
+    },
+    "cat_sports_10": {
+      "name": "Winter & Water Sports Services",
+      "description": "Services for skiing, snowboarding, surfing, diving, and other winter/water-based sports conditions and events.",
+      "boundary": "Winter sports and water sports data services. Excludes land-based team sports and general multi-sport aggregation.",
+      "decision_rule": "If the service primarily provides winter sports or water sports data (resort conditions, surf reports, events), classify here."
+    },
+    "cat_sports_12": {
+      "name": "Player & Team Data Services",
+      "description": "Services providing detailed player profiles, team rosters, athlete statistics, and performance/health data.",
+      "boundary": "Focused on player/team entity and performance data. Excludes match/competition data and betting odds.",
+      "decision_rule": "If the service primarily provides detailed data about individual players or teams (profiles, rosters, stats, performance), classify here."
+    },
+    "cat_sports_13": {
+      "name": "Competition & League Data Services",
+      "description": "Services providing tournament structures, league standings, cup trees, season schedules, and competition metadata.",
+      "boundary": "Focused on competition/league structure data. Excludes player data, live scores, and general news aggregation.",
+      "decision_rule": "If the service primarily provides data about competition structures (tournaments, leagues, schedules, standings), classify here."
+    },
+    "cat_sports_14": {
+      "name": "Live Match & Event Data Services",
+      "description": "Services providing live match data, event details, real-time scores, and fan engagement metrics for specific events.",
+      "boundary": "Focused on live event data and real-time metrics. Excludes historical statistics and competition structures.",
+      "decision_rule": "If the service primarily provides live data for specific matches/events (scores, details, fan metrics), classify here."
+    },
+    "cat_sports_15": {
+      "name": "Team & League Directory Services",
+      "description": "Services providing team lists, league directories, organizational databases, and basic entity information.",
+      "boundary": "Focused on organizational directories and basic entity data. Excludes detailed statistics and live event data.",
+      "decision_rule": "If the service primarily provides directory data for teams or leagues (lists, databases, basic info), classify here."
+    },
+    "cat_sports_16": {
+      "name": "Multi-Sport Aggregation Services",
+      "description": "Services that aggregate live scores, schedules, results, and content analysis across multiple distinct sports.",
+      "boundary": "Live multi-sport score/schedule/content aggregation. Excludes single-sport services and player data.",
+      "decision_rule": "If the service primarily aggregates data or content across multiple different sports, classify here."
+    },
+    "cat_sports_17": {
+      "name": "Sports Betting & Odds Services",
+      "description": "Services providing sports betting odds, predictions, and gambling-related data.",
+      "boundary": "Sports betting and gambling data services. Excludes pure sports statistics without betting focus.",
+      "decision_rule": "If the service primarily provides betting odds, predictions, or gambling data for sports, classify here."
+    },
+    "cat_sports_19": {
+      "name": "Outdoor & Recreational Services",
+      "description": "Services for outdoor activities, adventure sports, recreational planning, and youth/fitness programs.",
+      "boundary": "Outdoor recreational activity data and programs. Excludes competitive sports data and indoor fitness tracking.",
+      "decision_rule": "If the service primarily provides data for outdoor recreational activities (not competitive sports), classify here."
+    },
+    "cat_sports_2": {
+      "name": "Basketball Services",
+      "description": "Services for basketball games, statistics, teams, players, and league data including NBA and WNBA.",
+      "boundary": "Basketball-specific data services. Excludes other ball sports and general multi-sport aggregation.",
+      "decision_rule": "If the service primarily provides basketball data (games, stats, teams, players), classify here."
+    },
+    "cat_sports_3": {
+      "name": "Baseball Services",
+      "description": "Services offering baseball game data, player statistics, team information, and league standings.",
+      "boundary": "Baseball-specific data services. Excludes cricket, softball, and general multi-sport aggregation.",
+      "decision_rule": "If the service primarily provides baseball data (games, stats, teams, players), classify here."
+    },
+    "cat_sports_4": {
+      "name": "Ice Hockey Services",
+      "description": "Services for ice hockey matches, team data, player statistics, and league information including NHL.",
+      "boundary": "Ice hockey-specific data services. Excludes field hockey, roller hockey, and general multi-sport aggregation.",
+      "decision_rule": "If the service primarily provides ice hockey data (matches, stats, teams, players), classify here."
+    },
+    "cat_sports_5": {
+      "name": "American Football & Rugby Services",
+      "description": "Services providing NFL, college football, and rugby data including games, teams, players, and statistics.",
+      "boundary": "American football and rugby data services. Excludes soccer, Australian rules football, and general multi-sport aggregation.",
+      "decision_rule": "If the service primarily provides American football or rugby data (games, teams, players, stats), classify here."
+    },
+    "cat_sports_6": {
+      "name": "Individual Sports Services",
+      "description": "Services for tennis, golf, athletics, cycling, and other individual sport competition data and rankings.",
+      "boundary": "Individual sport data services (e.g., tennis, golf, athletics). Excludes team sports and general multi-sport aggregation.",
+      "decision_rule": "If the service primarily provides data for individual sports (tournaments, players, rankings, stats), classify here."
+    },
+    "cat_sports_7": {
+      "name": "Cricket Services",
+      "description": "Services offering cricket match data, player statistics, team information, and tournament details.",
+      "boundary": "Cricket-specific data services. Excludes baseball, softball, and general multi-sport aggregation.",
+      "decision_rule": "If the service primarily provides cricket data (matches, stats, teams, tournaments), classify here."
+    },
+    "cat_sports_8": {
+      "name": "Motorsports Services",
+      "description": "Services for Formula 1, racing events, driver statistics, team data, and competition standings.",
+      "boundary": "Motorsports-specific data services. Excludes other vehicle sports and general multi-sport aggregation.",
+      "decision_rule": "If the service primarily provides motorsports data (races, drivers, teams, standings), classify here."
+    },
+    "cat_sports_9": {
+      "name": "Martial Arts Services",
+      "description": "Services for UFC, boxing, taekwondo, and other combat sports including fights, fighters, and rankings.",
+      "boundary": "Martial arts and combat sport data services. Excludes other sports and general multi-sport aggregation.",
+      "decision_rule": "If the service primarily provides martial arts data (fights, fighters, rankings, techniques), classify here."
+    },
+    "cat_sub10_sub1": {
+      "name": "Atmospheric Weather",
+      "description": "Current conditions, forecasts, and historical data for temperature, precipitation, wind, and general atmospheric phenomena.",
+      "boundary": "Includes visual monitoring (webcams) and basic weather data. Excludes air quality, astronomical events, marine data, and activity-specific forecasts.",
+      "decision_rule": "Classify here if the service provides current/forecasted atmospheric data or visual monitoring of weather conditions."
+    },
+    "cat_sub10_sub10": {
+      "name": "Weather-Based Recommendations",
+      "description": "Suggesting activities, clothing, travel dates, or other recommendations based on weather conditions.",
+      "boundary": "Includes recommendations or suggestions driven primarily by weather. Excludes raw weather data and forecasts without recommendations.",
+      "decision_rule": "Classify here if the service provides recommendations or suggestions based primarily on weather conditions."
+    },
+    "cat_sub10_sub11": {
+      "name": "Solar & Renewable Energy Generation",
+      "description": "Assessing solar panel performance, shadow impact, renewable energy potential, and generation conditions.",
+      "boundary": "Includes solar conditions, renewable energy performance and generation assessments. Excludes general weather data and energy efficiency metrics.",
+      "decision_rule": "Classify here if the service assesses solar conditions, renewable energy potential, or generation performance."
+    },
+    "cat_sub10_sub12": {
+      "name": "Utility & Energy Market Data",
+      "description": "Energy price tracking, grid load data, electricity market information, and utility-related geographic data.",
+      "boundary": "Includes energy market prices, grid conditions, and utility operational data. Excludes energy efficiency calculations and weather forecasts.",
+      "decision_rule": "Classify here if the service provides energy market prices, grid load data, or utility operational information."
+    },
+    "cat_sub10_sub2": {
+      "name": "Air Quality & Pollution",
+      "description": "Measuring and forecasting air pollution, particulate matter, and indoor/outdoor environmental quality conditions.",
+      "boundary": "Includes both outdoor air quality indices and indoor environmental measurements (IAQ). Excludes general weather data and pollution news/articles.",
+      "decision_rule": "Classify here if the service measures or forecasts air quality/pollution levels or indoor environmental conditions."
+    },
+    "cat_sub10_sub3": {
+      "name": "Marine & Water Conditions",
+      "description": "Tide data, surf conditions, marine forecasts, water body conditions, and coastal environmental information.",
+      "boundary": "Includes marine weather, surf/tide reports, water temperature, and forecasts for water-based activities. Excludes general atmospheric weather.",
+      "decision_rule": "Classify here if the service provides marine, coastal, or water body-specific conditions, forecasts, or data."
+    },
+    "cat_sub10_sub4": {
+      "name": "Astronomical Events",
+      "description": "Tracking sunrise, sunset, moon phases, moon illumination, and other celestial events.",
+      "boundary": "Includes only celestial event data and related timing. Excludes weather forecasts, air quality, or terrestrial environmental measurements.",
+      "decision_rule": "Classify here if the service primarily provides data about sunrise, sunset, moon phases, or celestial events."
+    },
+    "cat_sub10_sub5": {
+      "name": "Natural Hazards & Alerts",
+      "description": "Earthquake notifications, severe weather alerts, risk assessments, wildfire tracking, and natural hazard warnings.",
+      "boundary": "Includes real-time alerts, risk assessments, and tracking/monitoring for disasters. Excludes general forecasts and climate data.",
+      "decision_rule": "Classify here if the service provides alerts, notifications, risk assessments, or tracking for natural hazards/disasters."
+    },
+    "cat_sub10_sub6": {
+      "name": "Climate & Environmental Data",
+      "description": "Long-term climate predictions, trends, historical analysis, environmental health data, and climate change information.",
+      "boundary": "Includes climate models, trends, historical data, environmental statistics, and disease/environment correlations. Excludes short-term weather forecasts.",
+      "decision_rule": "Classify here if the service provides long-term climate data, environmental trends, analysis, or health/environment statistics."
+    },
+    "cat_sub10_sub7": {
+      "name": "Energy Efficiency & Impact",
+      "description": "Calculating heating/cooling degree days, energy efficiency, environmental impact assessments, and related metrics.",
+      "boundary": "Includes energy-related metrics derived from weather/climate for efficiency or impact analysis. Excludes raw weather data and renewable energy generation.",
+      "decision_rule": "Classify here if the service calculates energy-related metrics or environmental impact based on weather/climate data."
+    },
+    "cat_sub10_sub8": {
+      "name": "Geographic & Location Data",
+      "description": "Elevation data, location searches, geographic coordinates conversion, place identification, and basic geospatial info.",
+      "boundary": "Includes only geographic/location data without environmental conditions. Excludes weather forecasts or environmental data at locations.",
+      "decision_rule": "Classify here if the service provides geographic data, location searches, or elevation without environmental conditions."
+    },
+    "cat_sub10_sub9": {
+      "name": "Specialized Activity Weather",
+      "description": "Weather forecasts optimized for specific activities like sailing, cycling, skiing, golf, hiking, or outdoor recreation.",
+      "boundary": "Includes activity-tailored forecasts, conditions, and safety recommendations (e.g., avalanche risk). Excludes general weather forecasts.",
+      "decision_rule": "Classify here if the service provides weather conditions specifically optimized for activities, sports, or recreation."
+    },
+    "cat_sub11_sub1": {
+      "name": "Language Learning",
+      "description": "Services for learning languages, translation, dictionaries, and linguistic analysis.",
+      "boundary": "Focus on language acquisition, translation, and word analysis. Excludes general reading materials and academic research.",
+      "decision_rule": "If the service primarily helps users learn, translate, or analyze languages or words, classify here."
+    },
+    "cat_sub11_sub10": {
+      "name": "Test Preparation",
+      "description": "Services for exam preparation, practice questions, flashcards, and test-taking skills.",
+      "boundary": "Focus on assessment preparation and practice. Excludes general course content and academic research.",
+      "decision_rule": "If the service primarily helps users prepare for exams or tests with practice materials, classify here."
+    },
+    "cat_sub11_sub11": {
+      "name": "Online Courses & Learning Platforms",
+      "description": "Services for managing online courses, enrollment, lesson plans, and educational multimedia content.",
+      "boundary": "Focus on course delivery platforms and educational content hosting. Excludes specific subject teaching and research tools.",
+      "decision_rule": "If the service primarily manages course enrollment, lesson plans, online learning platforms, or hosts educational multimedia, classify here."
+    },
+    "cat_sub11_sub12": {
+      "name": "Educational Assessment",
+      "description": "Services for evaluating learning progress, creating assessments, and tracking educational outcomes.",
+      "boundary": "Focus on measuring and evaluating educational progress. Excludes teaching content and course management.",
+      "decision_rule": "If the service primarily assesses learning progress, creates evaluations, or tracks educational outcomes, classify here."
+    },
+    "cat_sub11_sub13": {
+      "name": "Natural Sciences Education",
+      "description": "Services for learning astronomy, biology, earth sciences, and environmental studies.",
+      "boundary": "Focus on teaching natural science subjects. Excludes scientific research tools, laboratory simulations, and medical education.",
+      "decision_rule": "If the service primarily teaches astronomy, biology, earth sciences, or environmental studies, classify here."
+    },
+    "cat_sub11_sub14": {
+      "name": "General Content Discovery",
+      "description": "Services for finding, classifying, or extracting educational content from various sources.",
+      "boundary": "Focus on content retrieval, classification, and extraction tools for educational purposes. Excludes subject-specific teaching and academic research databases.",
+      "decision_rule": "If the service primarily helps find, classify, or extract educational content (videos, articles, resources) from external sources, classify here."
+    },
+    "cat_sub11_sub3": {
+      "name": "Science & Laboratory",
+      "description": "Services for scientific data analysis, laboratory simulations, and scientific research tools.",
+      "boundary": "Focus on scientific analysis, experimentation, and research tools. Excludes subject-specific educational content and academic papers.",
+      "decision_rule": "If the service primarily analyzes scientific data, simulates laboratory conditions, or provides scientific research capabilities, classify here."
+    },
+    "cat_sub11_sub4": {
+      "name": "STEM Education",
+      "description": "Services for learning mathematics, computer science, engineering, and technology concepts.",
+      "boundary": "Focus on teaching STEM subjects including math, programming, engineering, and technology. Excludes scientific research tools and general science education.",
+      "decision_rule": "If the service primarily teaches mathematics, programming, engineering, or technology concepts, classify here."
+    },
+    "cat_sub11_sub5": {
+      "name": "Literature & Reading",
+      "description": "Services for accessing books, authors, literary information, and reading materials.",
+      "boundary": "Focus on literary content, books, and reading resources. Excludes language learning tools and general educational videos.",
+      "decision_rule": "If the service primarily provides book information, author details, or literary resources, classify here."
+    },
+    "cat_sub11_sub6": {
+      "name": "Arts, Culture & Humanities",
+      "description": "Services for learning about arts, cultural studies, creative disciplines, and social sciences.",
+      "boundary": "Focus on creative arts, cultural education, and human behavior studies. Excludes language learning and natural sciences.",
+      "decision_rule": "If the service primarily teaches artistic disciplines, cultural studies, psychology, or social sciences, classify here."
+    },
+    "cat_sub11_sub7": {
+      "name": "Health & Physical Education",
+      "description": "Services for medical training, healthcare education, physical education, and fitness learning.",
+      "boundary": "Focus on medical knowledge, healthcare training, and physical activity education. Excludes general biology and non-medical sciences.",
+      "decision_rule": "If the service primarily provides medical education, healthcare training, or physical education resources, classify here."
+    },
+    "cat_sub11_sub8": {
+      "name": "Specialized Skills Training",
+      "description": "Services for learning specific practical skills, how-to guides, and specialized techniques.",
+      "boundary": "Focus on practical, non-academic skill development. Excludes academic subjects, language learning, and general knowledge.",
+      "decision_rule": "If the service primarily teaches practical skills, how-to procedures, or specialized techniques, classify here."
+    },
+    "cat_sub11_sub9": {
+      "name": "Educational Administration",
+      "description": "Services for school management, classroom administration, attendance tracking, and scheduling.",
+      "boundary": "Focus on educational institution management and logistics. Excludes actual learning content and student assessment.",
+      "decision_rule": "If the service primarily handles educational administration, school management, or classroom logistics, classify here."
+    },
+    "cat_sub12_sub1": {
+      "name": "User Profile Management",
+      "description": "Services for retrieving, managing, and analyzing user profiles, identities, and basic account information across social platforms.",
+      "boundary": "Focuses on basic user identity and account data. Excludes analyzing user content, engagement metrics, or contact lists.",
+      "decision_rule": "If the service primarily retrieves or manages basic user identity, profile data, or account information, classify here."
+    },
+    "cat_sub12_sub10": {
+      "name": "Forum & Community Management",
+      "description": "Services for analyzing posts, tracking engagement, and managing interactions within online forums and communities.",
+      "boundary": "Specifically for dedicated forum/community platforms. Excludes general social media post analysis or scheduling.",
+      "decision_rule": "If the service is specifically designed for analyzing or managing activity within online forums or community platforms, classify here."
+    },
+    "cat_sub12_sub12": {
+      "name": "Cross-Platform Aggregation",
+      "description": "Services that aggregate or analyze data across multiple social platforms for a unified view or action.",
+      "boundary": "Core function must involve multiple different platforms. Excludes services that only operate on a single platform.",
+      "decision_rule": "If the service's core function is to aggregate data or perform an action across multiple different social/media platforms, classify here."
+    },
+    "cat_sub12_sub14": {
+      "name": "Communication Analysis & Translation",
+      "description": "Services for analyzing communication styles, grammar, or translating into non-verbal languages like sign language.",
+      "boundary": "Focuses on the structure, style, or translation of communication itself. Excludes managing communication channels.",
+      "decision_rule": "If the service primarily analyzes communication styles/grammar or translates into non-verbal languages, classify here."
+    },
+    "cat_sub12_sub2": {
+      "name": "Content Discovery & Search",
+      "description": "Services for searching, browsing, and discovering posts, media, hashtags, and trends across platforms.",
+      "boundary": "Focuses on finding public content via keywords, trends, or exploration. Excludes retrieving specific known content or analyzing performance.",
+      "decision_rule": "If the service primarily searches for or discovers public content based on keywords, trends, or browsing, classify here."
+    },
+    "cat_sub12_sub3": {
+      "name": "Content Retrieval & Details",
+      "description": "Services for fetching specific posts, videos, or media and their detailed metadata using a direct identifier (URL, ID).",
+      "boundary": "Focuses on retrieving known content via direct reference. Excludes searching for content or analyzing engagement.",
+      "decision_rule": "If the service primarily retrieves a specific piece of content and its metadata using a direct identifier, classify here."
+    },
+    "cat_sub12_sub4": {
+      "name": "Comment & Interaction Management",
+      "description": "Services for fetching, posting, and managing comments, replies, and direct user interactions on content.",
+      "boundary": "Focuses on the lifecycle of comments and public replies. Excludes private messaging and sentiment analysis of comments.",
+      "decision_rule": "If the service primarily handles the retrieval, creation, or management of comments and replies on content, classify here."
+    },
+    "cat_sub12_sub5": {
+      "name": "Content Operations",
+      "description": "Services for downloading, scheduling, publishing, and generating ideas/captions for social media content.",
+      "boundary": "Focuses on the practical workflow of content handling. Excludes content discovery, retrieval, and performance analysis.",
+      "decision_rule": "If the service primarily downloads, schedules, publishes, or generates creative elements for social content, classify here."
+    },
+    "cat_sub12_sub6": {
+      "name": "Engagement & Activity Analysis",
+      "description": "Services that analyze engagement metrics, activity levels, reach, and performance of content or users.",
+      "boundary": "Focuses on quantitative metrics and performance analysis. Excludes retrieving raw content or qualitative sentiment analysis.",
+      "decision_rule": "If the service primarily analyzes metrics related to content engagement, user activity, or reach, classify here."
+    },
+    "cat_sub12_sub7": {
+      "name": "Social Graph & Contact Discovery",
+      "description": "Services for managing a user's connections and discovering new influencers or contacts based on criteria.",
+      "boundary": "Focuses on relationship lists and discovery of new connections. Excludes analyzing the profile or content of discovered contacts.",
+      "decision_rule": "If the service primarily manages a user's connections or searches for/discoveries new influencers/contacts, classify here."
+    },
+    "cat_sub12_sub8": {
+      "name": "Email Services",
+      "description": "Services for sending, managing, verifying, enriching, and securing email messages and addresses.",
+      "boundary": "Encompasses the full email lifecycle from sending to security. Excludes analyzing email content for non-security purposes.",
+      "decision_rule": "If the service primarily handles sending, managing, verifying, or securing email, classify here."
+    },
+    "cat_sub12_sub9": {
+      "name": "Phone & SMS Services",
+      "description": "Services for sending SMS, making calls, and validating/managing phone numbers and telephony infrastructure.",
+      "boundary": "Focuses on telephony and SMS communication channels. Excludes analyzing message/call content or transcripts.",
+      "decision_rule": "If the service primarily handles SMS, voice/video calls, or phone number validation/management, classify here."
+    },
+    "cat_sub14_sub1": {
+      "name": "Company Information & Research",
+      "description": "Services that retrieve, validate, enrich, or provide fundamental company data, employee information, and business profiles.",
+      "boundary": "Focuses on core business entity data, registration details, executive/employee information, and basic corporate profiles. Does not include financial statements, market data, or customer relationship management.",
+      "decision_rule": "If the service's primary function is to retrieve, validate, enrich, or provide company registration details, executive/employee information, or basic corporate profiles, classify here."
+    },
+    "cat_sub14_sub10": {
+      "name": "Business Intelligence & Reporting",
+      "description": "Services that generate business reports, create data visualizations, track performance metrics, and provide executive dashboards.",
+      "boundary": "Focuses on aggregating, visualizing, and reporting on business data for decision-making. Does not include specialized analytics for specific domains like finance or marketing.",
+      "decision_rule": "If the service primarily generates business reports, creates visualizations, or tracks performance metrics, classify here."
+    },
+    "cat_sub14_sub11": {
+      "name": "Market Research & Trends",
+      "description": "Services that analyze market trends, track consumer sentiment, monitor industry news, and identify emerging opportunities.",
+      "boundary": "Focuses on external market analysis, industry trends, and consumer insights. Does not include financial market data or brand monitoring.",
+      "decision_rule": "If the service primarily analyzes market trends, tracks consumer sentiment, or monitors industry news, classify here."
+    },
+    "cat_sub14_sub12": {
+      "name": "Lead Generation & Prospecting",
+      "description": "Services that identify potential customers, enrich contact information, generate business leads, and support sales prospecting activities.",
+      "boundary": "Focuses on finding and qualifying new potential customers and contacts. Does not include managing existing customer relationships or executing marketing campaigns.",
+      "decision_rule": "If the service primarily identifies potential customers, enriches contact information, or generates business leads, classify here."
+    },
+    "cat_sub14_sub13": {
+      "name": "Business Planning & Strategy",
+      "description": "Services that support business planning, generate business names, create business plans, and analyze strategic opportunities.",
+      "boundary": "Focuses on forward-looking planning, strategy development, and business modeling. Does not include operational execution, financial analysis, or investment valuation.",
+      "decision_rule": "If the service primarily supports business planning, generates business names, or creates business plans, classify here."
+    },
+    "cat_sub14_sub14": {
+      "name": "Investment Analysis & Valuation",
+      "description": "Services that analyze investment opportunities, calculate returns, perform valuation models, and assess financial projections.",
+      "boundary": "Focuses on evaluating investments, calculating returns, and performing business valuation. Does not include providing raw market data or financial statements.",
+      "decision_rule": "If the service primarily analyzes investments, calculates ROI, or performs business valuation, classify here."
+    },
+    "cat_sub14_sub15": {
+      "name": "Compliance & Risk Management",
+      "description": "Services that check regulatory compliance, audit data privacy, monitor fraud, and assess business risks.",
+      "boundary": "Focuses on regulatory adherence, risk assessment, fraud detection, and compliance monitoring. Does not include general operational analytics or financial auditing.",
+      "decision_rule": "If the service primarily checks compliance, audits data privacy, or monitors fraud risks, classify here."
+    },
+    "cat_sub14_sub16": {
+      "name": "Location & Geographic Analytics",
+      "description": "Services that analyze geographic data, track locations, calculate distances, and provide location-based business insights.",
+      "boundary": "Focuses on spatial analysis, location tracking, and geographic intelligence for business decisions. Does not include general business intelligence or operational analytics.",
+      "decision_rule": "If the service primarily analyzes geographic data, tracks locations, or provides location-based insights, classify here."
+    },
+    "cat_sub14_sub17": {
+      "name": "Media & Content Analytics",
+      "description": "Services that analyze media performance, track content engagement, measure reach, and optimize content strategy.",
+      "boundary": "Focuses on measuring and optimizing the performance of published content and media assets. Does not include brand monitoring or SEO-specific analytics.",
+      "decision_rule": "If the service primarily analyzes media performance, tracks content engagement, or measures media reach, classify here."
+    },
+    "cat_sub14_sub18": {
+      "name": "Operational Analytics",
+      "description": "Services that analyze business operations, track efficiency metrics, optimize processes, and monitor operational performance.",
+      "boundary": "Focuses on internal process efficiency, operational metrics, and workflow optimization. Does not include product/inventory management, sales transactions, or customer analytics.",
+      "decision_rule": "If the service primarily analyzes business operations, tracks efficiency metrics, or optimizes processes, classify here."
+    },
+    "cat_sub14_sub2": {
+      "name": "Financial Statements & Metrics",
+      "description": "Services that provide structured financial data including balance sheets, income statements, cash flow statements, and calculated financial ratios.",
+      "boundary": "Focuses on historical and current financial performance data from official statements and derived metrics. Does not include market trading data or investment valuation models.",
+      "decision_rule": "If the service primarily provides balance sheets, income statements, cash flows, or calculated financial ratios, classify here."
+    },
+    "cat_sub14_sub3": {
+      "name": "Market Data & Trading Analytics",
+      "description": "Services that deliver market prices, trading volumes, stock performance metrics, and technical analysis indicators for securities and commodities.",
+      "boundary": "Focuses on real-time and historical market trading data, price feeds, and trading-specific analytics. Does not include broader market research or consumer sentiment.",
+      "decision_rule": "If the service primarily provides market prices, trading volumes, stock charts, or technical analysis indicators, classify here."
+    },
+    "cat_sub14_sub4": {
+      "name": "Customer Analytics & Relationship Management",
+      "description": "Services that analyze customer behavior, segment customers, manage customer data, and support customer lifecycle interactions.",
+      "boundary": "Focuses on understanding customers through analytics and managing ongoing customer relationships and data. Does not include lead generation or marketing campaign execution.",
+      "decision_rule": "If the service primarily analyzes customer behavior, segments customers, manages customer records, or handles customer interactions, classify here."
+    },
+    "cat_sub14_sub5": {
+      "name": "Marketing Campaign Management",
+      "description": "Services that create, execute, track, and optimize marketing campaigns across channels including email, social media, and advertising.",
+      "boundary": "Focuses on the execution, management, and performance tracking of marketing campaigns and communications. Does not include SEO, brand monitoring, or lead generation.",
+      "decision_rule": "If the service primarily creates, executes, updates, tracks, or optimizes marketing campaigns and promotional materials, classify here."
+    },
+    "cat_sub14_sub6": {
+      "name": "Search Engine Optimization",
+      "description": "Services that analyze SEO metrics, research keywords, track rankings, and optimize content for search engine visibility.",
+      "boundary": "Focuses specifically on improving and measuring organic search performance and visibility. Does not include broader content analytics or marketing campaign management.",
+      "decision_rule": "If the service primarily analyzes SEO metrics, researches keywords, or tracks search rankings, classify here."
+    },
+    "cat_sub14_sub7": {
+      "name": "Brand & Reputation Monitoring",
+      "description": "Services that track brand mentions, analyze reviews, monitor social sentiment, and measure brand visibility across media channels.",
+      "boundary": "Focuses on external perception, mentions, and sentiment analysis related to brands and reputation. Does not include media performance analytics for non-brand content.",
+      "decision_rule": "If the service primarily tracks brand mentions, analyzes reviews, or monitors brand sentiment, classify here."
+    },
+    "cat_sub14_sub8": {
+      "name": "Sales & Order Management",
+      "description": "Services that handle sales transactions, manage orders, track deliveries, and process returns or refunds.",
+      "boundary": "Focuses on the transactional lifecycle from order creation through fulfillment and returns. Does not include customer analytics, lead generation, or inventory management.",
+      "decision_rule": "If the service primarily processes sales transactions, manages orders, or tracks deliveries, classify here."
+    },
+    "cat_sub14_sub9": {
+      "name": "Product & Inventory Management",
+      "description": "Services that manage product catalogs, track inventory levels, check stock availability, and analyze product performance.",
+      "boundary": "Focuses on product data, stock levels, availability, and product-level analytics. Does not include sales transactions or broader operational analytics.",
+      "decision_rule": "If the service primarily manages product catalogs, tracks inventory, or analyzes product performance, classify here."
+    },
+    "cat_fin_banking": {
+      "name": "Banking Operations",
+      "description": "Services for core banking functions: accounts, balances, card data, transactions, and payments.",
+      "boundary": "Core banking operations and payment processing. Excludes currency conversion (forex) and lending products.",
+      "decision_rule": "If the service primarily enables or simulates bank account operations, payment card functions, or fund transfers, classify here."
+    },
+    "cat_fin_commodities_macro": {
+      "name": "Commodities & Economic Data",
+      "description": "Prices for physical commodities, futures, and broad economic indicators.",
+      "boundary": "Physical goods, their futures contracts, and macroeconomic indicators. Excludes company-specific financials.",
+      "decision_rule": "If the service primarily provides data for physical commodities, their futures, or economy-wide indicators, classify here."
+    },
+    "cat_fin_crypto": {
+      "name": "Cryptocurrency Data",
+      "description": "Cryptocurrency prices, market data, blockchain info, token balances, and NFTs.",
+      "boundary": "Digital/crypto assets and their underlying blockchain data. Excludes traditional forex and securities.",
+      "decision_rule": "If the service primarily provides data or analysis for cryptocurrencies, tokens, or blockchain-based assets, classify here."
+    },
+    "cat_fin_data_utilities": {
+      "name": "Financial Data Utilities",
+      "description": "Archives, exports, or converts financial data formats and report retrieval.",
+      "boundary": "Data formatting, archival retrieval, and conversion utilities specific to finance. Excludes core data provision.",
+      "decision_rule": "If the service primarily archives, converts, or retrieves reports/records in a financial context, classify here."
+    },
+    "cat_fin_derivatives": {
+      "name": "Options, Derivatives & Betting",
+      "description": "Data for options, futures, other derivatives, and sports betting odds/markets.",
+      "boundary": "All derivative contracts and prediction/betting markets. Excludes underlying spot assets like stocks.",
+      "decision_rule": "If the service primarily provides data or analysis for financial derivatives or betting odds/markets, classify here."
+    },
+    "cat_fin_esg_corporate": {
+      "name": "ESG & Corporate Actions",
+      "description": "ESG ratings, sustainability scores, SEC filings, and insider transactions.",
+      "boundary": "Corporate non-financial data and regulatory actions. Excludes real-time price data and news.",
+      "decision_rule": "If the service primarily provides ESG/sustainability scores or regulatory filings/insider transactions, classify here."
+    },
+    "cat_fin_forex": {
+      "name": "Foreign Exchange & Currencies",
+      "description": "Forex pair rates, currency conversion, and historical exchange rates.",
+      "boundary": "Fiat currency exchange rates and conversion. Excludes cryptocurrency and payment processing.",
+      "decision_rule": "If the service primarily provides data or conversion for fiat currency pairs, classify here."
+    },
+    "cat_fin_insurance": {
+      "name": "Insurance & Risk Services",
+      "description": "Insurance plan validation, eligibility, plan filtering, and risk assessment.",
+      "boundary": "Services related to insurance products and risk evaluation. Excludes portfolio risk analysis.",
+      "decision_rule": "If the service primarily deals with insurance plans, validation, eligibility, or risk assessment, classify here."
+    },
+    "cat_fin_loans_credit": {
+      "name": "Loans & Credit",
+      "description": "Loan offers, payment calculations, credit score simulation, and credit data.",
+      "boundary": "Lending products, credit offers, and creditworthiness evaluation. Excludes general banking.",
+      "decision_rule": "If the service primarily deals with lending, credit offers, or credit score simulation, classify here."
+    },
+    "cat_fin_market_screeners": {
+      "name": "Market Screeners & Discovery",
+      "description": "Screens, filters, or lists financial instruments based on criteria.",
+      "boundary": "Asset discovery and filtering tools. Excludes portfolio analysis and single-asset data feeds.",
+      "decision_rule": "If the service primarily helps discover or filter a list of assets based on attributes, classify here."
+    },
+    "cat_fin_mutual_funds_etfs": {
+      "name": "Funds & ETFs",
+      "description": "Data for mutual funds, ETFs, and pooled vehicles including NAV and holdings.",
+      "boundary": "Pooled investment vehicles. Excludes direct stock/commodity data and portfolio trackers.",
+      "decision_rule": "If the service primarily provides data for pooled investment funds or ETFs, classify here."
+    },
+    "cat_fin_news_sentiment": {
+      "name": "Financial News & Sentiment",
+      "description": "Financial news articles, market headlines, and sentiment analysis.",
+      "boundary": "News content and derived market sentiment. Excludes raw price data and trading signals.",
+      "decision_rule": "If the service primarily delivers news content, articles, or sentiment analysis, classify here."
+    },
+    "cat_fin_personal_finance": {
+      "name": "Personal Finance Calculators",
+      "description": "Calculates personal financial metrics: ROI, savings, mortgage, retirement.",
+      "boundary": "Calculators for individual financial planning. Excludes portfolio analysis and business finance.",
+      "decision_rule": "If the service primarily calculates a personal financial metric based on user inputs, classify here."
+    },
+    "cat_fin_portfolio_management": {
+      "name": "Portfolio Management & Analysis",
+      "description": "Tracks, analyzes, or optimizes investment portfolio value and risk.",
+      "boundary": "Analysis and management of a collection of holdings. Excludes single-asset screeners and calculators.",
+      "decision_rule": "If the service primarily manages or analyzes a collection of holdings (a portfolio), classify here."
+    },
+    "cat_fin_prediction_signals": {
+      "name": "Predictions & Trading Signals",
+      "description": "Generates buy/sell recommendations, price predictions, or pattern signals.",
+      "boundary": "Forward-looking recommendations and signals. Excludes historical technical indicators and news.",
+      "decision_rule": "If the service primarily outputs a predictive recommendation, signal, or forecast, classify here."
+    },
+    "cat_fin_spacs": {
+      "name": "SPACs & New Listings",
+      "description": "Data for Special Purpose Acquisition Companies including targets and rankings.",
+      "boundary": "Services specific to SPACs and new market listings. Excludes general stock data.",
+      "decision_rule": "If the service primarily provides data specifically for SPACs or new listings, classify here."
+    },
+    "cat_fin_stocks": {
+      "name": "Stock Market Data",
+      "description": "Stock prices, quotes, historical data, and company financial statements.",
+      "boundary": "Data for publicly traded company equities. Excludes derivatives, funds, and forex.",
+      "decision_rule": "If the service primarily provides data or analysis for publicly traded company stocks, classify here."
+    },
+    "cat_fin_technical_analysis": {
+      "name": "Technical Analysis & Visualization",
+      "description": "Calculates technical indicators like MACD, RSI, and creates financial charts.",
+      "boundary": "Technical indicators and financial chart generation from market data. Excludes predictive signals.",
+      "decision_rule": "If the service primarily calculates a named technical indicator or creates a financial chart/visualization, classify here."
+    },
+    "cat_fin_trading_market": {
+      "name": "Trading Execution & Market Data",
+      "description": "Submits trade orders, retrieves order status, or provides real-time market data feeds.",
+      "boundary": "Trade execution and real-time market data streams. Excludes historical data endpoints and screeners.",
+      "decision_rule": "If the service primarily executes/manages trade orders or provides real-time price/volume/data feeds, classify here."
+    },
+    "cat_sub21_sub1": {
+      "name": "Domain & Web Analysis",
+      "description": "Services for analyzing domains, checking their status, SEO metrics, DNS records, and security reputation.",
+      "boundary": "Does not include services for generating domain names, checking email deliverability (SMTP), or scraping general web content.",
+      "decision_rule": "If the service primarily analyzes or provides information about a domain name or website, classify here."
+    },
+    "cat_sub21_sub10": {
+      "name": "Keyword & SEO Research",
+      "description": "Services for finding, analyzing, and generating keywords for search engine optimization and content strategy.",
+      "boundary": "Does not include services that perform general domain SEO analysis or scrape web content.",
+      "decision_rule": "If the service primarily researches, generates, or analyzes keywords for SEO purposes, classify here."
+    },
+    "cat_sub21_sub11": {
+      "name": "Platform & API Metadata",
+      "description": "Services that return metadata about other platforms, APIs, or services, such as available parameters, genres, or categories.",
+      "boundary": "Does not include services that use this metadata to perform a primary action (like search or retrieval).",
+      "decision_rule": "If the service primarily provides reference data about the structure or options of another platform/API, classify here."
+    },
+    "cat_sub21_sub12": {
+      "name": "Media Analysis & Conversion",
+      "description": "Services that analyze media (images, audio, video) to extract information, find duplicates, or convert formats.",
+      "boundary": "Does not include services that edit media content or manage media playlists.",
+      "decision_rule": "If the service primarily analyzes media to extract data (text, duplicates) or converts its format, classify here."
+    },
+    "cat_sub21_sub13": {
+      "name": "Email & Communication Tools",
+      "description": "Services for verifying email domains, checking SMTP status, and looking up abuse contacts.",
+      "boundary": "Does not include services for analyzing email content for phishing or general domain analysis.",
+      "decision_rule": "If the service primarily validates email-related infrastructure (domains, SMTP) or fetches email-specific contacts, classify here."
+    },
+    "cat_sub21_sub18": {
+      "name": "Social Media & Content Optimization",
+      "description": "Services for generating SEO-optimized descriptions, tags, or hashtag recommendations for social content.",
+      "boundary": "Does not include services for keyword research or analyzing social media sentiment.",
+      "decision_rule": "If the service primarily generates optimized metadata (descriptions, tags, hashtags) for social/video content, classify here."
+    },
+    "cat_sub21_sub2": {
+      "name": "Content & Media Management",
+      "description": "Services for editing, generating, or managing textual, visual, or audio content, including scripts, images, and audio tracks.",
+      "boundary": "Does not include services for analyzing media (e.g., sentiment on reviews) or searching for media (e.g., finding images).",
+      "decision_rule": "If the service primarily creates, edits, or directly manipulates content (text, image, audio, video), classify here."
+    },
+    "cat_sub21_sub20": {
+      "name": "Name & Identifier Conversion",
+      "description": "Services for converting between names and IDs, generating business names, or finding generic equivalents.",
+      "boundary": "Does not include services for creating user accounts or searching by name.",
+      "decision_rule": "If the service primarily converts an entity name to an ID (or vice versa) or generates/derives names, classify here."
+    },
+    "cat_sub21_sub3": {
+      "name": "Search & Discovery",
+      "description": "Services for searching databases, catalogs, or the web for specific items, information, or media.",
+      "boundary": "Does not include services that analyze search results (SERP) or generate search keywords. Also excludes simple data retrieval by ID.",
+      "decision_rule": "If the service primarily searches a collection or database based on keywords or parameters, classify here."
+    },
+    "cat_sub21_sub4": {
+      "name": "Data Retrieval & Lookup",
+      "description": "Services for fetching a specific, pre-defined piece of data or record using a direct identifier (ID, address, code).",
+      "boundary": "Does not include services that search based on descriptive keywords or analyze the fetched data.",
+      "decision_rule": "If the service primarily retrieves a single record or data point using a unique key (ID, address, status code), classify here."
+    },
+    "cat_sub21_sub5": {
+      "name": "Financial & Blockchain Data",
+      "description": "Services for fetching financial records, cryptocurrency balances, transaction data, or blockchain information.",
+      "boundary": "Does not include services for generating fake financial data or analyzing financial sentiment.",
+      "decision_rule": "If the service primarily retrieves real financial account data, token balances, or blockchain state, classify here."
+    },
+    "cat_sub21_sub6": {
+      "name": "User & Account Management",
+      "description": "Services for managing user accounts, fetching user activity data, or converting user identifiers.",
+      "boundary": "Does not include services for analyzing user-generated content or managing non-user entities (like documents).",
+      "decision_rule": "If the service primarily creates user accounts or retrieves data about a specific user's activity/profile, classify here."
+    },
+    "cat_sub21_sub7": {
+      "name": "Security & Vulnerability Assessment",
+      "description": "Services for detecting security threats, checking for vulnerabilities, or performing ethical hacking simulations.",
+      "boundary": "Does not include services for general domain security reputation or email abuse contact lookup.",
+      "decision_rule": "If the service primarily detects security threats (phishing, hacking) or checks for system vulnerabilities/updates, classify here."
+    },
+    "cat_sub21_sub8": {
+      "name": "Data Generation & Synthesis",
+      "description": "Services that generate new, synthetic data such as fake records, names, or creative content.",
+      "boundary": "Does not include services that retrieve real data from an existing source or edit existing content.",
+      "decision_rule": "If the service primarily creates new, fake, or randomized data/content that did not previously exist, classify here."
+    },
+    "cat_sub22_sub1": {
+      "name": "Transportation & Logistics",
+      "description": "Services for tracking deliveries, managing transportation assets, and logistics operations.",
+      "boundary": "Package tracking, vehicle specifications, fleet management, and logistics coordination.",
+      "decision_rule": "If the service primarily handles package tracking, vehicle specifications, or logistics management, classify here."
+    },
+    "cat_sub22_sub10": {
+      "name": "Security & Privacy",
+      "description": "Services for vulnerability assessment, security compliance, privacy auditing, and data ethics.",
+      "boundary": "Security scanning, compliance checking, privacy policy analysis, and ethical data use verification.",
+      "decision_rule": "If the service primarily searches for vulnerabilities, scores security, checks compliance, or audits privacy/consent, classify here."
+    },
+    "cat_sub22_sub11": {
+      "name": "Market Intelligence",
+      "description": "Services for keyword trend analysis, market research, and competitive intelligence gathering.",
+      "boundary": "Search trend data, market analysis reports, competitor tracking, and industry insights.",
+      "decision_rule": "If the service primarily analyzes keyword trends, performs market analysis, or gathers competitive intelligence, classify here."
+    },
+    "cat_sub22_sub12": {
+      "name": "Business Operations",
+      "description": "Services for customer counting, asset management, IoT device data, and operational support.",
+      "boundary": "People counting, equipment checkout systems, IoT sensor data access, and process automation.",
+      "decision_rule": "If the service primarily counts customers, manages assets, supports operations, or accesses IoT device data, classify here."
+    },
+    "cat_sub22_sub2": {
+      "name": "Blockchain & Cryptocurrency",
+      "description": "Services for blockchain data retrieval, transaction information, and cryptocurrency infrastructure.",
+      "boundary": "Blockchain explorers, transaction lookups, wallet information, and crypto asset data.",
+      "decision_rule": "If the service primarily retrieves blockchain data, transaction details, or cryptocurrency information, classify here."
+    },
+    "cat_sub22_sub3": {
+      "name": "Media & Entertainment",
+      "description": "Services for downloading media content, accessing streaming availability, and retrieving entertainment data.",
+      "boundary": "Video/music downloads, streaming platform data, entertainment charts, and media metadata.",
+      "decision_rule": "If the service primarily downloads videos/music, checks streaming availability, or retrieves entertainment charts, classify here."
+    },
+    "cat_sub22_sub4": {
+      "name": "E-commerce & Retail",
+      "description": "Services for product information, stock availability, and marketplace data retrieval.",
+      "boundary": "Product listings, price checks, inventory status, and marketplace category data.",
+      "decision_rule": "If the service primarily checks product availability, retrieves product details, or accesses marketplace categories, classify here."
+    },
+    "cat_sub22_sub7": {
+      "name": "Digital Content Processing",
+      "description": "Services for extracting text from images, finding duplicate content, and processing media files.",
+      "boundary": "OCR, content deduplication, file format conversion, torrent searching, and media processing.",
+      "decision_rule": "If the service primarily extracts text from images, finds duplicate content, processes digital media, or searches torrents, classify here."
+    },
+    "cat_sub22_sub8": {
+      "name": "Communication Services",
+      "description": "Services for phone number analysis, virtual numbers, email enrichment, and communication infrastructure.",
+      "boundary": "Phone number validation, virtual number management, email data analysis, and communication APIs.",
+      "decision_rule": "If the service primarily analyzes phone numbers, manages virtual numbers, validates communication data, or enriches email data, classify here."
+    },
+    "cat_sub22_sub9": {
+      "name": "Location & Geospatial",
+      "description": "Services for geocoding, timezone data, and location-based information retrieval.",
+      "boundary": "Address-coordinate conversion, timezone lookup, geographic data, and location metadata.",
+      "decision_rule": "If the service primarily converts coordinates to addresses, provides timezone data, or retrieves location information, classify here."
+    },
+    "cat_sub23_sub1": {
+      "name": "Dining & Restaurant Services",
+      "description": "Services for restaurant discovery, reservations, menus, food ordering, and group/catering events.",
+      "boundary": "Includes individual and group dining, catering menus, and pre-orders. Excludes general travel planning and entertainment ticketing.",
+      "decision_rule": "If the service primarily handles restaurant searches, table bookings, menu retrieval, food orders, or catering/group dining, classify here."
+    },
+    "cat_sub23_sub10": {
+      "name": "Weather-Dependent Planning",
+      "description": "Services for recommending activities or planning based on weather forecasts and conditions.",
+      "boundary": "Includes weather-based activity recommendations and planning. Excludes activity booking and general itinerary planning.",
+      "decision_rule": "If the service primarily recommends activities or plans based on weather forecasts/conditions, classify here."
+    },
+    "cat_sub23_sub12": {
+      "name": "Location & Geographic Information",
+      "description": "Services for retrieving geographic data, city information, administrative boundaries, and location references.",
+      "boundary": "Includes city databases, geographic coordinates, administrative regions, and location lookups. Excludes venue-specific details and booking services.",
+      "decision_rule": "If the service primarily retrieves geographic data, city information, administrative boundaries, or location references, classify here."
+    },
+    "cat_sub23_sub2": {
+      "name": "Accommodation & Lodging",
+      "description": "Services for finding, booking, and managing hotel rooms, properties, and lodging details.",
+      "boundary": "Includes hotel/property search, room booking, and availability checks. Excludes restaurant services and transportation booking.",
+      "decision_rule": "If the service primarily handles hotel/property search, room booking, availability checks, or lodging details, classify here."
+    },
+    "cat_sub23_sub3": {
+      "name": "Transportation & Transit",
+      "description": "Services for booking and scheduling transport, checking transit info, and managing parcel deliveries.",
+      "boundary": "Includes passenger transport booking, transit schedules, and courier/parcel delivery scheduling. Excludes accommodation booking and event ticketing.",
+      "decision_rule": "If the service primarily handles booking/scheduling seats on vehicles, checking transit routes/schedules, or scheduling parcel/courier deliveries, classify here."
+    },
+    "cat_sub23_sub4": {
+      "name": "Cinema & Movie Entertainment",
+      "description": "Services for finding movie showtimes, cinema locations, and seat availability for films.",
+      "boundary": "Includes movie showtimes and cinema session status. Excludes live event ticketing and restaurant bookings.",
+      "decision_rule": "If the service primarily provides movie showtimes, cinema locations, or movie session status, classify here."
+    },
+    "cat_sub23_sub5": {
+      "name": "Live Events & Entertainment",
+      "description": "Services for schedules, details, and ratings of concerts, theater, sports, and other live performances.",
+      "boundary": "Includes concerts, theater, sports events, and live performances. Excludes movie showtimes and restaurant reservations.",
+      "decision_rule": "If the service primarily provides details, schedules, or ratings for concerts, theater, sports events, or live performances, classify here."
+    },
+    "cat_sub23_sub6": {
+      "name": "Activity Discovery & Recommendation",
+      "description": "Services for finding and suggesting attractions, tours, activities, festivals, and cultural events.",
+      "boundary": "Includes attraction/tour recommendations and festival/cultural event information. Excludes booking specific activities and restaurant discovery.",
+      "decision_rule": "If the service primarily searches for or recommends attractions, tours, activities, festivals, or cultural events, classify here."
+    },
+    "cat_sub23_sub7": {
+      "name": "Booking & Transaction Services",
+      "description": "Services for booking activities, tours, experiences, and processing payments for events and reservations.",
+      "boundary": "Includes booking specific activities, tours, training sessions, and payment processing for events/bookings. Excludes activity discovery and restaurant reservations.",
+      "decision_rule": "If the service primarily books or checks availability for activities/tours, or processes payments for events/reservations, classify here."
+    },
+    "cat_sub23_sub8": {
+      "name": "Venue & Location Information",
+      "description": "Services for finding venues, places, location details, opening status, and general schedules.",
+      "boundary": "Includes venue details, opening status, location searches, and general schedule retrieval. Excludes booking services and event-specific schedules.",
+      "decision_rule": "If the service primarily retrieves details about venues, places, their opening status, location data, or general schedules, classify here."
+    },
+    "cat_sub23_sub9": {
+      "name": "Travel Itinerary & Planning",
+      "description": "Services for generating trip plans, itineraries, packing lists, costs, and specialized travel info.",
+      "boundary": "Includes travel planning, itinerary creation, cost estimation, and cruise/specialized travel details. Excludes booking specific services.",
+      "decision_rule": "If the service primarily creates travel plans, itineraries, packing lists, estimates trip costs, or provides cruise/specialized travel details, classify here."
+    },
+    "cat_sub3_sub1": {
+      "name": "Flight Services",
+      "description": "Services for searching, booking, and managing airline flights, including flight status, schedules, and airline information.",
+      "boundary": "Commercial airline flights only. Excludes airport data without booking.",
+      "decision_rule": "If the service primarily handles commercial airline flight booking, status, or schedules, classify here."
+    },
+    "cat_sub3_sub10": {
+      "name": "EV Charging & Alternative Transport",
+      "description": "Services for electric vehicle charging stations, cycling routes, and alternative transportation.",
+      "boundary": "Sustainable and alternative transport modes. Excludes traditional car rentals.",
+      "decision_rule": "If the service primarily handles EV charging, cycling, or alternative transport, classify here."
+    },
+    "cat_sub3_sub11": {
+      "name": "Travel Attractions & Activities",
+      "description": "Services for finding attractions, tours, sightseeing options, and local activities.",
+      "boundary": "Destination experiences and activities. Excludes accommodation or transportation.",
+      "decision_rule": "If the service primarily finds attractions, tours, or local activities, classify here."
+    },
+    "cat_sub3_sub12": {
+      "name": "Travel Visuals & Media",
+      "description": "Services providing travel-related webcams, property photos, videos, and visual content.",
+      "boundary": "Visual and multimedia travel content. Excludes booking services.",
+      "decision_rule": "If the service primarily provides visual travel content like webcams or photos, classify here."
+    },
+    "cat_sub3_sub13": {
+      "name": "Travel Geography & Mapping",
+      "description": "Services for geocoding, distance calculation, elevation data, and travel mapping.",
+      "boundary": "Geographic data and calculations for travel. Excludes booking services.",
+      "decision_rule": "If the service primarily handles geographic data or calculations for travel, classify here."
+    },
+    "cat_sub3_sub14": {
+      "name": "Travel Traffic & Conditions",
+      "description": "Services for traffic updates, driving directions, road conditions, and travel delays.",
+      "boundary": "Road conditions and traffic information. Excludes public transit schedules.",
+      "decision_rule": "If the service primarily provides road traffic, driving conditions, or travel delays, classify here."
+    },
+    "cat_sub3_sub15": {
+      "name": "Travel Market Data",
+      "description": "Services for travel market information, supported countries, and industry statistics.",
+      "boundary": "Travel industry data and analytics. Excludes booking services.",
+      "decision_rule": "If the service primarily provides travel market or industry data, classify here."
+    },
+    "cat_sub3_sub17": {
+      "name": "Travel Order Management",
+      "description": "Services for retrieving, modifying, and managing existing travel bookings and reservations.",
+      "boundary": "Management of existing bookings. Excludes new bookings or search.",
+      "decision_rule": "If the service primarily manages existing travel orders or reservations, classify here."
+    },
+    "cat_sub3_sub18": {
+      "name": "Travel Code Conversion",
+      "description": "Services for converting between travel codes, IDs, and names for flights, hotels, and airports.",
+      "boundary": "Travel identifier conversion and lookup. Excludes booking services.",
+      "decision_rule": "If the service primarily converts travel identifiers or codes, classify here."
+    },
+    "cat_sub3_sub2": {
+      "name": "Accommodation Services",
+      "description": "Services for searching, booking, and managing hotels, vacation rentals, and other lodging options.",
+      "boundary": "All lodging types. Excludes transportation or attraction bookings.",
+      "decision_rule": "If the service primarily handles hotel or vacation rental bookings and availability, classify here."
+    },
+    "cat_sub3_sub3": {
+      "name": "Ground Transportation",
+      "description": "Services for booking and managing taxis, ride-sharing, car rentals, and other ground transport options.",
+      "boundary": "Road-based personal transport. Excludes public transit and flights.",
+      "decision_rule": "If the service primarily handles car rentals, taxis, or ride-sharing, classify here."
+    },
+    "cat_sub3_sub4": {
+      "name": "Public Transit",
+      "description": "Services for bus, train, subway, and other public transportation schedules, routes, and information.",
+      "boundary": "Scheduled public transport networks. Excludes taxis and ride-sharing.",
+      "decision_rule": "If the service primarily handles public transportation schedules, routes, or real-time info, classify here."
+    },
+    "cat_sub3_sub5": {
+      "name": "Airport & Aviation Data",
+      "description": "Services providing airport information, aviation statistics, aircraft data, and airport operations.",
+      "boundary": "Aviation infrastructure and data. Excludes flight booking.",
+      "decision_rule": "If the service primarily provides airport, aircraft, or aviation data without booking, classify here."
+    },
+    "cat_sub3_sub6": {
+      "name": "Travel Planning & Itineraries",
+      "description": "Services for creating trip plans, generating itineraries, and suggesting travel activities.",
+      "boundary": "Trip planning and activity suggestions. Excludes actual booking services.",
+      "decision_rule": "If the service primarily creates travel plans or suggests activities, classify here."
+    },
+    "cat_sub3_sub7": {
+      "name": "Travel Cost & Pricing Data",
+      "description": "Services for estimating travel expenses, calculating costs, fuel prices, and comparing prices.",
+      "boundary": "Cost estimation and pricing data. Excludes real-time booking transactions.",
+      "decision_rule": "If the service primarily calculates travel costs, estimates expenses, or provides fuel/price data, classify here."
+    },
+    "cat_sub3_sub8": {
+      "name": "Travel Logistics & Preparation",
+      "description": "Services for packing lists, baggage info, travel preparation, and shipment tracking.",
+      "boundary": "Trip preparation and logistics. Includes package/shipment tracking for travel.",
+      "decision_rule": "If the service primarily handles travel preparation, logistics, or shipment tracking, classify here."
+    },
+    "cat_sub3_sub9": {
+      "name": "Cruise & Maritime Travel",
+      "description": "Services for cruise bookings, ferry information, vessel tracking, and maritime transport.",
+      "boundary": "Water-based travel and transport. Excludes standard hotel/flight bookings.",
+      "decision_rule": "If the service primarily handles cruise ships, ferries, or maritime transport, classify here."
+    },
+    "cat_sub4_sub1": {
+      "name": "Product Discovery & Search",
+      "description": "Services for finding, searching, browsing, and comparing products across platforms.",
+      "boundary": "Includes product searches, filtered browsing, and side-by-side product comparisons. Excludes fetching detailed specs for a single product or checking real-time availability.",
+      "decision_rule": "If the service primarily helps users find, list, or compare products based on queries, filters, or categories, classify here."
+    },
+    "cat_sub4_sub10": {
+      "name": "Store & Location Finder",
+      "description": "Services that find physical retail stores or pickup locations.",
+      "boundary": "Includes finding brick-and-mortar store locations. Excludes online marketplace searches and checking inventory at found stores.",
+      "decision_rule": "If the service primarily finds physical store locations, classify here."
+    },
+    "cat_sub4_sub11": {
+      "name": "Product Categorization & Taxonomy",
+      "description": "Services that organize products into categories or classify products.",
+      "boundary": "Includes defining, listing, or assigning product categories. Excludes searching within categories and fetching product details.",
+      "decision_rule": "If the service primarily defines, lists, or assigns product categories, classify here."
+    },
+    "cat_sub4_sub12": {
+      "name": "Personalized Recommendations",
+      "description": "Services that suggest products based on user preferences or history.",
+      "boundary": "Includes tailored suggestions to a user. Excludes general product searches and fetching product details without recommendation logic.",
+      "decision_rule": "If the service primarily provides tailored product suggestions to a user, classify here."
+    },
+    "cat_sub4_sub13": {
+      "name": "Market & Platform Metadata",
+      "description": "Services that provide supporting data about shopping platforms.",
+      "boundary": "Includes metadata about the shopping ecosystem (countries, brands, sites). Excludes operations on products, orders, or users within those markets.",
+      "decision_rule": "If the service primarily retrieves metadata about the shopping ecosystem, classify here."
+    },
+    "cat_sub4_sub15": {
+      "name": "Product & Store Management",
+      "description": "Services for merchants to manage product listings, storefronts, or catalogs.",
+      "boundary": "Includes adding, updating, or managing products in a seller's catalog or store. Excludes customer-facing product discovery and order placement.",
+      "decision_rule": "If the service primarily enables a merchant to manage their product listings or storefront, classify here."
+    },
+    "cat_sub4_sub2": {
+      "name": "Product Information & Details",
+      "description": "Services that retrieve detailed specifications, descriptions, and data for a specific product.",
+      "boundary": "Includes comprehensive details for a single, identified product. Excludes searching for products, comparing multiple products, and checking prices/availability.",
+      "decision_rule": "If the service primarily fetches comprehensive details for a single, identified product, classify here."
+    },
+    "cat_sub4_sub3": {
+      "name": "Price & Offer Tracking",
+      "description": "Services focused on retrieving current prices, historical price data, and available offers.",
+      "boundary": "Includes pricing information, discounts, and price history. Excludes general product details without price focus, and purchasing/checkout services.",
+      "decision_rule": "If the service primarily provides pricing information, discounts, or tracks price history, classify here."
+    },
+    "cat_sub4_sub4": {
+      "name": "Product Reviews & Feedback",
+      "description": "Services that fetch customer reviews, ratings, and feedback for products or businesses.",
+      "boundary": "Includes user-generated reviews, ratings, or feedback. Excludes product specifications, price data, and business information without a review focus.",
+      "decision_rule": "If the service primarily retrieves user-generated reviews, ratings, or feedback, classify here."
+    },
+    "cat_sub4_sub5": {
+      "name": "Inventory & Availability Check",
+      "description": "Services that check real-time stock levels or product availability.",
+      "boundary": "Includes checking if a product is in stock or available for purchase at specific locations. Excludes general product searches and price checks.",
+      "decision_rule": "If the service primarily checks if a product is in stock or available for purchase, classify here."
+    },
+    "cat_sub4_sub6": {
+      "name": "Shopping Cart & Order Calculation",
+      "description": "Services for managing shopping cart items and calculating total order costs.",
+      "boundary": "Includes adding/removing cart items and computing the total monetary sum of a prospective order (items, taxes, fees). Excludes product search and the final checkout/payment process.",
+      "decision_rule": "If the service primarily handles cart items or computes the total cost of a prospective order, classify here."
+    },
+    "cat_sub4_sub7": {
+      "name": "Order Placement & Purchase",
+      "description": "Services that execute the final step of purchasing a product or placing an order.",
+      "boundary": "Includes completing a transaction to buy a product. Excludes cart management, price calculation, and post-purchase tracking.",
+      "decision_rule": "If the service primarily completes a transaction to buy a product, classify here."
+    },
+    "cat_sub4_sub8": {
+      "name": "Order, Transaction & Analytics",
+      "description": "Services for retrieving order details, history, and analyzing shopping patterns.",
+      "boundary": "Includes fetching details of completed orders and analyzing shopping data for trends. Excludes placing new orders and tracking delivery.",
+      "decision_rule": "If the service primarily fetches order details/history or analyzes shopping data to identify trends, classify here."
+    },
+    "cat_sub4_sub9": {
+      "name": "Shipping, Delivery & Tracking",
+      "description": "Services for calculating shipping costs, estimating delivery times, and tracking packages.",
+      "boundary": "Includes calculating delivery costs/times and tracking the status of a shipped package. Excludes placing the order itself.",
+      "decision_rule": "If the service primarily calculates shipping, estimates delivery, or provides the status of a dispatched package, classify here."
+    },
+    "cat_sub5_sub1": {
+      "name": "Movies & TV Shows",
+      "description": "Services for discovering and retrieving information about movies, TV shows, and related metadata.",
+      "boundary": "Focuses on cinematic and episodic narrative content.",
+      "decision_rule": "If the service primarily retrieves or manages data about films or television series, classify here."
+    },
+    "cat_sub5_sub10": {
+      "name": "Quotes & Sayings",
+      "description": "Services for quotations from media, literature, or famous individuals.",
+      "boundary": "Focuses on standalone memorable lines.",
+      "decision_rule": "If the service primarily retrieves quotations or sayings, classify here."
+    },
+    "cat_sub5_sub11": {
+      "name": "Religious & Spiritual Content",
+      "description": "Services for religious texts, verses, calendars, and spiritual information.",
+      "boundary": "Focuses on content from established religious traditions.",
+      "decision_rule": "If the service primarily provides content from a religious text or spiritual teaching, classify here."
+    },
+    "cat_sub5_sub12": {
+      "name": "Streaming & Availability",
+      "description": "Services checking where movies/TV shows are available to stream, rent, or buy.",
+      "boundary": "Focuses on platform availability for video content.",
+      "decision_rule": "If the service primarily checks streaming platform availability for video content, classify here."
+    },
+    "cat_sub5_sub13": {
+      "name": "Showtimes & Theaters",
+      "description": "Services for finding movie showtimes at physical cinemas.",
+      "boundary": "Focuses on theatrical exhibition schedules.",
+      "decision_rule": "If the service primarily retrieves cinema showtimes, classify here."
+    },
+    "cat_sub5_sub14": {
+      "name": "Recommendations & Discovery",
+      "description": "Services suggesting similar media or providing personalized discovery.",
+      "boundary": "Focuses on algorithmic or curated suggestions.",
+      "decision_rule": "If the service primarily generates media suggestions based on user input, classify here."
+    },
+    "cat_sub5_sub15": {
+      "name": "Niche & Specialized Content",
+      "description": "Services for niche entertainment topics: cocktails, cigars, mythology, animals, video games, etc.",
+      "boundary": "Covers specific, non-mainstream entertainment or leisure topics not covered by other categories.",
+      "decision_rule": "If the service provides information on a specific niche leisure or entertainment topic not fitting other categories, classify here."
+    },
+    "cat_sub5_sub16": {
+      "name": "Images & Visual Media",
+      "description": "Services for entertainment-related images, posters, GIFs, and artwork.",
+      "boundary": "Focuses on static visual assets.",
+      "decision_rule": "If the service primarily retrieves static images or artwork related to entertainment, classify here."
+    },
+    "cat_sub5_sub17": {
+      "name": "Reviews & Ratings",
+      "description": "Services providing critic/user reviews, ratings, and sentiment analysis for media.",
+      "boundary": "Focuses on evaluative opinions and scores.",
+      "decision_rule": "If the service primarily retrieves or analyzes reviews or ratings for media, classify here."
+    },
+    "cat_sub5_sub18": {
+      "name": "Entertainment Tools & Utilities",
+      "description": "Utilities for entertainment: downloaders, converters, generators, news aggregators, and content tools.",
+      "boundary": "Focuses on functional tools that process or manage entertainment content.",
+      "decision_rule": "If the service primarily performs a utility function (download, convert, generate, aggregate news) on entertainment media, classify here."
+    },
+    "cat_sub5_sub2": {
+      "name": "Music & Audio",
+      "description": "Services for music tracks, albums, artists, playlists, live radio streams, podcasts, and audio content.",
+      "boundary": "Encompasses all non-visual audio media. Includes music, radio, and podcasts.",
+      "decision_rule": "If the service primarily handles audio streams, music metadata, radio stations, or podcast episodes, classify here."
+    },
+    "cat_sub5_sub3": {
+      "name": "Video Content",
+      "description": "Services for videos from platforms like YouTube, Vimeo, social media, and general video hosts.",
+      "boundary": "Focuses on user-generated, platform-hosted, or general video clips.",
+      "decision_rule": "If the service primarily handles general video files or clips from video-sharing platforms, classify here."
+    },
+    "cat_sub5_sub4": {
+      "name": "Books & Literature",
+      "description": "Services for books, authors, summaries, and literary publications.",
+      "boundary": "Covers textual publications and their metadata.",
+      "decision_rule": "If the service primarily handles books or author information, classify here."
+    },
+    "cat_sub5_sub5": {
+      "name": "Anime, Comics & Webtoons",
+      "description": "Services for anime, manga, comics, webtoons, and graphic novels.",
+      "boundary": "Focuses on illustrated or animated narrative formats.",
+      "decision_rule": "If the service primarily handles anime, manga, comics, or webtoons, classify here."
+    },
+    "cat_sub5_sub6": {
+      "name": "Celebrity & People Info",
+      "description": "Services for biographical data, filmographies, and information about public figures.",
+      "boundary": "Focuses on individuals (actors, directors, artists).",
+      "decision_rule": "If the service primarily retrieves information about a person rather than their creative works, classify here."
+    },
+    "cat_sub5_sub7": {
+      "name": "Creator & Channel Info",
+      "description": "Services for metadata and analytics for creators/channels on platforms like YouTube or Spotify.",
+      "boundary": "Focuses on creator accounts and their content lists.",
+      "decision_rule": "If the service primarily retrieves data about a content creator's channel or profile, classify here."
+    },
+    "cat_sub5_sub8": {
+      "name": "Charts & Rankings",
+      "description": "Services providing ranked lists and popularity metrics for media.",
+      "boundary": "Focuses on ordered lists based on metrics (sales, views, streams).",
+      "decision_rule": "If the service primarily returns a ranked/chart-based list of media items, classify here."
+    },
+    "cat_sub5_sub9": {
+      "name": "Jokes & Humor",
+      "description": "Services for jokes, humorous text, and insult generation.",
+      "boundary": "Focuses on curated comedic content.",
+      "decision_rule": "If the service primarily delivers joke content or humorous text, classify here."
+    },
+    "cat_sub6_sub1": {
+      "name": "Recipe Discovery & Management",
+      "description": "Services for finding, retrieving, organizing, or generating cooking recipes and meal ideas.",
+      "boundary": "Includes both existing recipe databases and AI-generated recipes. Focuses on recipe content rather than nutritional analysis or meal planning.",
+      "decision_rule": "If the service primarily helps users find, browse, retrieve, organize, or generate cooking recipes, classify here."
+    },
+    "cat_sub6_sub10": {
+      "name": "Dietary & Meal Planning",
+      "description": "Services for meal planning based on dietary restrictions and diet-specific recipe filtering.",
+      "boundary": "Focuses on meal planning and dietary filtering. Excludes nutritional calculation, recipe generation, and food ordering.",
+      "decision_rule": "If the service primarily creates meal plans or filters recipes based on dietary needs and restrictions, classify here."
+    },
+    "cat_sub6_sub11": {
+      "name": "Food Delivery & Cost Management",
+      "description": "Services for managing food delivery operations, logistics, and meal cost calculations.",
+      "boundary": "Includes delivery operations, logistics, and meal cost calculation for trips/events. Excludes customer ordering interfaces.",
+      "decision_rule": "If the service primarily manages food delivery logistics or calculates meal costs for trips/events, classify here."
+    },
+    "cat_sub6_sub12": {
+      "name": "Restaurant & Catering Operations",
+      "description": "Services for managing restaurant operations, catering services, and group dining events.",
+      "boundary": "Includes restaurant back-office operations and catering/group meal services. Excludes customer-facing services.",
+      "decision_rule": "If the service primarily supports restaurant operations, catering services, or group dining management, classify here."
+    },
+    "cat_sub6_sub13": {
+      "name": "Food Preferences & Personalization",
+      "description": "Services for managing user food preferences, favorites, and personalized food recommendations.",
+      "boundary": "Focuses on user-specific food preferences and personalization data. Excludes general recipe or restaurant discovery.",
+      "decision_rule": "If the service primarily manages user food preferences, favorites, or provides personalized food recommendations, classify here."
+    },
+    "cat_sub6_sub16": {
+      "name": "Nutritional Calculation & Analysis",
+      "description": "Services for calculating nutritional values, calories, and dietary information for food items.",
+      "boundary": "Focuses on nutritional data calculation and analysis. Excludes meal planning, recipe discovery, and general health tracking.",
+      "decision_rule": "If the service primarily calculates or provides nutritional information for food items, dishes, or meals, classify here."
+    },
+    "cat_sub6_sub17": {
+      "name": "Food Data & Content Services",
+      "description": "Services for accessing structured food databases, aggregated food content, and food datasets.",
+      "boundary": "Focuses on comprehensive food data and multi-content aggregation. Excludes single-purpose recipe or restaurant searches.",
+      "decision_rule": "If the service primarily provides access to comprehensive food databases, taxonomies, or aggregated food content, classify here."
+    },
+    "cat_sub6_sub2": {
+      "name": "Restaurant Search & Discovery",
+      "description": "Services for finding restaurants, dining experiences, or food-focused travel based on location, cuisine, or attributes.",
+      "boundary": "Includes standard restaurant search and food tourism services. Focuses on discovery rather than booking or ordering.",
+      "decision_rule": "If the service primarily helps users find restaurants, dining experiences, or plan food-focused travel, classify here."
+    },
+    "cat_sub6_sub3": {
+      "name": "Menu & Dish Information",
+      "description": "Services for retrieving restaurant menus, specific dish details, and menu-related data.",
+      "boundary": "Focuses on menu content and dish information. Excludes ordering, reservations, and recipe content.",
+      "decision_rule": "If the service primarily provides access to restaurant menus, dish details, or menu item recommendations, classify here."
+    },
+    "cat_sub6_sub4": {
+      "name": "Table Reservations & Booking",
+      "description": "Services for checking table availability, making restaurant reservations, and managing bookings.",
+      "boundary": "Focuses on restaurant table booking. Excludes food ordering, delivery, and non-restaurant bookings.",
+      "decision_rule": "If the service primarily handles the booking or reservation of restaurant tables, classify here."
+    },
+    "cat_sub6_sub5": {
+      "name": "Food & Beverage Ordering",
+      "description": "Services for placing food orders from restaurants and managing order fulfillment.",
+      "boundary": "Focuses on customer-facing food ordering. Excludes delivery logistics, reservations, and grocery shopping.",
+      "decision_rule": "If the service primarily enables users to order food or drinks from restaurants for pickup or delivery, classify here."
+    },
+    "cat_sub6_sub6": {
+      "name": "Restaurant Reviews & Ratings",
+      "description": "Services for submitting, retrieving, and analyzing restaurant reviews and customer feedback.",
+      "boundary": "Focuses on restaurant evaluation content. Excludes recipe reviews and business reviews for other industries.",
+      "decision_rule": "If the service primarily deals with restaurant reviews, ratings, or customer feedback, classify here."
+    },
+    "cat_sub6_sub7": {
+      "name": "Beverage Services & Pairing",
+      "description": "Services for drink recipes, beverage information, and wine/food pairing recommendations.",
+      "boundary": "Focuses on beverages, cocktails, and pairing suggestions. Excludes food recipes and restaurant operations.",
+      "decision_rule": "If the service primarily provides drink recipes, beverage information, or food/drink pairing recommendations, classify here."
+    },
+    "cat_sub6_sub8": {
+      "name": "Cuisine & Food Classification",
+      "description": "Services for identifying food cuisines, classifying dishes, and providing food origin information.",
+      "boundary": "Focuses on food taxonomy and classification. Excludes recipe search, restaurant discovery, and nutritional data.",
+      "decision_rule": "If the service primarily identifies, classifies, or provides information about food cuisines and origins, classify here."
+    },
+    "cat_sub6_sub9": {
+      "name": "Ingredient Information & Search",
+      "description": "Services for searching ingredients, retrieving ingredient details, and checking pantry availability.",
+      "boundary": "Focuses on ingredient data and search. Excludes recipe discovery, nutritional calculation, and grocery product search.",
+      "decision_rule": "If the service primarily searches for or provides detailed information about cooking ingredients, classify here."
+    },
+    "cat_sub7_sub1": {
+      "name": "Address Geocoding & Reverse Geocoding",
+      "description": "Services that convert between addresses/place names and geographic coordinates (latitude/longitude).",
+      "boundary": "Forward geocoding (text to coordinates) and reverse geocoding (coordinates to text).",
+      "decision_rule": "If the service's primary function is converting a location between textual and coordinate forms, classify here."
+    },
+    "cat_sub7_sub10": {
+      "name": "Transportation Hubs & Schedules",
+      "description": "Services that provide data for non-aviation transit hubs (train/bus stations, metro) and their schedules.",
+      "boundary": "Data for train stations, bus stations, metro stations, or their schedules/routes.",
+      "decision_rule": "If the service primarily provides data for non-aviation transit hubs or schedules, classify here."
+    },
+    "cat_sub7_sub11": {
+      "name": "Aviation & Airport Data",
+      "description": "Services that provide information about airports, airport routes, flight data, and aviation infrastructure.",
+      "boundary": "Data about airports, airport codes, airport routes, or live aircraft positions.",
+      "decision_rule": "If the service primarily provides aviation-related data, classify here."
+    },
+    "cat_sub7_sub12": {
+      "name": "Maritime & Vessel Data",
+      "description": "Services that provide data about ships, vessels, ports, maritime positions, and tide/astronomical data.",
+      "boundary": "Data about vessels, ship positions, ports, tides, and maritime astronomical information.",
+      "decision_rule": "If the service primarily provides maritime, vessel, or coastal tide/astronomy data, classify here."
+    },
+    "cat_sub7_sub13": {
+      "name": "Location Autocomplete",
+      "description": "Services that provide type-ahead or autocomplete suggestions for addresses, cities, or places.",
+      "boundary": "Real-time search suggestions or autocomplete for location names/addresses.",
+      "decision_rule": "If the service primarily provides real-time autocomplete for locations, classify here."
+    },
+    "cat_sub7_sub14": {
+      "name": "Demographic & Statistical Data",
+      "description": "Services that attach demographic, population, or statistical data to geographic areas.",
+      "boundary": "Statistical or demographic data (population, health stats) linked to a geographic area.",
+      "decision_rule": "If the service primarily provides statistical data attached to a geographic area, classify here."
+    },
+    "cat_sub7_sub15": {
+      "name": "Energy & Environmental Geography",
+      "description": "Services that provide location-based energy data, environmental assessments, or climate factors.",
+      "boundary": "Energy-related data (solar, geothermal) or environmental risk assessments for a location.",
+      "decision_rule": "If the service primarily provides energy or environmental assessment data for a location, classify here."
+    },
+    "cat_sub7_sub16": {
+      "name": "Map Tiles & Basemaps",
+      "description": "Services that provide raster or vector map tiles and basemap data for visual map display.",
+      "boundary": "Visual map tiles (PNG, vector tiles) or basemap styling data.",
+      "decision_rule": "If the service primarily provides visual map tiles or basemap data, classify here."
+    },
+    "cat_sub7_sub17": {
+      "name": "Time Zone & Local Time",
+      "description": "Services that determine the time zone or local time for a given geographic location.",
+      "boundary": "Conversion of a location (coordinates or name) into a time zone or local time.",
+      "decision_rule": "If the service primarily converts a location into time zone or local time data, classify here."
+    },
+    "cat_sub7_sub18": {
+      "name": "Traffic & Incidents",
+      "description": "Services that provide real-time or historical traffic conditions, congestion, and incident data for locations.",
+      "boundary": "Traffic flow, congestion, delays, and road incident information.",
+      "decision_rule": "If the service primarily provides traffic conditions or incident data for a location, classify here."
+    },
+    "cat_sub7_sub19": {
+      "name": "Weather & Environmental Conditions",
+      "description": "Services that provide weather forecasts, current conditions, or environmental data for locations.",
+      "boundary": "Weather forecasts, current conditions, and basic environmental data tied to geography.",
+      "decision_rule": "If the service primarily provides weather or basic environmental condition data for a location, classify here."
+    },
+    "cat_sub7_sub2": {
+      "name": "Routing, Directions & Distance",
+      "description": "Services that calculate routes, travel paths, navigation steps, or distances between locations.",
+      "boundary": "Point-to-point and multi-point routing, directions, and distance calculations (including simple coordinate-based distance).",
+      "decision_rule": "If the service primarily calculates a travel path, provides navigation instructions, or calculates the distance/duration between points, classify here."
+    },
+    "cat_sub7_sub3": {
+      "name": "Point of Interest (POI) & Venue Search",
+      "description": "Services that find specific venues, facilities, businesses, or visual feeds (e.g., webcams) by location or attributes.",
+      "boundary": "Search for businesses, airports, stations, attractions, and geographically-tagged visual feeds like webcams.",
+      "decision_rule": "If the service primarily searches for specific venue locations or geographically-tagged visual feeds, classify here."
+    },
+    "cat_sub7_sub4": {
+      "name": "Administrative Boundaries",
+      "description": "Services that provide data about political or administrative regions and their geographic borders.",
+      "boundary": "Information or geometries for countries, states, cities, counties, or postal code boundaries.",
+      "decision_rule": "If the service primarily provides information or geometries for administrative boundaries, classify here."
+    },
+    "cat_sub7_sub5": {
+      "name": "Spatial Search & Proximity",
+      "description": "Services that find all points or areas within a specified radius or bounding box of a given location.",
+      "boundary": "Finding items (postcodes, counties, venues) within a radius or bounding box.",
+      "decision_rule": "If the service primarily finds all items within a radius or bounding box of a location, classify here."
+    },
+    "cat_sub7_sub6": {
+      "name": "Spatial Analysis, Matrices & Terrain",
+      "description": "Services that perform multi-point spatial calculations, optimization, or provide elevation/terrain data.",
+      "boundary": "Distance/duration matrices, route optimization, multi-point analysis, and elevation/terrain data.",
+      "decision_rule": "If the service primarily performs advanced multi-point spatial analysis or provides elevation/terrain data, classify here."
+    },
+    "cat_sub7_sub7": {
+      "name": "Country & Continent Data",
+      "description": "Services that provide reference information about countries, continents, capitals, and country codes.",
+      "boundary": "Data about countries or continents (details, codes, capitals, lists).",
+      "decision_rule": "If the service primarily provides data about countries or continents, classify here."
+    },
+    "cat_sub7_sub8": {
+      "name": "City & Locality Data",
+      "description": "Services that provide reference information about cities, towns, populations, and city lists within regions.",
+      "boundary": "Data about cities (lists, populations, details within a country/state).",
+      "decision_rule": "If the service primarily provides data about cities, classify here."
+    },
+    "cat_sub7_sub9": {
+      "name": "Postal Code & ZIP Code Data",
+      "description": "Services that provide information, validation, or geolocation for postal codes and similar mailing codes.",
+      "boundary": "Lookup or validation of data for a specific postal/ZIP code.",
+      "decision_rule": "If the service primarily looks up or validates data for a postal code, classify here."
+    },
+    "cat_sub8_sub1": {
+      "name": "Medical Diagnosis & Symptom Analysis",
+      "description": "Services that analyze symptoms, suggest diagnoses, or assess disease risk based on medical inputs.",
+      "boundary": "Focuses on analyzing health inputs to suggest conditions or assess risk. Excludes retrieving records, scheduling, or managing treatments.",
+      "decision_rule": "If the service primarily analyzes health inputs to suggest conditions or assess risk, classify here."
+    },
+    "cat_sub8_sub10": {
+      "name": "Mental & Behavioral Health",
+      "description": "Services for assessing, tracking, or supporting mental wellness, psychiatric conditions, and stress management.",
+      "boundary": "Focuses on mental/psychological state assessment, tracking, or support programs. Excludes physical diagnosis, fitness, or relationship counseling.",
+      "decision_rule": "If the service primarily assesses, tracks, or provides programs for mental/psychological state, classify here."
+    },
+    "cat_sub8_sub11": {
+      "name": "Epidemiology & Population Health",
+      "description": "Services that retrieve and calculate statistics for diseases, outbreaks, and infection rates for populations.",
+      "boundary": "Focuses on statistical data on disease spread in populations. Excludes personal risk assessment, individual diagnosis, or vaccination tracking.",
+      "decision_rule": "If the service primarily fetches or calculates statistical data on disease spread in populations, classify here."
+    },
+    "cat_sub8_sub12": {
+      "name": "Clinical Research & Medical Knowledge",
+      "description": "Services for discovering clinical trials, biomedical patents, medical studies, and general medical information.",
+      "boundary": "Focuses on retrieving information about medical research, trials, patents, or educational content. Excludes personal care, diagnosis, or treatment plans.",
+      "decision_rule": "If the service primarily retrieves information about medical research, trials, patents, or reference content, classify here."
+    },
+    "cat_sub8_sub13": {
+      "name": "Personalized Health Assessment",
+      "description": "Services that assess individual risk for diseases or analyze personal health data for insights.",
+      "boundary": "Focuses on calculating personalized risk scores or analyzing personal health data. Excludes diagnosing active conditions or population statistics.",
+      "decision_rule": "If the service primarily calculates a personalized risk score or analyzes personal health data for insights, classify here."
+    },
+    "cat_sub8_sub14": {
+      "name": "Wellness & Lifestyle Management",
+      "description": "Services for creating or tracking personalized wellness, stress reduction, skincare, or preventive care routines.",
+      "boundary": "Focuses on holistic wellness, lifestyle, or preventive care programs. Excludes medical diagnosis, clinical treatments, or specific fitness workouts.",
+      "decision_rule": "If the service primarily creates or manages a holistic wellness, lifestyle, or preventive care program, classify here."
+    },
+    "cat_sub8_sub15": {
+      "name": "Healthcare Operations & Administration",
+      "description": "Services for scheduling procedures, validating insurance, checking compliance, or managing healthcare logistics.",
+      "boundary": "Focuses on administrative, regulatory, insurance, or procedural aspects of healthcare. Excludes direct patient care, diagnosis, or personal health tracking.",
+      "decision_rule": "If the service primarily handles administrative, regulatory, insurance, or procedural healthcare logistics, classify here."
+    },
+    "cat_sub8_sub16": {
+      "name": "Specialized Health Tools",
+      "description": "Services providing analysis or tools for specific niches like dental health, vision, toxicity, or reproductive health.",
+      "boundary": "Focuses on specialized tools for narrow health niches not covered by other categories. Excludes general diagnosis, broad wellness, or population statistics.",
+      "decision_rule": "If the service is a specialized tool for a narrow health niche not covered by other categories, classify here."
+    },
+    "cat_sub8_sub17": {
+      "name": "Health Monitoring & Remote Care",
+      "description": "Services for real-time monitoring of patient health data and enabling remote/virtual care delivery.",
+      "boundary": "Focuses on real-time monitoring of vitals or facilitating remote care delivery. Excludes analyzing data for diagnosis, scheduling, or retrieving historical records.",
+      "decision_rule": "If the service primarily enables real-time monitoring of patient vitals or facilitates remote care delivery, classify here."
+    },
+    "cat_sub8_sub2": {
+      "name": "Medical Records & Health Data",
+      "description": "Services for storing, retrieving, or querying personal health records and historical health data.",
+      "boundary": "Focuses on storing or fetching a user's recorded health information. Excludes analyzing data for diagnosis, scheduling care, or calculating metrics.",
+      "decision_rule": "If the service primarily stores or fetches a user's recorded health information, classify here."
+    },
+    "cat_sub8_sub3": {
+      "name": "Appointment & Consultation Scheduling",
+      "description": "Services for booking, managing, or querying medical appointments and consultations.",
+      "boundary": "Focuses on scheduling or managing the booking of healthcare consultations. Excludes finding providers, diagnosing conditions, or managing health data.",
+      "decision_rule": "If the service primarily schedules or manages the booking of healthcare consultations, classify here."
+    },
+    "cat_sub8_sub4": {
+      "name": "Healthcare Provider & Facility Search",
+      "description": "Services for locating and finding information about doctors, hospitals, pharmacies, or other medical facilities.",
+      "boundary": "Focuses on searching for or listing healthcare providers or facilities. Excludes booking appointments, ordering from pharmacies, or checking compliance.",
+      "decision_rule": "If the service primarily searches for or lists healthcare providers or facilities, classify here."
+    },
+    "cat_sub8_sub5": {
+      "name": "Treatment & Care Management",
+      "description": "Services that provide treatment plans, generate care plans, or manage therapy and counseling sessions.",
+      "boundary": "Focuses on defining or managing a course of treatment or therapeutic care. Excludes initial diagnosis, finding providers, or scheduling general appointments.",
+      "decision_rule": "If the service primarily defines or manages a course of treatment or therapeutic care, classify here."
+    },
+    "cat_sub8_sub6": {
+      "name": "Medication & Pharmacy Management",
+      "description": "Services for ordering, reserving, managing schedules, or getting information about medications and pharmacy services.",
+      "boundary": "Focuses on handling drugs/medicines ordering, reservation, scheduling, or information. Excludes locating pharmacies, diagnosing conditions, or managing general appointments.",
+      "decision_rule": "If the service primarily handles the ordering, reservation, scheduling, or specific info of drugs/medicines, classify here."
+    },
+    "cat_sub8_sub7": {
+      "name": "Nutrition & Food Analysis",
+      "description": "Services for calculating nutritional intake, planning meals, recommending diets, or analyzing food properties.",
+      "boundary": "Focuses on meal planning, nutrition tracking, diet recommendations, or food analysis. Excludes tracking general fitness, diagnosing conditions, or calculating disease statistics.",
+      "decision_rule": "If the service primarily plans meals, tracks nutrition, recommends diets, or analyzes food properties, classify here."
+    },
+    "cat_sub8_sub8": {
+      "name": "Fitness & Exercise Tracking",
+      "description": "Services for planning workouts, tracking physical activity, or calculating exercise-related metrics like calories burned.",
+      "boundary": "Focuses on planning, recording, or analyzing physical exercise or athletic activity. Excludes planning diets, diagnosing medical conditions, or managing medical appointments.",
+      "decision_rule": "If the service primarily plans, records, or analyzes physical exercise or athletic activity, classify here."
+    },
+    "cat_sub9_sub1": {
+      "name": "General & Breaking News",
+      "description": "Services providing broad news coverage, headlines, and current events including emergencies and crises.",
+      "boundary": "Covers general news, breaking news, and crisis/emergency events. Excludes topic-specific news filtering or aggregation.",
+      "decision_rule": "If the service primarily provides general news headlines, breaking news, or coverage of emergencies/crises, classify here."
+    },
+    "cat_sub9_sub10": {
+      "name": "News Source & Media Analysis",
+      "description": "Services analyzing news sources, media statistics, credibility, and author information.",
+      "boundary": "Covers source analysis, media statistics, credibility assessment, and author profiles. Excludes actual news content publishing.",
+      "decision_rule": "If the service primarily analyzes news sources, media statistics, source credibility, or author information, classify here."
+    },
+    "cat_sub9_sub11": {
+      "name": "Trending & Popular Topics",
+      "description": "Services identifying trending news, viral content, popular searches, and achievements.",
+      "boundary": "Covers trending topics, viral content, popular searches, and notable achievements/records. Excludes specific article filtering.",
+      "decision_rule": "If the service primarily identifies trending topics, viral content, popular searches, or notable achievements, classify here."
+    },
+    "cat_sub9_sub12": {
+      "name": "News Search & Discovery",
+      "description": "Services enabling search across news articles, filtering by keywords, and discovery.",
+      "boundary": "Covers news search, filtering, and discovery functions. Excludes topic-specific news from single sources.",
+      "decision_rule": "If the service primarily enables searching, filtering, or discovering news articles, classify here."
+    },
+    "cat_sub9_sub13": {
+      "name": "News Publishing & Distribution",
+      "description": "Services for publishing, distributing, or delivering news content in any format.",
+      "boundary": "Covers news publishing platforms, content extraction, distribution, multimedia delivery, and live feeds. Excludes consumption/analysis services.",
+      "decision_rule": "If the service primarily enables publishing, extracting, distributing, or delivering news content (including live feeds), classify here."
+    },
+    "cat_sub9_sub14": {
+      "name": "Content Classification & Analysis",
+      "description": "Services that classify, categorize, or analyze news content and media.",
+      "boundary": "Covers content classification, categorization, and media analysis. Excludes source credibility analysis.",
+      "decision_rule": "If the service primarily classifies, categorizes, or analyzes news content/media, classify here."
+    },
+    "cat_sub9_sub17": {
+      "name": "News Aggregation by Category",
+      "description": "Services that fetch or aggregate news articles organized by predefined categories.",
+      "boundary": "Covers news aggregation services that organize content by topic categories. Excludes general search or discovery without category structure.",
+      "decision_rule": "If the service primarily fetches or aggregates news articles organized by predefined categories, classify here."
+    },
+    "cat_sub9_sub18": {
+      "name": "Demographic & Statistical Data",
+      "description": "Services providing population, demographic, or statistical information.",
+      "boundary": "Covers population data, demographic statistics, and related information services. Excludes news content or analysis.",
+      "decision_rule": "If the service primarily provides population, demographic, or statistical information, classify here."
+    },
+    "cat_sub9_sub19": {
+      "name": "Video Content Services",
+      "description": "Services providing access to or information about video content from platforms.",
+      "boundary": "Covers video content access, information, and platform-specific services. Excludes live news feeds or webcams.",
+      "decision_rule": "If the service primarily provides access to or information about video content from platforms, classify here."
+    },
+    "cat_sub9_sub2": {
+      "name": "Business & Finance News",
+      "description": "Services covering markets, companies, investments, and economic indicators.",
+      "boundary": "Includes stock markets, corporate news, investments, and economic data/indicators. Excludes cryptocurrency-specific news.",
+      "decision_rule": "If the service primarily provides news about business, finance, stocks, companies, or economic indicators, classify here."
+    },
+    "cat_sub9_sub3": {
+      "name": "Technology & Science News",
+      "description": "Services covering tech developments, scientific research, AI, innovation, and cybersecurity.",
+      "boundary": "Includes general technology, scientific discoveries, artificial intelligence, and cybersecurity news. Excludes general business tech coverage.",
+      "decision_rule": "If the service primarily provides news about technology, science, research, artificial intelligence, or cybersecurity, classify here."
+    },
+    "cat_sub9_sub4": {
+      "name": "Health & Medical News",
+      "description": "Services covering healthcare, medical research, disease outbreaks, and public health.",
+      "boundary": "Covers medicine, healthcare, diseases, and public health. Excludes environmental health topics.",
+      "decision_rule": "If the service primarily provides news about healthcare, medicine, or disease outbreaks, classify here."
+    },
+    "cat_sub9_sub5": {
+      "name": "Sports & Entertainment News",
+      "description": "Services covering athletic events, sports teams, entertainment industry, and celebrities.",
+      "boundary": "Covers all sports-related news and entertainment industry coverage. Excludes political or business aspects of sports/entertainment.",
+      "decision_rule": "If the service primarily provides news about sports, athletic events, entertainment, or celebrities, classify here."
+    },
+    "cat_sub9_sub7": {
+      "name": "Environmental & Climate News",
+      "description": "Services covering environmental issues, climate change, pollution, and conservation.",
+      "boundary": "Covers environment, climate, pollution, and conservation. Excludes general science news.",
+      "decision_rule": "If the service primarily provides news about environment, climate change, or conservation, classify here."
+    },
+    "cat_sub9_sub8": {
+      "name": "Cryptocurrency & Blockchain News",
+      "description": "Services covering digital currencies, blockchain technology, and crypto markets.",
+      "boundary": "Covers cryptocurrencies, blockchain, and digital assets. Excludes general financial technology.",
+      "decision_rule": "If the service primarily provides news about cryptocurrencies, blockchain, or digital assets, classify here."
+    },
+    "cat_sub9_sub9": {
+      "name": "Regional & Local News",
+      "description": "Services providing news specific to geographic regions, countries, or local areas.",
+      "boundary": "Covers news filtered by geographic region or locality. Excludes topic-specific regional coverage.",
+      "decision_rule": "If the service primarily provides news filtered by geographic region or locality, classify here."
+    },
+    "cat_sports_13_sub1": {
+      "name": "Competition Structure & Metadata",
+      "description": "Services retrieving competition structure, seasons, stages, brackets, and venue information.",
+      "boundary": "Includes competition names, IDs, seasons, phases, stage metadata, bracket trees, knockout structures, and venue/location data. Excludes team lists, standings, schedules, and match-specific data.",
+      "decision_rule": "Classify here if the service primarily retrieves structural, descriptive, or venue data about a competition/league/tournament as a whole entity."
+    },
+    "cat_sports_13_sub10": {
+      "name": "Match & Player Statistics & Analytics",
+      "description": "Services providing detailed match/player statistics, form guides, trends, or predictive analytics.",
+      "boundary": "Includes detailed event-level statistics, scorecards, performance metrics, form guides, head-to-head trends, and pre/post-match predictions. Excludes aggregate standings, schedules, and basic competition metadata.",
+      "decision_rule": "Classify here if the service primarily retrieves detailed statistics or analytical insights for matches or player performances."
+    },
+    "cat_sports_13_sub2": {
+      "name": "Standings & Rankings",
+      "description": "Services that fetch league tables, conference rankings, points totals, and team positional order.",
+      "boundary": "Includes ordered rankings, tables, and points within a competition. Excludes team participation lists, match results, and competition metadata.",
+      "decision_rule": "Classify here if the service primarily retrieves the ordered ranking or table position of teams within a competition."
+    },
+    "cat_sports_13_sub3": {
+      "name": "Team & Participant Lists",
+      "description": "Services retrieving lists of clubs, teams, or entries in a competition, including historical participation.",
+      "boundary": "Includes current team rosters for a competition and historical lists of competitions an entity participated in. Excludes rankings, schedules, and detailed competition data.",
+      "decision_rule": "Classify here if the service primarily retrieves a list of participating teams/entities for a competition OR a historical list of competitions associated with a team/player."
+    },
+    "cat_sports_13_sub4": {
+      "name": "Match & Event Schedules",
+      "description": "Services fetching the calendar of fixtures, matches, or events for a competition.",
+      "boundary": "Includes dates, times, match pairings, and event timelines. Excludes live scores, results, pre-match analytics, and venue details.",
+      "decision_rule": "Classify here if the service primarily retrieves the scheduled timeline of matches/events within a competition."
+    },
+    "cat_sports_13_sub8": {
+      "name": "Competition Search & Discovery",
+      "description": "Services enabling search, filtering, or listing of competitions based on criteria.",
+      "boundary": "Includes finding competitions by sport, region, or other attributes, including lists with basic tournament info. Excludes detailed structural metadata for a single known competition.",
+      "decision_rule": "Classify here if the service primarily enables discovering or listing competitions across multiple entities based on search/filter criteria."
+    },
+    "cat_sub10_sub1_sub1": {
+      "name": "Current Conditions",
+      "description": "Services providing real-time or near-real-time atmospheric data for a specific location.",
+      "boundary": "Present moment or very recent timestamp data only. Excludes forecasts, historical data, or aggregated summaries.",
+      "decision_rule": "If the service primarily provides the weather conditions for the present moment or a very recent timestamp, classify here."
+    },
+    "cat_sub10_sub1_sub10": {
+      "name": "Specific Parameter Data",
+      "description": "Services focused exclusively on providing data for specific weather parameters.",
+      "boundary": "Data focused on single parameters like precipitation or temperature. Excludes general multi-parameter services.",
+      "decision_rule": "If the service primarily provides data focused exclusively on one specific weather parameter, classify here."
+    },
+    "cat_sub10_sub1_sub12": {
+      "name": "General Weather Data",
+      "description": "Services providing basic weather data for locations without specifying timeframe or data type.",
+      "boundary": "Basic location-based weather queries that don't specify current, forecast, or historical focus. Excludes specialized services.",
+      "decision_rule": "If the service provides basic weather data for a location without clearly specifying the timeframe or data type, classify here."
+    },
+    "cat_sub10_sub1_sub2": {
+      "name": "Short-Term Forecast",
+      "description": "Services providing weather predictions for the immediate future, typically hourly to ~10 days ahead.",
+      "boundary": "Predictions up to approximately 10 days. Excludes current conditions, long-term forecasts, and historical data.",
+      "decision_rule": "If the service primarily provides weather predictions for a timeframe from the next few hours up to approximately 10 days, classify here."
+    },
+    "cat_sub10_sub1_sub3": {
+      "name": "Long-Term & Climate Forecasts",
+      "description": "Services providing weather predictions for extended periods or climate-scale outlooks.",
+      "boundary": "Predictions exceeding ~10 days, seasonal outlooks, or climate projections. Excludes short-term forecasts and historical normals.",
+      "decision_rule": "If the service primarily provides weather predictions for a timeframe exceeding approximately 10 days, classify here."
+    },
+    "cat_sub10_sub1_sub4": {
+      "name": "Historical Weather Data",
+      "description": "Services providing recorded weather data for specific past dates or periods.",
+      "boundary": "Data for specific past dates. Excludes current conditions, forecasts, and statistical normals/averages.",
+      "decision_rule": "If the service primarily provides recorded weather data for a specific date or period in the past, classify here."
+    },
+    "cat_sub10_sub1_sub8": {
+      "name": "Ski & Mountain Weather",
+      "description": "Services providing weather data or forecasts tailored for ski resorts or mountainous regions.",
+      "boundary": "Weather data specifically for ski resorts or mountainous terrain. Excludes general forecasts for non-mountainous areas.",
+      "decision_rule": "If the service primarily provides weather data or forecasts specifically for ski resorts or mountainous terrain, classify here."
+    },
+    "cat_fin_crypto_sub1": {
+      "name": "Cryptocurrency Prices",
+      "description": "Services retrieving current, historical, or comparative pricing data for cryptocurrencies and tokens.",
+      "boundary": "Includes price, OHLC, and value data. Excludes market-wide metrics, exchange rates, and NFT-specific prices.",
+      "decision_rule": "If the service primarily fetches the price, OHLC, or value of a cryptocurrency/token, classify here."
+    },
+    "cat_fin_crypto_sub10": {
+      "name": "NFT Marketplace Activity",
+      "description": "Services retrieving data about marketplace events, offers, loans, bids, or sales related to NFTs.",
+      "boundary": "Includes marketplace dynamics like offers, bids, sales, and listing events for NFTs. Excludes collection stats and individual NFT ownership.",
+      "decision_rule": "If the service primarily fetches marketplace events or dynamics for NFTs, classify here."
+    },
+    "cat_fin_crypto_sub14": {
+      "name": "Project & Protocol Information",
+      "description": "Services retrieving descriptive information, profiles, lists, or search results for crypto projects.",
+      "boundary": "Includes project metadata, profiles, scam-check info, and search/discovery functions. Excludes real-time market data.",
+      "decision_rule": "If the service primarily fetches descriptive metadata or search results for projects/protocols, classify here."
+    },
+    "cat_fin_crypto_sub2": {
+      "name": "Market Data & Metrics",
+      "description": "Services providing aggregated market statistics, trends, rankings, and exchange/listings data.",
+      "boundary": "Includes market trends, gainers/losers, volume, capitalization, and exchange/market listings. Excludes raw price feeds and on-chain data.",
+      "decision_rule": "If the service primarily fetches market-wide analytics, rankings, or lists of exchanges/markets, classify here."
+    },
+    "cat_fin_crypto_sub3": {
+      "name": "Blockchain & On-Chain Data",
+      "description": "Services retrieving data intrinsic to blockchain operation: blocks, transactions, addresses, and gas fees.",
+      "boundary": "Includes blocks, transactions, network state, and transaction fees. Excludes token balances, market data, and DeFi metrics.",
+      "decision_rule": "If the service primarily fetches data about blocks, transactions, or network state, classify here."
+    },
+    "cat_fin_crypto_sub4": {
+      "name": "Token & Wallet Balances",
+      "description": "Services querying cryptocurrency/token holdings for wallet addresses or performing basic wallet operations.",
+      "boundary": "Includes token balances and basic read/write operations on addresses (e.g., forwarding). Excludes NFT holdings and complex DeFi interactions.",
+      "decision_rule": "If the service primarily fetches token balances or performs basic operations on a wallet/address, classify here."
+    },
+    "cat_fin_crypto_sub5": {
+      "name": "NFT Collections & Assets",
+      "description": "Services retrieving data about NFT collections, their statistics, or specific owned NFT assets.",
+      "boundary": "Includes collection stats (floor price), rankings, and lists of NFTs owned by an address. Excludes marketplace events and token balances.",
+      "decision_rule": "If the service primarily fetches data about NFT collections or specific NFT assets, classify here."
+    },
+    "cat_fin_crypto_sub6": {
+      "name": "Decentralized Exchange (DEX) Data",
+      "description": "Services retrieving data specific to decentralized exchanges, like trading pairs and liquidity pools.",
+      "boundary": "Includes DEX trading pairs, pool information, and liquidity metrics. Excludes centralized exchange data and simple token prices.",
+      "decision_rule": "If the service primarily fetches data about DEX-specific entities like liquidity pairs, classify here."
+    },
+    "cat_fin_crypto_sub7": {
+      "name": "News & Social Data",
+      "description": "Services fetching news articles, social media data, or sentiment analysis for cryptocurrencies.",
+      "boundary": "Includes news articles, headlines, social media feeds, and sentiment analysis. Excludes market analysis opinions and on-chain metrics.",
+      "decision_rule": "If the service primarily retrieves news, social media data, or sentiment analysis for crypto, classify here."
+    },
+    "cat_fin_crypto_sub8": {
+      "name": "Exchange Rate Calculation",
+      "description": "Services calculating conversion rates or estimated prices between different currencies (crypto/fiat/crypto).",
+      "boundary": "Includes rate calculations for currency conversions and price estimations. Excludes fetching standalone asset prices.",
+      "decision_rule": "If the service primarily calculates a rate or estimated price for converting one currency to another, classify here."
+    },
+    "cat_fin_forex_sub1": {
+      "name": "Real-time Rate Queries",
+      "description": "Services that provide current/latest exchange rates for currency pairs. Focuses on immediate market pricing without historical context.",
+      "boundary": "Does not include historical data, conversion calculations, or rate fluctuations over time.",
+      "decision_rule": "If the service primarily provides the most recent exchange rate for currency pairs, classify here."
+    },
+    "cat_fin_forex_sub2": {
+      "name": "Historical Rate Data",
+      "description": "Services that retrieve exchange rates for specific past dates or date ranges. Includes OHLC data and time series endpoints.",
+      "boundary": "Does not include current/latest rates, currency conversion calculations, or rate change analysis.",
+      "decision_rule": "If the service primarily provides exchange rates for past dates or historical time periods, classify here."
+    },
+    "cat_fin_forex_sub3": {
+      "name": "Currency Conversion",
+      "description": "Services that calculate converted amounts between currencies using exchange rates. Performs mathematical conversion operations.",
+      "boundary": "Does not include rate lookup services, historical data retrieval, or market analysis tools.",
+      "decision_rule": "If the service primarily calculates converted currency amounts between different currencies, classify here."
+    },
+    "cat_fin_forex_sub4": {
+      "name": "Market Symbol Reference",
+      "description": "Services that provide lists of available currencies, currency pairs, or trading symbols. Acts as reference data for other services.",
+      "boundary": "Does not include rate data, conversion calculations, or market analysis.",
+      "decision_rule": "If the service primarily provides reference lists of currencies, pairs, or symbols, classify here."
+    },
+    "cat_fin_forex_sub7": {
+      "name": "Portfolio Integration",
+      "description": "Services that integrate forex data into broader financial contexts like portfolio management or account currency holdings.",
+      "boundary": "Does not include standalone forex services without broader financial integration context.",
+      "decision_rule": "If the service primarily integrates forex data into broader financial portfolios or account contexts, classify here."
+    },
+    "cat_fin_stocks_sub1": {
+      "name": "Real-Time Price & Quotes",
+      "description": "Current stock prices, real-time quotes, and immediate trading data.",
+      "boundary": "Focuses on live/current price data. Excludes historical data, financial statements, or analytical metrics.",
+      "decision_rule": "If the service primarily provides current/live price data or real-time quotes, classify here."
+    },
+    "cat_fin_stocks_sub10": {
+      "name": "Symbol & Security Identification",
+      "description": "Symbol lookup, ticker details, security identification, and instrument reference data.",
+      "boundary": "Focuses on security identification, reference data, and lookup functionality. Excludes price data, financial statements, or analytical metrics.",
+      "decision_rule": "If the service primarily provides symbol/ticker lookup, identification data, or reference data, classify here."
+    },
+    "cat_fin_stocks_sub12": {
+      "name": "Valuation & Investment Analysis",
+      "description": "Valuation metrics, DCF models, intrinsic value, risk assessment, and portfolio analysis.",
+      "boundary": "Focuses on valuation, investment decision support, and risk/portfolio analysis. Excludes raw price data, financial statements, or technical indicators.",
+      "decision_rule": "If the service primarily provides valuation models, intrinsic value calculations, risk metrics, or portfolio analysis, classify here."
+    },
+    "cat_fin_stocks_sub14": {
+      "name": "Comparative & Screening Tools",
+      "description": "Peer comparisons, industry benchmarks, stock screening, and market-wide data queries.",
+      "boundary": "Focuses on comparative analysis and screening across multiple securities. Excludes individual company data or financial statements.",
+      "decision_rule": "If the service primarily provides comparative analysis against peers, benchmarks, or screening/filtering capabilities, classify here."
+    },
+    "cat_fin_stocks_sub2": {
+      "name": "Historical Price Data",
+      "description": "Historical stock prices, OHLC data, and time series price information.",
+      "boundary": "Focuses on past price data over specified periods. Excludes real-time quotes, financial statements, or analytical metrics.",
+      "decision_rule": "If the service primarily provides past price data over specified time periods, classify here."
+    },
+    "cat_fin_stocks_sub3": {
+      "name": "Financial Statements",
+      "description": "Balance sheets, income statements, cash flow statements, and related accounting data.",
+      "boundary": "Focuses on formal financial accounting statements. Excludes derived metrics, price data, or company profiles.",
+      "decision_rule": "If the service primarily provides formal financial accounting statements, classify here."
+    },
+    "cat_fin_stocks_sub4": {
+      "name": "Company Fundamentals & Profiles",
+      "description": "Company profiles, overviews, basic corporate information, news, and ownership data.",
+      "boundary": "Focuses on descriptive company information, news, and ownership structures. Excludes financial statements, price data, or analytical metrics.",
+      "decision_rule": "If the service primarily provides descriptive company information, news, or ownership data, classify here."
+    },
+    "cat_fin_stocks_sub5": {
+      "name": "Analyst Estimates & Recommendations",
+      "description": "Analyst opinions, earnings estimates, recommendations, and forward-looking projections.",
+      "boundary": "Focuses on third-party analyst opinions and estimates. Excludes historical data, financial statements, or technical indicators.",
+      "decision_rule": "If the service primarily provides analyst opinions, estimates, or recommendations, classify here."
+    },
+    "cat_fin_stocks_sub6": {
+      "name": "Technical Indicators & Patterns",
+      "description": "Technical analysis indicators, chart patterns, trading signals, and price-based metrics.",
+      "boundary": "Focuses on price/volume-derived technical analysis tools. Excludes fundamental data, financial statements, or analyst recommendations.",
+      "decision_rule": "If the service primarily provides technical analysis indicators or chart patterns, classify here."
+    },
+    "cat_fin_stocks_sub7": {
+      "name": "Financial Ratios & Performance Metrics",
+      "description": "Calculated financial ratios, performance metrics, and analytical calculations from statements.",
+      "boundary": "Focuses on derived metrics from financial data. Excludes raw financial statements, price data, or company profiles.",
+      "decision_rule": "If the service primarily provides calculated financial ratios or performance metrics, classify here."
+    },
+    "cat_fin_stocks_sub8": {
+      "name": "Corporate Actions & Events",
+      "description": "Dividends, splits, earnings announcements, mergers, and other corporate events or reports.",
+      "boundary": "Focuses on scheduled or announced corporate events and related reports. Excludes price data, financial statements, or analytical metrics.",
+      "decision_rule": "If the service primarily provides data on corporate actions, events, or related reports, classify here."
+    },
+    "cat_fin_stocks_sub9": {
+      "name": "Market Data & Trading Activity",
+      "description": "Trading volume, market activity, order book data, and trading execution operations.",
+      "boundary": "Focuses on trading activity, market microstructure data, and execution. Excludes price quotes, financial statements, or company information.",
+      "decision_rule": "If the service primarily provides trading activity, volume, market data, or enables trading operations, classify here."
+    },
+    "cat_acc_01": {
+      "name": "Property Discovery & Information",
+      "description": "Services that help users find and learn about lodging options via search, filters, details, and reviews.",
+      "boundary": "Covers initial property search, listing, filtering, and retrieval of static property information (amenities, photos, descriptions, reviews). Does NOT involve real-time availability checks, pricing for specific dates, or booking transactions.",
+      "decision_rule": "If the service primarily searches for/lists properties based on criteria OR fetches detailed, non-transactional property information/reviews, classify here. It does not confirm real-time availability or pricing for specific dates."
+    },
+    "cat_acc_02": {
+      "name": "Availability & Rate Checking",
+      "description": "Services that verify real-time availability and retrieve current prices for specific properties and dates.",
+      "boundary": "Focuses on real-time inventory and pricing queries for specific properties and dates. This is a pre-booking check. Does NOT execute the booking transaction itself.",
+      "decision_rule": "If the service's primary function is to check real-time room/property availability and fetch rates for a specific property and date combination, classify here. It does not create or modify a reservation."
+    },
+    "cat_acc_03": {
+      "name": "Booking Execution & Management",
+      "description": "Services that create, modify, or cancel confirmed lodging reservations for a guest.",
+      "boundary": "Handles the core booking transaction (reservation creation) and subsequent changes (modification, cancellation) to confirmed bookings. Requires a specific property and dates.",
+      "decision_rule": "If the service's primary function is to create a new confirmed reservation OR modify/cancel an existing booking, classify here. It assumes availability and pricing have been determined."
+    },
+    "cat_acc_07": {
+      "name": "Business Analytics & Metrics",
+      "description": "Services that calculate performance metrics (occupancy, RevPAR) for lodging business operations.",
+      "boundary": "For business/management insight and reporting. Does NOT support guest-facing functions like searching, booking, or checking availability.",
+      "decision_rule": "If the service primarily calculates analytical metrics about property or business performance (e.g., occupancy, revenue), classify here."
+    },
+    "cat_sub5_sub1_sub1": {
+      "name": "Title Core Metadata",
+      "description": "Services that retrieve fundamental identifying and descriptive information about a specific movie or TV show.",
+      "boundary": "Includes title, year, synopsis, cast/crew lists, posters, trailers, and episode/season data for TV shows. Does NOT include specialized facets like quotes, ratings, or availability data.",
+      "decision_rule": "If the service retrieves the basic, identifying details and primary descriptive assets for a single title (including TV episodes/seasons), classify here."
+    },
+    "cat_sub5_sub1_sub11": {
+      "name": "Streaming & Availability Data",
+      "description": "Services that check where a title can be watched or obtained.",
+      "boundary": "Focuses on data about where and when a title is available (platform, theater, download source, showtimes). Does NOT include core title metadata or media assets.",
+      "decision_rule": "If the service primarily retrieves data about where and when a title is available to watch or obtain, classify here."
+    },
+    "cat_sub5_sub1_sub14": {
+      "name": "Identifier Conversion & Lookup",
+      "description": "Services that translate between different identification systems for titles.",
+      "boundary": "Focuses on converting a title or identifier from one system to another identifier (e.g., title to ID, IMDb to TMDB). Does NOT include retrieving substantive metadata.",
+      "decision_rule": "If the service primarily converts a title or identifier from one system to another identifier, classify here."
+    },
+    "cat_sub5_sub1_sub2": {
+      "name": "Title Extended Metadata",
+      "description": "Services that retrieve specialized, supplementary information about a specific title.",
+      "boundary": "Includes quotes, trivia, keywords, news, franchise data, parental guides, and critic/audience ratings & reviews. Does NOT include core metadata, aggregated lists, or availability data.",
+      "decision_rule": "If the service retrieves a specific, non-core data facet (e.g., quotes, trivia, ratings, reviews) for a single title, classify here."
+    },
+    "cat_sub5_sub1_sub3": {
+      "name": "Title Search & Discovery",
+      "description": "Services that search, filter, or browse catalogs to find movies/TV shows.",
+      "boundary": "Focuses on querying a catalog with user-provided parameters (title, genre, keyword) to return a list of potential titles. Does NOT include retrieving detailed metadata for a known title.",
+      "decision_rule": "If the service primarily searches or filters a catalog to return a list of potential titles based on user query, classify here."
+    },
+    "cat_sub5_sub1_sub4": {
+      "name": "Title Recommendations & Similarity",
+      "description": "Services that suggest movies or TV shows based on similarity or user taste.",
+      "boundary": "Focuses on generating suggested titles based on attributes of another title, user preferences, or collaborative filtering. Does NOT include general search/browse or aggregated popularity lists.",
+      "decision_rule": "If the service primarily generates a list of suggested titles based on the attributes of another title or user taste, classify here."
+    },
+    "cat_sub5_sub1_sub5": {
+      "name": "Title Aggregated Lists",
+      "description": "Services that return curated lists of titles based on status or collective metrics.",
+      "boundary": "Focuses on pre-defined lists ranked or filtered by a collective metric (popularity, rating, release date like 'now playing', 'top rated'). Does NOT include searching by user query or personalized recommendations.",
+      "decision_rule": "If the service primarily returns a pre-defined list of titles ranked or filtered by a collective metric, classify here."
+    },
+    "cat_sub5_sub1_sub6": {
+      "name": "People & Filmography",
+      "description": "Services that retrieve information about individuals and their associated works.",
+      "boundary": "Focuses on data about a person in the industry (actor, director) or the list of titles they are associated with. Does NOT include services focused solely on title metadata.",
+      "decision_rule": "If the service primarily retrieves data about a person in the industry or their filmography/credits, classify here."
+    },
+    "cat_sub5_sub1_sub8": {
+      "name": "Genre & Classification Data",
+      "description": "Services that retrieve genre lists or determine genres for titles.",
+      "boundary": "Focuses on the master list of genres or identifying the genre(s) of a given title. Does NOT include searching titles by genre or other forms of metadata.",
+      "decision_rule": "If the service primarily retrieves the master list of genres or identifies the genre of a given title, classify here."
+    },
+    "cat_sub5_sub14_sub1": {
+      "name": "Movie Recommendations",
+      "description": "Services that suggest movies based on taste, similarity, or regional cinema.",
+      "boundary": "Includes general movie suggestions and those focused on specific film industries (e.g., Bollywood). Excludes TV shows, anime series, and other media types.",
+      "decision_rule": "If the service primarily recommends or discovers movies, classify here."
+    },
+    "cat_sub5_sub14_sub10": {
+      "name": "Single Media Playback",
+      "description": "Services that retrieve or play a specific piece of media for a user.",
+      "boundary": "Focuses on fetching or playing a single identified item. Excludes recommendation or discovery of multiple options.",
+      "decision_rule": "If the service primarily retrieves or plays a specific, identified media item, classify here."
+    },
+    "cat_sub5_sub14_sub11": {
+      "name": "Tag-Based Discovery",
+      "description": "Services that find media based on tags, keywords, or metadata filters.",
+      "boundary": "Focuses on discovery via explicit tags or metadata. Excludes algorithmic taste-based recommendations.",
+      "decision_rule": "If the service primarily discovers media using tags or keyword filters, classify here."
+    },
+    "cat_sub5_sub14_sub2": {
+      "name": "TV & Series Recommendations",
+      "description": "Services that suggest TV shows, series, episodic content, or anime.",
+      "boundary": "Includes scripted, unscripted, documentary series, and anime. Excludes movies and general video content.",
+      "decision_rule": "If the service primarily recommends or discovers TV shows, series, or anime, classify here."
+    },
+    "cat_sub5_sub14_sub3": {
+      "name": "Music & Audio Recommendations",
+      "description": "Services that suggest songs, artists, albums, playlists, or podcasts.",
+      "boundary": "Focuses on musical and spoken-word audio content. Excludes audiobooks.",
+      "decision_rule": "If the service primarily recommends or discovers music or podcasts, classify here."
+    },
+    "cat_sub5_sub14_sub4": {
+      "name": "Book & Reading Recommendations",
+      "description": "Services that suggest books, authors, audiobooks, or reading material.",
+      "boundary": "Includes fiction, non-fiction, genres, and audiobooks. Excludes articles and short-form text.",
+      "decision_rule": "If the service primarily recommends or discovers books or audiobooks, classify here."
+    },
+    "cat_sub5_sub14_sub5": {
+      "name": "Video Content Recommendations",
+      "description": "Services that suggest general online videos from platforms like YouTube or TikTok.",
+      "boundary": "Focuses on short-form, user-generated, or platform-agnostic video. Excludes dedicated movies/TV shows.",
+      "decision_rule": "If the service primarily recommends or discovers general online videos, classify here."
+    },
+    "cat_sub5_sub14_sub7": {
+      "name": "Playlist & Collection Curation",
+      "description": "Services that algorithmically build or suggest themed playlists or collections.",
+      "boundary": "Focuses on creating or curating grouped content. Excludes fetching static, existing playlists.",
+      "decision_rule": "If the service primarily builds or suggests new playlists/collections, classify here."
+    },
+    "cat_sub5_sub14_sub9": {
+      "name": "Streaming & Availability Discovery",
+      "description": "Services that find where to watch media or check release dates.",
+      "boundary": "Focuses on availability, licensing, and platform data. Excludes content-based taste recommendations.",
+      "decision_rule": "If the service primarily discovers streaming availability or release info, classify here."
+    },
+    "cat_music_1": {
+      "name": "Individual Tracks & Songs",
+      "description": "Services that operate on or retrieve information about specific, singular audio recordings or songs.",
+      "boundary": "Not for collections of tracks (playlists), artist discographies (albums), or aggregated chart data.",
+      "decision_rule": "If the service primarily retrieves, downloads, or provides metadata for a single, specific song/audio track, classify here."
+    },
+    "cat_music_10": {
+      "name": "Playback Control",
+      "description": "Services that control the real-time playback of audio content, such as starting playback or checking current status.",
+      "boundary": "Not for downloading content, managing libraries, or searching for content.",
+      "decision_rule": "If the service primarily initiates, controls, or monitors the real-time playback of audio on a device, classify here."
+    },
+    "cat_music_11": {
+      "name": "Music Video Content",
+      "description": "Services that retrieve information about or from music videos, such as view counts, milestones, and trending lists.",
+      "boundary": "Not for audio-only tracks, podcasts, or radio streams.",
+      "decision_rule": "If the service primarily retrieves data specifically about music videos (e.g., views, milestones), classify here."
+    },
+    "cat_music_12": {
+      "name": "Lyrics & Song Meanings",
+      "description": "Services that provide or search for song lyrics, user interpretations, and associated textual content.",
+      "boundary": "Not for audio playback, artist biographies, or general music metadata without a lyrical focus.",
+      "decision_rule": "If the service primarily searches for or retrieves song lyrics or user-contributed song meanings, classify here."
+    },
+    "cat_music_2": {
+      "name": "Artists & Creators",
+      "description": "Services focused on the creators of audio content, providing biographical data, discographies, and related artist networks.",
+      "boundary": "Not for the audio content they create (tracks/albums) or user-generated collections (playlists).",
+      "decision_rule": "If the service primarily retrieves information about a musician, band, or podcast creator (biography, related artists, singles), classify here."
+    },
+    "cat_music_3": {
+      "name": "Albums & Releases",
+      "description": "Services that handle formal collections of tracks released together as a packaged unit by an artist.",
+      "boundary": "Not for user-created playlists, individual tracks, or aggregated charts of multiple albums.",
+      "decision_rule": "If the service primarily retrieves information about or manages a specific album or EP release, classify here."
+    },
+    "cat_music_4": {
+      "name": "Playlists & User Collections",
+      "description": "Services for creating, managing, and retrieving user-curated or platform-generated collections of tracks.",
+      "boundary": "Not for formal artist albums, individual tracks, or algorithmic radio streams.",
+      "decision_rule": "If the service primarily creates, modifies, or fetches details of a user-generated or featured list of songs (playlist), classify here."
+    },
+    "cat_music_5": {
+      "name": "Charts & Rankings",
+      "description": "Services that provide aggregated, ranked lists of popular audio content (songs, albums, artists) based on metrics like sales or streams.",
+      "boundary": "Not for unranked search results, individual content metadata, or personalized recommendations.",
+      "decision_rule": "If the service primarily retrieves a ranked list (chart) of popular content for a specific region, genre, or time period, classify here."
+    },
+    "cat_music_6": {
+      "name": "Radio & Live Streams",
+      "description": "Services for discovering, listing, and accessing live or continuous audio streams, including internet radio stations and channels.",
+      "boundary": "Not for on-demand playback of specific tracks/albums or static podcast episodes.",
+      "decision_rule": "If the service primarily lists, searches, or provides access to live or continuous broadcast audio streams, classify here."
+    },
+    "cat_music_8": {
+      "name": "Search & Discovery",
+      "description": "Services that enable searching across multiple content types or provide personalized recommendations for audio content.",
+      "boundary": "Not for retrieving known, specific entities (like a known artist ID) without a search/discovery intent.",
+      "decision_rule": "If the service primarily performs a broad search across content types or generates personalized content suggestions, classify here."
+    },
+    "cat_music_9": {
+      "name": "User Library Management",
+      "description": "Services that allow a user to save, organize, and retrieve their personal collection of audio content (tracks, albums, artists).",
+      "boundary": "Not for public playlists, chart data, or content discovery unrelated to a user's personal library.",
+      "decision_rule": "If the service primarily saves, removes, or lists audio content from a specific user's personal library, classify here."
+    },
+    "cat_vid_content_1": {
+      "name": "Content Discovery & Feeds",
+      "description": "Services that find videos through search, trending lists, or personalized recommendation feeds.",
+      "boundary": "Focuses on discovering unknown content through queries, algorithms, or curated lists. Excludes retrieval of specific known content.",
+      "decision_rule": "Classify here if the service helps users find new videos they didn't specifically request by URL/ID."
+    },
+    "cat_vid_content_11": {
+      "name": "Specific Content Retrieval",
+      "description": "Services that fetch videos, channels, or playlists using specific known identifiers like URLs, IDs, or usernames.",
+      "boundary": "Focuses on retrieving content the user already knows and can directly reference. Includes videos, channels, and playlists.",
+      "decision_rule": "Classify here if the service requires a specific video ID, channel ID, playlist ID, or exact URL to function."
+    },
+    "cat_vid_content_12": {
+      "name": "Trending & Popular Content Lists",
+      "description": "Services that provide curated lists of popular, trending, or chart-topping videos.",
+      "boundary": "Focuses on pre-defined rankings and lists based on popularity metrics. Excludes personalized discovery or search.",
+      "decision_rule": "Classify here if the service returns a fixed list (e.g., 'top 10', 'trending') without personalized queries or recommendations."
+    },
+    "cat_vid_content_3": {
+      "name": "Video Metadata Retrieval",
+      "description": "Services that fetch descriptive and technical information about specific videos.",
+      "boundary": "Focuses on static data about a video (title, description, duration, format). Excludes dynamic engagement data or content analysis.",
+      "decision_rule": "Classify here if the service's primary output is descriptive/technical data for a known video, without analysis or engagement metrics."
+    },
+    "cat_vid_content_5": {
+      "name": "Content Analysis & Intelligence",
+      "description": "Services that interpret, summarize, classify, or generate insights from video content or metadata.",
+      "boundary": "Focuses on deriving meaning, summaries, topics, or optimized metadata from video. Includes both analysis and generation support.",
+      "decision_rule": "Classify here if the service interprets video substance, summarizes content, classifies topics, or generates publishing metadata."
+    },
+    "cat_vid_content_6": {
+      "name": "Engagement & Performance Analytics",
+      "description": "Services that retrieve user interaction metrics, statistics, and community data about videos.",
+      "boundary": "Focuses on dynamic, quantitative data about video performance and audience interaction. Excludes static metadata.",
+      "decision_rule": "Classify here if the service fetches metrics like view counts, comments, likes, or session analytics for videos."
+    },
+    "cat_sub5_sub8_sub1": {
+      "name": "Music Charts",
+      "description": "Ranked lists of songs, albums, or artists based on sales, streams, or audio popularity.",
+      "boundary": "Focuses exclusively on audio music recordings. Excludes video content, social metrics as primary driver, or geographic/niche specificity as defining feature.",
+      "decision_rule": "Classify here ONLY if the service ranks music based primarily on audio consumption metrics (sales, streams, radio). NOT if ranking is primarily by video views, social engagement, geographic region, genre niche, or historical period."
+    },
+    "cat_sub5_sub8_sub2": {
+      "name": "Video Charts",
+      "description": "Ranked lists of video content based on views, engagement, or popularity.",
+      "boundary": "Focuses on video content including music videos, general videos, movies, and TV shows. Excludes audio-only charts.",
+      "decision_rule": "Classify here if the service ranks video content. Includes film/TV rankings and video platform charts. NOT for audio-only music charts."
+    },
+    "cat_sub5_sub8_sub5": {
+      "name": "Regional Charts",
+      "description": "Ranked lists where geographic location is the primary defining filter.",
+      "boundary": "Focuses on rankings explicitly filtered by country, city, or region. Geographic specificity is the core differentiator.",
+      "decision_rule": "Classify here ONLY if the service's primary purpose is to rank content for a specific geographic area. NOT if location is just one optional filter among many."
+    },
+    "cat_sub5_sub8_sub7": {
+      "name": "Historical & Legacy Charts",
+      "description": "Ranked lists capturing all-time, historical, or milestone achievements.",
+      "boundary": "Focuses on historical timeframes, all-time rankings, or milestone celebrations. Excludes current/recent period charts.",
+      "decision_rule": "Classify here ONLY if the chart measures historical performance (e.g., 'all-time', 'greatest of all time', 'anniversary'). NOT for current weekly/monthly charts."
+    },
+    "cat_sub7_sub3_sub1": {
+      "name": "Dining & Restaurant Search",
+      "description": "Services that find restaurants, cafes, or dining establishments by location, cuisine, ratings, or specific attributes.",
+      "boundary": "Does not include general retail stores, entertainment venues, or accommodation services. For food retail/grocery, see Retail & Shopping.",
+      "decision_rule": "If the service primarily searches for restaurants, cafes, or dining establishments, classify here."
+    },
+    "cat_sub7_sub3_sub13": {
+      "name": "General Venue Search",
+      "description": "Services that search for multiple types of venues or businesses without specialization.",
+      "boundary": "Does not include specialized searches for specific venue types. For specialized searches, use the appropriate specific category.",
+      "decision_rule": "If the service searches for multiple venue types without specializing in one category, classify here."
+    },
+    "cat_sub7_sub3_sub2": {
+      "name": "Retail & Shopping",
+      "description": "Services that locate retail stores, shopping centers, or specific products available at stores.",
+      "boundary": "Does not include restaurants, entertainment venues, or service facilities. For electronics/pharmacy specialty retail, see Specialty Retail.",
+      "decision_rule": "If the service primarily searches for general retail stores or shopping locations, classify here."
+    },
+    "cat_sub7_sub3_sub3": {
+      "name": "Specialty Retail",
+      "description": "Services that find specialized retail stores like electronics, pharmacies, bookstores, or clothing stores.",
+      "boundary": "Does not include general retail, restaurants, or entertainment venues. For general shopping, see Retail & Shopping.",
+      "decision_rule": "If the service primarily searches for specialized retail stores (electronics, pharmacy, books, clothing), classify here."
+    },
+    "cat_sub7_sub3_sub4": {
+      "name": "Transportation Hubs",
+      "description": "Services that locate airports, train stations, metro stations, bus stations, or other transportation facilities.",
+      "boundary": "Does not include EV charging stations, general businesses, or attractions. For EV charging, see Vehicle Services.",
+      "decision_rule": "If the service primarily searches for airports, train stations, or public transport hubs, classify here."
+    },
+    "cat_sub7_sub3_sub5": {
+      "name": "Vehicle Services",
+      "description": "Services that find EV charging stations, parking facilities, or other vehicle-related service locations.",
+      "boundary": "Does not include transportation hubs, general businesses, or retail stores. For airports/stations, see Transportation Hubs.",
+      "decision_rule": "If the service primarily searches for EV charging stations or vehicle service facilities, classify here."
+    },
+    "cat_sub7_sub3_sub6": {
+      "name": "Entertainment & Leisure",
+      "description": "Services that locate movie theaters, attractions, parks, or entertainment venues.",
+      "boundary": "Does not include restaurants, retail stores, or accommodation. For outdoor activities, see Outdoor & Recreation.",
+      "decision_rule": "If the service primarily searches for movie theaters, attractions, or entertainment venues, classify here."
+    },
+    "cat_sub7_sub3_sub7": {
+      "name": "Outdoor & Recreation",
+      "description": "Services that find parks, scenic spots, outdoor activities, or recreational facilities.",
+      "boundary": "Does not include entertainment venues, restaurants, or retail. For indoor entertainment, see Entertainment & Leisure.",
+      "decision_rule": "If the service primarily searches for parks, scenic spots, or outdoor recreational locations, classify here."
+    },
+    "cat_sub7_sub3_sub9": {
+      "name": "Education & Institutions",
+      "description": "Services that find schools, colleges, libraries, or educational institutions.",
+      "boundary": "Does not include government facilities, healthcare, or general businesses. For other public facilities, see Public Services.",
+      "decision_rule": "If the service primarily searches for schools, libraries, or educational institutions, classify here."
+    }
+  }
+}
