@@ -1,0 +1,28 @@
+{
+  "version": "2.0-hierarchical",
+  "root": "root",
+  "categories": {
+    "root": {
+      "children": [],
+      "services": [
+        "skill_10728b449449eed0",
+        "skill_1512e97a4b84b0da",
+        "skill_30f250eeffd2876f",
+        "skill_39f2ccd563ab3c6a",
+        "skill_584cb925e6ad4527",
+        "skill_659f6fcf70a2e00f",
+        "skill_6713728616ecad90",
+        "skill_7429eb2e51b7dc87",
+        "skill_7e3368ed69ef705a",
+        "skill_94713449a153488a",
+        "skill_a2f18aef7d94dafa",
+        "skill_c35b21d6ca39aa7c",
+        "skill_cf4df29f84fd0d92",
+        "skill_da0e25965bf48721",
+        "skill_e0e47ae9294d45d2",
+        "skill_fa70c7f1e2d351be"
+      ]
+    }
+  },
+  "build_status": "complete"
+}

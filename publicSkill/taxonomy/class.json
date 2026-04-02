@@ -1,0 +1,9 @@
+{
+  "version": "2.0-hierarchical",
+  "categories": {
+    "root": {
+      "name": "All API Services",
+      "description": "Root node containing all API services across all functional domains"
+    }
+  }
+}
